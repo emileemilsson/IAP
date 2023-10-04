@@ -1,0 +1,607 @@
+.App {
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", -apple-system, sans-serif !important;
+}
+
+.centeredVerticalAndHorizontal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ship-dropdown {
+    min-width: 26em !important;
+}
+
+.sprite-dark {
+    background-color: #1B1C1D;
+}
+
+.image-fit {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.collapsible-section {
+    margin-bottom: 20px;
+}
+
+.ui.label.big.group-header {
+    display: inherit;
+    text-align: center;
+    margin-bottom: 4px;
+    border-radius: 40px 40px 0 0;
+}
+
+.voyage-failed {
+    font-size: large;
+    color: red;
+}
+
+.voyage-skillsets {
+    display: grid;
+    grid-template-rows: 36px;
+    grid-template-columns: auto 36px auto 36px 1fr;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font-size: 1.5em;
+}
+
+.voyage-skillsets img {
+    width: 36px;
+    height: 36px;
+}
+
+.voyage-skillsets div:nth-child(3) {
+    margin-left: 20px;
+}
+
+.voyage-crew-select {
+    margin-top: 20px;
+}
+
+.voyage-crew-select .vc-skills {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.voyage-stats {
+    margin-bottom: 20px;
+}
+
+.voyage-stats div {
+    margin-bottom: 4px;
+}
+
+.voyage-stats .overview div {
+    margin-right: 20px;
+}
+
+.voyage-stats .dilemma div {
+    margin-right: 20px;
+}
+
+.voyage-stats .times div {
+    margin-right: 20px;
+}
+
+.voyage-stats .recall div {
+    margin-right: 20px;
+}
+
+.voyage-dilemma {
+    margin-bottom: 20px;
+}
+
+.voyage-crew {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.voyage-crew .vc-complement,
+.voyage-crew .vc-skills {
+    margin-bottom: 20px;
+}
+
+.voyage-crew .vc-complement {
+    margin-right: 40px;
+}
+
+.voyage-crew .vc-complement .vc-position {
+    display: grid;
+    grid-template-rows: 36px;
+    grid-template-columns: 36px 1fr 36px 1fr;
+    column-gap: 10px;
+    margin-bottom: 4px;
+}
+
+.voyage-crew .vc-complement .vc-position .vcp-crewname,
+.voyage-crew .vc-complement .vc-position .vcp-name,
+.vc-skills .vc-skill .vcs-range,
+.vc-skills .vc-skill .vcs-success,
+.vc-skills .vc-skill .vcs-failure  {
+    align-self: center;
+}
+
+.vc-skills .vc-skill {
+    display: grid;
+    grid-template-rows: 68px;
+    grid-template-columns: 68px 1fr 60px 1fr;
+    column-gap: 28px;
+    margin-bottom: 10px;
+}
+
+.voyage-rewards {
+    max-width: 750px;
+    margin-bottom: 20px;
+}
+
+.voyage-log {
+    border-left: solid 1px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.voyage-log-entry {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    min-height: 35px;
+}
+
+.vle-images {
+    justify-self: end;
+    align-self: center;
+}
+
+.vle-text {
+    justify-self: start;
+    align-self: center;
+}
+
+.ui.header.vle-text {
+    margin-top: 0;
+}
+
+.recipe-item-span {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.recipe-item-image {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.feedbackmodal-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+
+.field-maxwidth {
+    max-width: 250px;
+}
+
+.sharedialogMainOverride {
+    max-width: 550px !important;
+}
+
+.activedialogMainOverride {
+    max-width: 700px !important;
+}
+
+.replicatordialogMainOverride {
+    max-width: 900px !important;
+}
+
+.warpdialogMainOverride {
+    max-width: 600px !important;
+}
+
+.equipment-slot {
+    border: 0px;
+    margin: 2px;
+}
+
+.equipment-slot-selected {
+    border: 2px;
+    margin: 0px;
+    border-color: darkslateblue;
+    border-style: dashed;
+}
+
+.table-CrewEquipment {
+    border-radius: 3px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    width: 99%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-GauntletMatch {
+    border-radius: 3px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-GauntletCrew {
+    border-radius: 3px;
+    border-collapse: collapse;
+    margin: auto;
+    float: left;
+    width: 18%;
+    max-width: 200px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rarity-stars {
+    font-size: medium;
+}
+
+.autoWidth {
+    width: auto;
+}
+
+.gauntletCrew-statline {
+    display: inline-flex;
+}
+
+.data-grid {
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100vh - 78px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 0;
+    position: relative;
+}
+
+.tab-panel {
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100vh - 50px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.tab-panel-x {
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100vh - 50px);
+    padding: 5px 0;
+    position: relative;
+}
+
+.embedded-crew-grid {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 0;
+    position: relative;
+}
+
+.skill-stats-div {
+    text-align: center;
+}
+
+.skill-stats {
+    font-size: small;
+    font-weight: bold;
+}
+
+.skill-stats-range {
+    font-size: x-small;
+}
+
+.quest-mastery {
+    display: inline-flex;
+}
+
+.groupHeader {
+    font-size:x-large;
+}
+
+.itemHeader {
+    font-size: large;
+}
+
+.groupHeaderDescriptiom {
+    font-size:medium;
+}
+
+.CaptainCard-callout {
+    width: 470px;
+    padding: 6px;
+}
+
+.CalloutQuest {
+    display: inline-block;
+}
+
+.CalloutQuest-buttonArea {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.CalloutQuest-callout {
+    max-width: 350px;
+}
+
+.CalloutQuest-inner {
+    height: 100%;
+    padding: 0 24px 20px;
+}
+
+.CalloutQuest-header {
+    padding: 18px 24px 12px;
+}
+
+.CalloutQuest-title {
+    margin: 0;
+    font-size:large;
+}
+
+.CalloutQuest-subText {
+    margin: 0;
+    font-size:small;
+}
+
+.starbase-room {
+    display: inline-flex;
+    vertical-align:middle;
+}
+
+.starbase-room-name {
+    padding-top: 12px;
+}
+
+.gauntlet-match-crew-slot {
+    width: 140px;
+}
+
+.gauntlet-arrow {
+    width: 170px;
+    display: block;
+    background: #0078d7;
+    text-decoration: none;
+    position: relative;
+    height: 80px;
+    padding: 0 10px 0 5px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.image-disabled {
+    opacity: 0.3;
+}
+
+.gauntlet-arrow:before, .gauntlet-arrow:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 0 solid #0078d7;
+    border-width: 40px 20px;
+    width: 0;
+    height: 0;
+}
+
+.gauntlet-arrow:before {
+    left: -20px;
+    border-left-color: transparent;
+}
+
+.gauntlet-arrow:after {
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #0078d7;
+}
+
+.mission-selection {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.mission-content {
+    height: calc(100vh - 190px);
+}
+
+.mission-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.mission-matrix {
+    display: grid;
+    grid-template-columns: 160px 1fr 1fr 1fr;
+    font-size: medium;
+    align-items: start;
+}
+
+.mm-label {
+    justify-self: right;
+}
+
+.mm-header {
+    justify-self: center;
+    margin: 0px 10px;
+}
+
+.mm-data {
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.mm-divider {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.mm-note {
+    justify-self: left;
+    margin-left: 20px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.mission-calc {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.mission-challenge {
+    margin-top: 10px;
+}
+
+.mc-matrix {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 4px 20px;
+    font-size: medium;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mcm-label {
+    justify-self: end;
+}
+
+.mcm-value {
+    justify-self: start;
+}
+
+.mcm-value .ms-Image {
+    display: inline-block;
+}
+
+.mc-personnel {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.faction-page,
+.mission-page {
+    padding: 10px;
+    max-height: calc(100vh - 50px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.faction-content,
+.mission-content {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.faction-content {
+    height: calc(100vh - 230px);
+}
+
+.faction-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.faction-gallery div {
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.faction-gallery img {
+    height: 70px;
+    cursor: pointer;
+}
+
+.faction-section {
+    padding-bottom: 10px;
+}
+
+.faction-reward-list.ui.accordion .active.content {
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+}
+
+.faction-store {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 12px;
+    padding-bottom: 10px;
+}
+
+.faction-store-item {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 108px 36px;
+}
+
+.modalNotification-container {
+    min-height: 20vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+
+.modalNotification-container .modalNotification-header {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 0 28px;
+    min-height: 40px;
+}
+
+.modalNotification-container .modalNotification-body {
+    flex: 4 4 auto;
+    padding: 5px 28px;
+    overflow-y: auto;
+}
+
+.blinking_thing {
+    animation: blinker 1s linear infinite;
+}
+
+.number_picker_input {
+    width: 60px
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+/* override bootstrap */
+button,
+button:hover,
+button:active,
+button:visited,
+button:focus {
+  outline: none !important;
+  border: none;
+}
