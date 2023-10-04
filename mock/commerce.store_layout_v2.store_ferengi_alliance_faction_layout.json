@@ -1,0 +1,884 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_ferengi_alliance_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_ferengi_all_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2848,
+                        "symbol": "s_ferengi_all_token",
+                        "item_type": 6,
+                        "name": "Ferengi Alliance Transmission",
+                        "full_name": "Ferengi Alliance Transmission",
+                        "flavor": "Spent to acquire Ferengi Alliance faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_ferengi_alliance_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_ferengi_all_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2848,
+                        "symbol": "s_ferengi_all_token",
+                        "item_type": 6,
+                        "name": "Ferengi Alliance Transmission",
+                        "full_name": "Ferengi Alliance Transmission",
+                        "flavor": "Spent to acquire Ferengi Alliance faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_ferengi_alliance_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 1500 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 1500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 33,
+                        "symbol": "quark_klingon_armor_crew",
+                        "name": "Quark",
+                        "full_name": "Klingon Quark",
+                        "flavor": "After a Klingon dies in Quark's bar, his widow Grilka takes Quark to Qo'noS.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_quarkklingon_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_quarkklingon_sm" 
+                        },
+                        "rarity": 4,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_quarkklingon_full" 
+                        },
+                        "skills":
+                        {
+                            "diplomacy_skill":
+                            {
+                                "core": 41,
+                                "range_min": 14,
+                                "range_max": 29 
+                            },
+                            "security_skill":
+                            {
+                                "core": 41,
+                                "range_min": 11,
+                                "range_max": 22 
+                            },
+                            "command_skill":
+                            {
+                                "core": 41,
+                                "range_min": 11,
+                                "range_max": 22 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "ferengi",
+                            "klingon",
+                            "scoundrel",
+                            "duelist",
+                            "desperate",
+                            "romantic",
+                            "gambler" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 5,
+                            "name": "House of Quark",
+                            "symbol": "quark_klingon_armor_action",
+                            "cooldown": 10,
+                            "initial_cooldown": 6,
+                            "duration": 6,
+                            "bonus_type": 0,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_quarkklingon_icon" 
+                            },
+                            "penalty":
+                            {
+                                "type": 2,
+                                "amount": 2 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "b92996ca4f0403363f8ab46ad1c56d03" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1199,
+                        "symbol": "great_material_continuum_texts_quality1_equip",
+                        "item_type": 2,
+                        "name": "Texts",
+                        "full_name": "Great Material Continuum Texts",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/great_material_continuum_text_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "18": 5 
+                        },
+                        "hash_key": "0f1a81c5b2a27377f7d8e382e421acba" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1350,
+                        "symbol": "ferengi_padd_quality2_equip",
+                        "item_type": 2,
+                        "name": "PADD",
+                        "full_name": "Ferengi PADD",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ferengi_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "7": 4,
+                            "8": 10,
+                            "23": 4,
+                            "24": 10 
+                        },
+                        "hash_key": "804ab0bc93bfb915c3b7f9162cb8ebea" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1349,
+                        "symbol": "ferengi_padd_quality1_equip",
+                        "item_type": 2,
+                        "name": "PADD",
+                        "full_name": "Ferengi PADD",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ferengi_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 5,
+                            "23": 1,
+                            "24": 5 
+                        },
+                        "hash_key": "9cb47d44625f7ae1500f8583a1315a84" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 400 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 400 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2876,
+                        "symbol": "dkora_ship_schematic",
+                        "item_type": 8,
+                        "name": "Ferengi D'Kora Marauder Schematic",
+                        "full_name": "Ferengi D'Kora Marauder Schematic",
+                        "flavor": "Used to build and upgrade Ferengi D'Kora Marauder.",
+                        "icon":
+                        {
+                            "file": "/schematics/fer_dkora" 
+                        },
+                        "quantity": 50,
+                        "rarity": 3,
+                        "hash_key": "31724e8e67cd3e08aa9737d22d624552" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 236,
+                        "symbol": "spices_compon",
+                        "item_type": 3,
+                        "name": "Spices",
+                        "full_name": "Spices",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/spices_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "fd29302ec3003a55af773455e15cb9c8" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengi" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1153,
+                        "symbol": "kazon_disruptor_pistol_quality0_equip",
+                        "item_type": 2,
+                        "name": "Disruptor",
+                        "full_name": "Kazon Disruptor Pistol",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kazon_disruptor_pistol_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 1 
+                        },
+                        "hash_key": "e91cebb74b0d13fc7f769a97249ae5d9" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengi" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengi" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1213,
+                        "symbol": "latinum_tooth_sharpener_quality1_equip",
+                        "item_type": 2,
+                        "name": "Sharpener",
+                        "full_name": "Latinum Tooth Sharpener",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/latinum_tooth_sharpener_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "18": 2,
+                            "19": 1,
+                            "20": 5 
+                        },
+                        "hash_key": "ad6f487481ba48009beef6631c05db0b" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengi" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengi" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 245,
+                        "symbol": "gold_pressed_latinum_quality3_compon",
+                        "item_type": 3,
+                        "name": "Latinum",
+                        "full_name": "Gold-Pressed Latinum",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/gold_pressed_latinum_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 3,
+                        "hash_key": "e36c747f01776c770a4a6975bbe66966" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengi" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_alliance_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengi" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_alliance_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1195,
+                        "symbol": "ferengi_padd_quality0_equip",
+                        "item_type": 2,
+                        "name": "PADD",
+                        "full_name": "Ferengi PADD",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ferengi_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 3 
+                        },
+                        "hash_key": "8f533e87bf00bb3e7a8e45ea951cd3bf" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengi" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "ferengi_alliance_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

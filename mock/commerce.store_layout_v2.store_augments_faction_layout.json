@@ -1,0 +1,887 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_augments_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_augments_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2842,
+                        "symbol": "s_augments_token",
+                        "item_type": 6,
+                        "name": "Augment Transmission",
+                        "full_name": "Augment Transmission",
+                        "flavor": "Spent to acquire Augments faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_augments_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_augments_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2842,
+                        "symbol": "s_augments_token",
+                        "item_type": 6,
+                        "name": "Augment Transmission",
+                        "full_name": "Augment Transmission",
+                        "flavor": "Spent to acquire Augments faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_augments_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 15000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 15000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 4702,
+                        "symbol": "picard_augment_crew",
+                        "name": "Picard",
+                        "full_name": "Augment Picard",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_picard_augment_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_picard_augment_sm" 
+                        },
+                        "rarity": 5,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_picard_augment_full" 
+                        },
+                        "skills":
+                        {
+                            "security_skill":
+                            {
+                                "core": 73,
+                                "range_min": 22,
+                                "range_max": 46 
+                            },
+                            "command_skill":
+                            {
+                                "core": 52,
+                                "range_min": 17,
+                                "range_max": 34 
+                            },
+                            "diplomacy_skill":
+                            {
+                                "core": 31,
+                                "range_min": 8,
+                                "range_max": 18 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "human",
+                            "augment",
+                            "engineered",
+                            "villain",
+                            "brutal",
+                            "desperate",
+                            "survivalist",
+                            "hunter",
+                            "duelist" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 5,
+                            "name": "Negotiate Surrender",
+                            "symbol": "picard_firstcontact_action",
+                            "cooldown": 12,
+                            "initial_cooldown": 12,
+                            "duration": 12,
+                            "bonus_type": 0,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_picard_augment_icon" 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "14c8947b27eea1dc2076da0b597a3895" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2178,
+                        "symbol": "scalpel_quality1_equip",
+                        "item_type": 2,
+                        "name": "Scalpel",
+                        "full_name": "Scalpel",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/scalpel_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "11": 3,
+                            "27": 1,
+                            "28": 5 
+                        },
+                        "hash_key": "60ad18286263f1e7e68c8b3be29c7c6f" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2013,
+                        "symbol": "ceti_eel_quality1_equip",
+                        "item_type": 2,
+                        "name": "Eel",
+                        "full_name": "Ceti Eel",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ceti_eel_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "22": 5 
+                        },
+                        "hash_key": "34f8fcc36c67ab1f53e23272c745f6ac" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1537,
+                        "symbol": "medical_experiment_quality2_equip",
+                        "item_type": 2,
+                        "name": "Experiment",
+                        "full_name": "Medical Experiment",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/medical_experiment_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "27": 3,
+                            "28": 17 
+                        },
+                        "hash_key": "e66db25f2e6194a80e6d7093791aa249" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2011,
+                        "symbol": "ceti_eel_quality0_equip",
+                        "item_type": 2,
+                        "name": "Eel",
+                        "full_name": "Ceti Eel",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ceti_eel_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 2 
+                        },
+                        "hash_key": "35928131bcc275fe3d828d8983a98a35" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1998,
+                        "symbol": "augment_icon_quality2_equip",
+                        "item_type": 2,
+                        "name": "Icon",
+                        "full_name": "Augment Icon",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/khan_necklace_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "9": 25,
+                            "12": 30 
+                        },
+                        "hash_key": "ab2078ccd15b79d0f495548326de9563" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 400 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_augments" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 400 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2874,
+                        "symbol": "fed_constitutionclass_ship_schematic",
+                        "item_type": 8,
+                        "name": "Constitution Class Ship Schematic",
+                        "full_name": "Constitution Class Ship Schematic",
+                        "flavor": "Used to build and upgrade Constitution Class Ship.",
+                        "icon":
+                        {
+                            "file": "/schematics/fed_constitutionclass" 
+                        },
+                        "quantity": 50,
+                        "rarity": 3,
+                        "hash_key": "08a31bfa793b35c1143be91b115a9351" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_augments" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_augments" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2425,
+                        "symbol": "scalpel_quality0_equip",
+                        "item_type": 2,
+                        "name": "Scalpel",
+                        "full_name": "Scalpel",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/scalpel_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "27": 1,
+                            "28": 3 
+                        },
+                        "hash_key": "b336513c2f14268d7ecb5d00d170c37a" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_augments" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_augments" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2010,
+                        "symbol": "augment_icon_quality1_equip",
+                        "item_type": 2,
+                        "name": "Icon",
+                        "full_name": "Augment Icon",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/khan_necklace_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "9": 15,
+                            "12": 15 
+                        },
+                        "hash_key": "999ce6ac6953f808ad89768a7515a633" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_augments" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_augment_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_augments" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "augment_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1582,
+                        "symbol": "medical_experiment_quality1_equip",
+                        "item_type": 2,
+                        "name": "Experiment",
+                        "full_name": "Medical Experiment",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/medical_experiment_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "27": 1,
+                            "28": 9 
+                        },
+                        "hash_key": "9b00bc8ae3cdacdbddda8281c9824973" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_augments" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "augment_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

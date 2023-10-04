@@ -1,0 +1,877 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_federation_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_federation_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2855,
+                        "symbol": "s_federation_token",
+                        "item_type": 6,
+                        "name": "Federation Transmission",
+                        "full_name": "Federation Transmission",
+                        "flavor": "Spent to acquire Federation faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_federation_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_federation_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2855,
+                        "symbol": "s_federation_token",
+                        "item_type": 6,
+                        "name": "Federation Transmission",
+                        "full_name": "Federation Transmission",
+                        "flavor": "Spent to acquire Federation faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_federation_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 37,
+                        "symbol": "sisko_promoted_crew",
+                        "name": "Sisko",
+                        "full_name": "Promoted Sisko",
+                        "flavor": "Promoted to Captain, Benjamin Sisko was recognized for his accomplishments as Commander of Deep Space Nine.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_siskopromotion_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_siskopromotion_sm" 
+                        },
+                        "rarity": 2,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_siskopromotion_full" 
+                        },
+                        "skills":
+                        {
+                            "command_skill":
+                            {
+                                "core": 32,
+                                "range_min": 5,
+                                "range_max": 11 
+                            },
+                            "security_skill":
+                            {
+                                "core": 27,
+                                "range_min": 5,
+                                "range_max": 11 
+                            },
+                            "diplomacy_skill":
+                            {
+                                "core": 13,
+                                "range_min": 2,
+                                "range_max": 6 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "human",
+                            "federation",
+                            "starfleet",
+                            "bajoran",
+                            "cultural_figure",
+                            "inspiring",
+                            "diplomat",
+                            "caregiver",
+                            "chef" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 2,
+                            "name": "Deserved Promotion",
+                            "symbol": "sisko_promoted_action",
+                            "cooldown": 10,
+                            "initial_cooldown": 6,
+                            "duration": 10,
+                            "bonus_type": 0,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_siskopromotion_icon" 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "a1f82104aa134170a01c3eae80483295" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_free_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 218,
+                        "symbol": "starfleet_uniform_pattern_compon",
+                        "item_type": 3,
+                        "name": "Pattern",
+                        "full_name": "Starfleet Uniform Pattern",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/tng_uniform_grey_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "eb131e512de0780b33425af094d47ee8" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_free_02_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1916,
+                        "symbol": "vulcan_robes_quality0_equip",
+                        "item_type": 2,
+                        "name": "Robes",
+                        "full_name": "Vulcan Robes",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/vulcan_robes_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "18": 1 
+                        },
+                        "hash_key": "db325d96de54d7ca8d3c04d955dca8d7" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_free_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 224,
+                        "symbol": "replicator_ration_compon",
+                        "item_type": 3,
+                        "name": "Polymer",
+                        "full_name": "Synthesized Polymer",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/synthesized_polymers_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "c28455dd8987b83587e2df301f507fad" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_free_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1394,
+                        "symbol": "poker_cards_quality1_equip",
+                        "item_type": 2,
+                        "name": "Cards",
+                        "full_name": "Poker Cards",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/poker_cards_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "9": 25,
+                            "10": 15 
+                        },
+                        "hash_key": "3b0fde5121884436f051356b6751306f" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_free_05_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1727,
+                        "symbol": "orchids_quality0_equip",
+                        "item_type": 2,
+                        "name": "Orchids",
+                        "full_name": "Orchids",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/orchids_equipement" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "15": 0,
+                            "16": 4 
+                        },
+                        "hash_key": "88d0605a92fab7294c6caa4cc0a426fa" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_bonus_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 250 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_federation" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2884,
+                        "symbol": "constellation_ship_schematic",
+                        "item_type": 8,
+                        "name": "Constellation Class Schematic",
+                        "full_name": "Constellation Class Schematic",
+                        "flavor": "Used to build and upgrade Constellation Class.",
+                        "icon":
+                        {
+                            "file": "/schematics/fed_constellationclass" 
+                        },
+                        "quantity": 50,
+                        "rarity": 1,
+                        "hash_key": "e9bed8f76c9d5faccbf406baf4f2d0ee" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_federation" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_bonus_02_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_federation" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1507,
+                        "symbol": "earl_grey_tea_quality1_equip",
+                        "item_type": 2,
+                        "name": "Earl Grey",
+                        "full_name": "Earl Grey Tea",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/tng_hot_beverage_24c1_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "19": 3,
+                            "20": 7 
+                        },
+                        "hash_key": "d904efc1372190ba73bc20b077ffdbd8" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_federation" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_bonus_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_federation" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2605,
+                        "symbol": "andorian_ale_quality1_equip",
+                        "item_type": 2,
+                        "name": "Ale",
+                        "full_name": "Andorian Ale",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/andorian_ale_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "10": 15,
+                            "19": 1,
+                            "20": 5 
+                        },
+                        "hash_key": "fbfbe8dab93b17adc529f5ed60c47814" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_federation" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_federation_bonus_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_federation" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "federation_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1695,
+                        "symbol": "ancient_film_quality1_equip",
+                        "item_type": 2,
+                        "name": "Ancient Film",
+                        "full_name": "Ancient Film",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/movie_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "14": 5 
+                        },
+                        "hash_key": "d171a5c259dda0db104a6958bf2ad1bb" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_federation" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "federation_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82824 
+        } 
+    }],
+    "refreshable": true 
+}
+]

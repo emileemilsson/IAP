@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>STT Crew Management Tool</title>
+		<link rel="stylesheet" href="css/docs.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header-left elbow bottom">
+				<a href="https://github.com/paulbilnoski/StarTrekTimelinesSpreadsheet/"
+				   class="github-button" >
+					<img src="images/GitHub-Mark-Light-32px.png" />
+				</a>
+			</div>
+			<div class="header-content">
+				<div class="lcars-font x-large">Crew Management Tool</div>
+				<div class="lcars-font large">Star Trek Timelines</div>
+			</div>
+			<div class="header-bottom-bar"></div>
+			<div class="header-bottom-end"></div>
+			<div class="menu-top elbow top"></div>
+			<div class="menu lcars-font small">
+{% for section in site.data.navigation.sections %}
+	{% if section.key != page.section %}
+		{% assign first_page = section.pages.first %}
+				<a href="{{ first_page.url }}" class="group button">{{ section.title }}</a>
+	{% else %}
+				<div class="current group">
+					<div class="label">{{ section.title }}</div>
+					<div class="decorator"></div>
+				</div>
+{% endif %}
+
+	{% if section.key == page.section %}
+		{% for p in section.pages %}
+			{% if page.url contains p.url or p.url == "index" and page.url == "/" %}
+				<div class="current page">
+					<div class="label">{{ p.label }}</div>
+					<div class="decorator"></div>
+				</div>
+			{% else %}
+				<a class="page button" href="{{ p.url }}">{{ p.label }}</a>
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+				<div class="section-spacer"></div>
+{% endfor %}
+			</div>
+			<div class="content-top-bar">
+				<div class="content-title lcars-font">{{ page.title | upcase }}</div>
+			</div>
+			<div class="content-top-end"></div>
+			<div class="content with-links">{{ content }}</div>
+			<div class="footer-left elbow bottom"></div>
+			<div class="footer-content with-links">
+				<div class="lcars-font small"><a href="notes">design acknowledgements</a></div>
+			</div>
+			<div class="footer-bottom-bar"></div>
+			<div class="footer-bottom-end"></div>
+		</div>
+	</body>
+</html>

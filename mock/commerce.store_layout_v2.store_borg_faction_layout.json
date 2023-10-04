@@ -1,0 +1,872 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_borg_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_borg_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 9547,
+                        "symbol": "s_borg_token",
+                        "item_type": 6,
+                        "name": "Borg Transmission",
+                        "full_name": "Borg Transmission",
+                        "flavor": "Spent to acquire Borg faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_borg_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_borg_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 9547,
+                        "symbol": "s_borg_token",
+                        "item_type": 6,
+                        "name": "Borg Transmission",
+                        "full_name": "Borg Transmission",
+                        "flavor": "Spent to acquire Borg faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_borg_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 15000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 15000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 5554,
+                        "symbol": "laforge_assimilated_crew",
+                        "name": "La Forge",
+                        "full_name": "Assimilated La Forge",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_laforge_assimilated_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_laforge_assimilated_sm" 
+                        },
+                        "rarity": 5,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_laforge_assimilated_full" 
+                        },
+                        "skills":
+                        {
+                            "engineering_skill":
+                            {
+                                "core": 73,
+                                "range_min": 22,
+                                "range_max": 46 
+                            },
+                            "command_skill":
+                            {
+                                "core": 57,
+                                "range_min": 17,
+                                "range_max": 34 
+                            },
+                            "science_skill":
+                            {
+                                "core": 31,
+                                "range_min": 8,
+                                "range_max": 18 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "human",
+                            "borg",
+                            "brutal",
+                            "innovator",
+                            "quantum_mechanics",
+                            "warp_theorist" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 6,
+                            "name": "Full Impulse",
+                            "symbol": "laforge_assimilated_action",
+                            "cooldown": 10,
+                            "initial_cooldown": 10,
+                            "duration": 12,
+                            "bonus_type": 1,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_laforge_assimilated_icon" 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "4012d8a59aa75e1fe77d3ff90ee949d3" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_free_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1737,
+                        "symbol": "bajoran_phaser_quality0_equip",
+                        "item_type": 2,
+                        "name": "Phaser",
+                        "full_name": "Bajoran Phaser",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/bajoran_phaser_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "23": 0,
+                            "24": 4 
+                        },
+                        "hash_key": "e8f3edac635aec04e4a58d865901a8ac" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_free_02_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 25 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 25 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 182,
+                        "symbol": "subprocessor_compon",
+                        "item_type": 3,
+                        "name": "Subprocessor",
+                        "full_name": "Subprocessor",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/subprocessor_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "62eda37a5afc0a059c7ef24269178a57" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_free_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1263,
+                        "symbol": "klingon_armor_quality0_equip",
+                        "item_type": 2,
+                        "name": "Armor",
+                        "full_name": "Klingon Armor",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/klingon_armor_kdf_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 2 
+                        },
+                        "hash_key": "ded6969fa651c54aa5f24ccdcfba01d5" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_free_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2533,
+                        "symbol": "hirogen_alpha_mark_quality0_equip",
+                        "item_type": 2,
+                        "name": "Alpha Mark",
+                        "full_name": "Hirogen Alpha Mark",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_alpha_mark_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "6": 1 
+                        },
+                        "hash_key": "c6941f2ec8477bcf234c695018c0e566" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_free_05_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 165,
+                        "symbol": "power_cell_quality1_compon",
+                        "item_type": 3,
+                        "name": "Power Cell",
+                        "full_name": "Power Cell",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/power_cell_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "hash_key": "84589c0fc62f2b475abd15f0f18ca775" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_dominion_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_borg" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "dominion_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2246,
+                        "symbol": "jemhadar_scanner_quality2_equip",
+                        "item_type": 2,
+                        "name": "Scanner",
+                        "full_name": "Jem'Hadar Scanner",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/jemhadar_scanner_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "9": 50,
+                            "22": 3 
+                        },
+                        "hash_key": "045397735ac430b438848c076cfd8567" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_borg" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_dominion_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_borg" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "dominion_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2654,
+                        "symbol": "dominion_seal_quality0_equip",
+                        "item_type": 2,
+                        "name": "Seal",
+                        "full_name": "Dominion Seal",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/dominion_seal_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "6": 2 
+                        },
+                        "hash_key": "8be49aba018f421a5e3ec56d1b7d40d3" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_borg" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_bonus_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_borg" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1507,
+                        "symbol": "earl_grey_tea_quality1_equip",
+                        "item_type": 2,
+                        "name": "Earl Grey",
+                        "full_name": "Earl Grey Tea",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/tng_hot_beverage_24c1_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "19": 3,
+                            "20": 7 
+                        },
+                        "hash_key": "69d238133c64e7d530f5f637af44f91c" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_borg" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_borg_bonus_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 3000 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_borg" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 3000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "borg_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2871,
+                        "symbol": "borg_cube_ship_schematic",
+                        "item_type": 8,
+                        "name": "Borg Cube Ship Schematic",
+                        "full_name": "Borg Cube Ship Schematic",
+                        "flavor": "Used to build and upgrade Borg Cube.",
+                        "icon":
+                        {
+                            "file": "/schematics/borg_cube" 
+                        },
+                        "quantity": 50,
+                        "rarity": 5,
+                        "hash_key": "956f7cac526116ef17bd6077b5bd1fa6" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_borg" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "borg_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

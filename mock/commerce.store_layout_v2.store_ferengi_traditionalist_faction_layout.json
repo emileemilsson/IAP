@@ -1,0 +1,885 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_ferengi_traditionalist_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_ferengi_trad_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2847,
+                        "symbol": "s_ferengi_trad_token",
+                        "item_type": 6,
+                        "name": "Ferengi Traditionalists Transmission",
+                        "full_name": "Ferengi Traditionalists Transmission",
+                        "flavor": "Spent to acquire Ferengi Traditionalists faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_ferengi_traditionalist_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_ferengi_trad_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2847,
+                        "symbol": "s_ferengi_trad_token",
+                        "item_type": 6,
+                        "name": "Ferengi Traditionalists Transmission",
+                        "full_name": "Ferengi Traditionalists Transmission",
+                        "flavor": "Spent to acquire Ferengi Traditionalists faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_ferengi_traditionalist_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 3232,
+                        "symbol": "leeta_dabogirl_crew",
+                        "name": "Leeta",
+                        "full_name": "Dabo Girl Leeta",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_leetadabo_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_leetadabo_sm" 
+                        },
+                        "rarity": 2,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_leetadabo_full" 
+                        },
+                        "skills":
+                        {
+                            "diplomacy_skill":
+                            {
+                                "core": 32,
+                                "range_min": 5,
+                                "range_max": 11 
+                            },
+                            "command_skill":
+                            {
+                                "core": 27,
+                                "range_min": 4,
+                                "range_max": 9 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "bajoran",
+                            "civilian",
+                            "bartender",
+                            "romantic" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 1,
+                            "charge_phases": 
+                            [
+                                {
+                                    "charge_time": 7,
+                                    "ability_amount": 850 
+                                },
+                                {
+                                    "charge_time": 7,
+                                    "ability_amount": 1200 
+                                } 
+                            ],
+                            "name": "Dabo!",
+                            "symbol": "leeta_dabogirl_action",
+                            "cooldown": 14,
+                            "initial_cooldown": 0,
+                            "duration": 10,
+                            "bonus_type": 2,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_leetadabo_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 0,
+                                "type": 4,
+                                "amount": 300 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "75d6b5ad83916dc0c1319dac9a3a72ad" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1124,
+                        "symbol": "kazon_furs_quality0_equip",
+                        "item_type": 2,
+                        "name": "Furs",
+                        "full_name": "Kazon Furs",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kazon_furs_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "6": 1 
+                        },
+                        "hash_key": "e2c6186da5db7835ae73f07646673205" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 500 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2876,
+                        "symbol": "dkora_ship_schematic",
+                        "item_type": 8,
+                        "name": "Ferengi D'Kora Marauder Schematic",
+                        "full_name": "Ferengi D'Kora Marauder Schematic",
+                        "flavor": "Used to build and upgrade Ferengi D'Kora Marauder.",
+                        "icon":
+                        {
+                            "file": "/schematics/fer_dkora" 
+                        },
+                        "quantity": 50,
+                        "rarity": 3,
+                        "hash_key": "f55f37bbda6afd35d3d6214bc8a09535" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1198,
+                        "symbol": "ferengi_trade_by_laws_quality1_equip",
+                        "item_type": 2,
+                        "name": "By-Laws",
+                        "full_name": "Ferengi Trade By-Laws",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ferengi_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 3,
+                            "22": 3 
+                        },
+                        "hash_key": "615190fa0252eb4551d2d22cf5657e3a" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1140,
+                        "symbol": "kazon_name_quality0_equip",
+                        "item_type": 2,
+                        "name": "Name",
+                        "full_name": "Kazon Name",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kazon_name_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 3 
+                        },
+                        "hash_key": "1f707bd0b7f1b1fac7f0795b00260496" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 245,
+                        "symbol": "gold_pressed_latinum_quality3_compon",
+                        "item_type": 3,
+                        "name": "Latinum",
+                        "full_name": "Gold-Pressed Latinum",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/gold_pressed_latinum_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 3,
+                        "hash_key": "1d3e330ed8fb6c449903bb691a5c8b41" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengitraditionalists" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1125,
+                        "symbol": "kazon_furs_quality1_equip",
+                        "item_type": 2,
+                        "name": "Furs",
+                        "full_name": "Kazon Furs",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kazon_furs_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "6": 3,
+                            "7": 1,
+                            "8": 3 
+                        },
+                        "hash_key": "de9a4684c22c967cebea5e4fbc82aeb6" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengitraditionalists" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengitraditionalists" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1321,
+                        "symbol": "tube_grubs_quality1_equip",
+                        "item_type": 2,
+                        "name": "Tube Grubs",
+                        "full_name": "Tube Grubs",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/tube_grubs_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "18": 5 
+                        },
+                        "hash_key": "efca45125b9f976eee459e477ac32afb" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengitraditionalists" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengitraditionalists" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1201,
+                        "symbol": "ferengi_trade_by_laws_quality2_equip",
+                        "item_type": 2,
+                        "name": "By-Laws",
+                        "full_name": "Ferengi Trade By-Laws",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/ferengi_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 5,
+                            "22": 7 
+                        },
+                        "hash_key": "0915261acc2f983be8e9bdc516d9e70f" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengitraditionalists" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_ferengi_traditionalist_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 125 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_ferengitraditionalists" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 125 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "ferengi_traditionalist_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 244,
+                        "symbol": "gold_pressed_latinum_quality2_compon",
+                        "item_type": 3,
+                        "name": "Latinum",
+                        "full_name": "Gold-Pressed Latinum",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/gold_pressed_latinum_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "hash_key": "405a5bf93c76b5ff5c3cadbf6e851eca" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_ferengitraditionalists" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "ferengi_traditionalist_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

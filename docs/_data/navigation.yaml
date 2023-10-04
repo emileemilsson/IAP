@@ -1,0 +1,47 @@
+sections:
+  - title: Overview
+    key: overview
+    pages:
+      - url: index
+        label: Welcome
+      - url: history
+        label: Project History
+      - url: notes
+        label: Notes &amp; Disclaimers
+      - url: install
+        label: Installation
+      - url: privacy
+        label: Privacy &amp; Security
+  - title: Features
+    key: features
+    pages:
+      - url: summary
+        label: Summary
+      - url: mycrew
+        label: Crew
+      - url: voyage
+        label: Voyage
+      - url: gauntlet
+        label: Gauntlet
+      - url: events
+        label: Events
+      - url: items
+        label: Items
+      - url: replication
+        label: Item Replication
+      - url: shuttles
+        label: Shuttles
+      - url: ships
+        label: Ships
+      - url: cryo
+        label: Cryo Collections
+      - url: topcrew
+        label: Top Crew
+      - url: abilities
+        label: Crew Abilities
+      - url: factions
+        label: Factions
+      - url: missions
+        label: Missions
+      - url: fleet
+        label: Fleet

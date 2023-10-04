@@ -1,0 +1,888 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_cardassian_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_cardassian_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2846,
+                        "symbol": "s_cardassian_token",
+                        "item_type": 6,
+                        "name": "Cardassian Union Transmission",
+                        "full_name": "Cardassian Union Transmission",
+                        "flavor": "Spent to acquire Cardassian faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_cardassian_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_cardassian_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2846,
+                        "symbol": "s_cardassian_token",
+                        "item_type": 6,
+                        "name": "Cardassian Union Transmission",
+                        "full_name": "Cardassian Union Transmission",
+                        "flavor": "Spent to acquire Cardassian faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_cardassian_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 6,
+                        "symbol": "seska_seskastarfleet_crew",
+                        "name": "Seska",
+                        "full_name": "Ensign Seska",
+                        "flavor": "Serving on the Val Jean as a Maquis, Seska was later revealed to be a Cardassian operative disguised as a Bajoran.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_seskastarfleet_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_seskastarfleet_sm" 
+                        },
+                        "rarity": 2,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_seskastarfleet_full" 
+                        },
+                        "skills":
+                        {
+                            "engineering_skill":
+                            {
+                                "core": 32,
+                                "range_min": 5,
+                                "range_max": 11 
+                            },
+                            "security_skill":
+                            {
+                                "core": 23,
+                                "range_min": 4,
+                                "range_max": 9 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "bajoran",
+                            "cardassian",
+                            "starfleet",
+                            "obsidian_order",
+                            "undercover_operative" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 1,
+                            "charge_phases": 
+                            [
+                                {
+                                    "charge_time": 7,
+                                    "ability_amount": 850 
+                                },
+                                {
+                                    "charge_time": 7,
+                                    "ability_amount": 1200 
+                                } 
+                            ],
+                            "name": "Subtle Sabotage",
+                            "symbol": "seska_seskastarfleet_action",
+                            "cooldown": 14,
+                            "initial_cooldown": 0,
+                            "duration": 10,
+                            "bonus_type": 1,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_seskastarfleet_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 0,
+                                "type": 4,
+                                "amount": 300 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "9b1e98ff2419bff0175b895462e4bd6b" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1438,
+                        "symbol": "cardassian_padd_quality1_equip",
+                        "item_type": 2,
+                        "name": "PADD",
+                        "full_name": "Cardassian PADD",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/cardassian_padd_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "6": 3,
+                            "7": 1,
+                            "8": 5 
+                        },
+                        "hash_key": "6292948ba0f1e4741f54590ec52b91ab" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1108,
+                        "symbol": "cardassian_encryption_algorithm_quality1_equip",
+                        "item_type": 2,
+                        "name": "Encryption",
+                        "full_name": "Cardassian Encryption Algorithm",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/encryption_algorithm_generic_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "23": 1,
+                            "24": 9 
+                        },
+                        "hash_key": "1853a54a7ced81a31cfc05d1eae18c2f" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1442,
+                        "symbol": "cardassian_communicator_quality0_equip",
+                        "item_type": 2,
+                        "name": "Communicator",
+                        "full_name": "Cardassian Communicator",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/cardassian_communicator_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "6": 1 
+                        },
+                        "hash_key": "942ca25ccebdf7d799839e72f33458c2" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 250000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 250000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1331,
+                        "symbol": "central_command_insignia_quality2_equip",
+                        "item_type": 2,
+                        "name": "Insignia",
+                        "full_name": "Central Command Insignia",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/cardassian_central_command_insignia_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "7": 6,
+                            "8": 14,
+                            "19": 6,
+                            "20": 14 
+                        },
+                        "hash_key": "3e972d291be96380f06e2602ec863afd" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1824,
+                        "symbol": "cardassian_disruptor_rifle_quality2_equip",
+                        "item_type": 2,
+                        "name": "Rifle",
+                        "full_name": "Cardassian Disruptor Rifle",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/cardassian_disruptor_rifle_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "9": 50,
+                            "12": 20 
+                        },
+                        "hash_key": "72bd79a7eb765d5e507f9c0294a19937" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_cardassian" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1451,
+                        "symbol": "cardassian_disruptor_pistol_quality1_equip",
+                        "item_type": 2,
+                        "name": "Disruptor",
+                        "full_name": "Cardassian Disruptor Pistol",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/cardassian_disruptor_pistol_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "22": 2,
+                            "23": 1,
+                            "24": 5 
+                        },
+                        "hash_key": "61b87cefc49a10fc048aef99ef280fd0" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_cardassian" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_cardassian" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 213,
+                        "symbol": "expansion_module_quality1_compon",
+                        "item_type": 3,
+                        "name": "Module",
+                        "full_name": "Expansion Module",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/expansion_module_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "hash_key": "b6346b6ff806d20ffbe3fce14f7d755d" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_cardassian" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 250 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_cardassian" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 250 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 287,
+                        "symbol": "microconnector_quality3_compon",
+                        "item_type": 3,
+                        "name": "Connector",
+                        "full_name": "Microconnector",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/microconnector_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 3,
+                        "hash_key": "f239ade325d356ac8026492c63eb0cc2" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_cardassian" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_cardassian_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 500 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_cardassian" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "cardassian_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2875,
+                        "symbol": "galor_ship_schematic",
+                        "item_type": 8,
+                        "name": "Cardassian Galor Cruiser Schematic",
+                        "full_name": "Cardassian Galor Cruiser Schematic",
+                        "flavor": "Used to build and upgrade Cardassian Galor Cruiser.",
+                        "icon":
+                        {
+                            "file": "/schematics/car_galor" 
+                        },
+                        "quantity": 50,
+                        "rarity": 3,
+                        "hash_key": "4d29b0616084e2f83ee92aae4f4c9f94" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_cardassian" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "cardassian_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

@@ -1,0 +1,126 @@
+{
+	"name": "startrektimelinestool",
+	"productName": "Star Trek Timelines Crew Management",
+	"version": "0.9.1",
+	"description": "Tool for managing Star Trek Timelines crew",
+	"author": "paulbilnoski",
+	"contributors": [
+		"paulbilnoski",
+		"TemporalAgent7"
+	],
+	"homepage": "https://github.com/paulbilnoski/StarTrekTimelinesSpreadsheet",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/paulbilnoski/StarTrekTimelinesSpreadsheet.git"
+	},
+	"license": "GPL-3.0",
+	"build": {
+		"appId": "IAmPicard.StarTrekTimelinesTool",
+		"mac": {
+			"category": "public.app-category.games"
+		}
+	},
+	"babel": {
+		"presets": [
+			"@babel/react",
+			[
+				"@babel/env",
+				{
+					"targets": {
+						"chrome": "66"
+					}
+				}
+			]
+		],
+		"plugins": [
+			"@babel/plugin-proposal-class-properties"
+		]
+	},
+	"main": "main.js",
+	"scripts": {
+		"dev": "webpack-dev-server --mode development --hot --host 0.0.0.0 --config=./webpack/webpack.dev.electron.config.js",
+		"prod": "webpack --mode production --config ./webpack/webpack.build.electron.config.js && electron --noDevServer .",
+		"serveweb": "webpack-dev-server --mode development --hot --host localhost --port 8050 --config=./webpack/webpack.dev.web.config.js",
+		"build": "webpack --mode production --config ./webpack/webpack.build.electron.config.js",
+		"builddev": "webpack --mode development --config ./webpack/webpack.build.electron.config.js",
+		"buildweb": "webpack --mode production --config ./webpack/webpack.build.web.config.js",
+		"buildexp": "webpack --mode production --config ./webpack/webpack.build.exp.config.js",
+		"bundlestats": "webpack --mode production --config ./webpack/webpack.build.web.config.js --profile --json > dist/compilation-stats.json && webpack-bundle-analyzer dist/compilation-stats.json",
+		"rebuild": "electron-rebuild",
+		"package": "electron-packager ./ --out=./builds --prune --icon=src/assets/icons/ATFleet.ico",
+		"installer": "node createinstaller.js",
+		"postinstall": "run-s -l rebuild",
+		"lint": "eslint --ext .ts,.tsx ."
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.6",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+		"@babel/preset-env": "^7.9.6",
+		"@babel/preset-react": "^7.9.4",
+		"@types/history": "^4.7.5",
+		"@types/react-bootstrap": "^1.0.1",
+		"@typescript-eslint/eslint-plugin": "^2.30.0",
+		"@typescript-eslint/parser": "^2.30.0",
+		"@uifabric/styling": "^7.12.0",
+		"babel-loader": "^8.1.0",
+		"bindings": "^1.5.0",
+		"copy-webpack-plugin": "^5.1.1",
+		"css-loader": "^3.5.3",
+		"electron": "^8.2.4",
+		"electron-builder": "^22.6.0",
+		"electron-packager": "^14.2.1",
+		"electron-rebuild": "^1.10.1",
+		"eslint": "^6.8.0",
+		"favicons-webpack-plugin": "^3.0.1",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.2.1",
+		"ifdef-loader": "^2.1.5",
+		"mini-css-extract-plugin": "^0.9.0",
+		"nan": "^2.14.1",
+		"npm-check": "^5.9.2",
+		"npm-run-all": "^4.1.5",
+		"office-ui-fabric-react": "^7.109.0",
+		"pubnub": "^4.27.6",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"style-loader": "^1.2.1",
+		"ts-loader": "^7.0.1",
+		"typescript": "^3.8.3",
+		"url-loader": "^4.1.0",
+		"webpack": "^4.43.0",
+		"webpack-bundle-analyzer": "^3.7.0",
+		"webpack-cdn-plugin": "^3.3.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.3",
+		"webpack-merge": "^4.2.2",
+		"webpack-preprocessor-loader": "^1.1.2",
+		"webpack-serve": "^3.2.0",
+		"worker-loader": "^2.0.0",
+		"xlsx-populate": "^1.21.0"
+	},
+	"dependencies": {
+		"@types/pubnub": "^4.27.2",
+		"@types/react": "^16.9.34",
+		"@types/react-dom": "^16.9.5",
+		"@types/react-table": "^6.8.7",
+		"axios": "^0.27.2",
+		"bootstrap": "^4.4.1",
+		"dexie": "^2.0.4",
+		"electron-settings": "^3.2.0",
+		"fb": "^2.0.0",
+		"history": "^4.10.1",
+		"lz4js": "^0.2.0",
+		"moment": "^2.24.0",
+		"node-abi": "^2.16.0",
+		"react-bootstrap": "^1.0.1",
+		"react-device-detect": "^1.12.1",
+		"react-table": "^6.10.3",
+		"semantic-ui-react": "^0.88.2",
+		"semver": "^7.3.2",
+		"snarkdown": "^1.2.2",
+		"url-search-params-polyfill": "^8.1.0",
+		"uuid": "^8.0.0"
+	}
+}
