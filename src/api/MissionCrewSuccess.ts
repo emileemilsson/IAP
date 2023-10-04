@@ -1,6 +1,6 @@
 import STTApi from "./index";
 import CONFIG from "./CONFIG";
-import { CrewData, MissionData, MissionQuestChallengeDTO, MissionQuestDTO, SkillData } from "./DTO21";
+import { CrewData, MissionData, MissionQuestChallengeDTO, MissionQuestDTO, SkillData } from "./DTO";
 
 export interface IChallengeSuccessTrait {
     trait: string;

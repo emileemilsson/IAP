@@ -4,7 +4,7 @@ import { Button, Segment, Header } from 'semantic-ui-react';
 import { getTheme } from '@uifabric/styling';
 
 import STTApi, { CONFIG } from '../../api';
-import { FactionStoreItemDTO } from '../../api/DTO21';
+import { FactionStoreItemDTO } from '../../api/DTO';
 import { ItemDisplay } from '../../utils/ItemDisplay';
 import { CrewImageData } from '../images/ImageProvider';
 

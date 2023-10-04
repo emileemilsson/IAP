@@ -33,7 +33,7 @@ import Moment from 'moment';
 import { PlayerDTO, ItemArchetypeDTO, PlatformConfigDTO, CrewAvatarDTO, ServerConfigDTO, ShipSchematicDTO,
 	CrewData, ShipDTO, MissionData, CrewDTO, SkillDTO, FleetSquadDTO, FleetMemberDTO, FleetStarbaseRoomDTO,
 	ItemData, PlayerResponseDTO, PlayerShuttleAdventureDTO, PlayerInspectDTO,
-	EventLeaderboardDTO, BorrowedCrewDTO, ImageDataDTO } from './DTO21';
+	EventLeaderboardDTO, BorrowedCrewDTO, ImageDataDTO } from './DTO';
 // #!if ENV === 'electron'
 import fs from 'fs';
 import { getAppPath } from '../utils/pal';

@@ -4,7 +4,7 @@ import { Accordion } from 'semantic-ui-react';
 
 import { ItemDisplay } from '../../utils/ItemDisplay';
 import STTApi, { loadFactionStore, RarityStars } from '../../api';
-import { FactionDTO, PotentialRewardDTO, RewardDTO, ItemArchetypeDTO, FactionStoreItemDTO } from '../../api/DTO21';
+import { FactionDTO, PotentialRewardDTO, RewardDTO, ItemArchetypeDTO, FactionStoreItemDTO } from '../../api/DTO';
 
 import { StoreItem } from './StoreItem';
 

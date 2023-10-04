@@ -17,7 +17,7 @@ import {
 	loadGauntlet, gauntletCrewSelection, gauntletRoundOdds, payToGetNewOpponents,
 	payToReviveCrew, playContest, enterGauntlet, Match
 } from './GauntletTools';
-import { GauntletDTO, GauntletCrewDTO, GauntletContestDTO, GauntletContestLootDTO, CrewData } from '../../api/DTO21';
+import { GauntletDTO, GauntletCrewDTO, GauntletContestDTO, GauntletContestLootDTO, CrewData } from '../../api/DTO';
 import { CircularLabel } from '../../utils/CircularLabel';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
 import { CrewImageData } from '../images/ImageProvider';

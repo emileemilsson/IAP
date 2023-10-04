@@ -5,7 +5,7 @@ import UserStore from './Styles';
 
 import STTApi from '../api';
 import { CONFIG, NumberPicker, getChronitonCount } from '../api';
-import { MissionQuestDTO, MissionQuestMasteryLevelDTO } from '../api/DTO21';
+import { MissionQuestDTO, MissionQuestMasteryLevelDTO } from '../api/DTO';
 
 export const WarpDialog = (props:{
 	questId?: number;

@@ -12,7 +12,7 @@ import STTApi, { CONFIG, CollapsibleSection, download, getItemDetailsLink } from
 import { simplejson2csv } from '../utils/simplejson2csv';
 import { EquipNeedFilter, EquipNeed, getMissionCost } from '../api/EquipmentTools';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
-import { ItemArchetypeDTO, ItemArchetypeSourceDTO } from '../api/DTO21';
+import { ItemArchetypeDTO, ItemArchetypeSourceDTO } from '../api/DTO';
 
 export const NeededEquipment = (props: {
 	onCommandItemsUpdate?: (items: ICommandBarItemProps[]) => void;

@@ -3,7 +3,7 @@ import React from 'react';
 import { Image, ImageFit } from 'office-ui-fabric-react/lib/Image';
 import ReactTable, { Column, SortingRule } from 'react-table';
 import STTApi, { formatTimeSeconds, CONFIG, RarityStars, getCrewDetailsLink } from '../../api';
-import { EventDTO, CrewData, EventLeaderboardEntryDTO } from "../../api/DTO21";
+import { EventDTO, CrewData, EventLeaderboardEntryDTO } from "../../api/DTO";
 import { GalaxyEvent } from './EventHelperGalaxy';
 import { ShuttleEvent } from './EventHelperShuttle';
 import { SkirmishEvent } from './EventHelperSkirmish';

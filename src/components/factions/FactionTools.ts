@@ -1,5 +1,5 @@
 import STTApi from "../../api/index";
-import { FactionDTO } from "../../api/DTO21";
+import { FactionDTO } from "../../api/DTO";
 
 export function refreshAllFactions(): Promise<any> {
     return STTApi.executeGetRequestWithUpdates("character/refresh_all_factions");

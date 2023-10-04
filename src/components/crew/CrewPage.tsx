@@ -7,7 +7,7 @@ import { exportExcel } from './excelExporter';
 import { exportCsv } from './csvExporter';
 
 import STTApi, { download } from '../../api';
-import { CrewData } from '../../api/DTO21';
+import { CrewData } from '../../api/DTO';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
 import { ButtonGroup, Button, ToggleButton } from 'react-bootstrap';
 

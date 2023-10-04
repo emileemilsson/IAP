@@ -7,7 +7,7 @@ import { getTheme } from '@uifabric/styling';
 
 import STTApi, { CONFIG, calculateQuestRecommendations, IQuestRecommendations, RarityStars } from '../../api';
 import { MissionDisplay } from '../../utils/canvasutils';
-import { MissionQuestChallengeDTO } from '../../api/DTO21';
+import { MissionQuestChallengeDTO } from '../../api/DTO';
 
 interface MissionDetailsProps {
 	questId?: IDropdownOption;

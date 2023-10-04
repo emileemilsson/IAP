@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillData, CrewDTO, CrewData } from '../../api/DTO21';
+import { SkillData, CrewDTO, CrewData } from '../../api/DTO';
 import { RarityStars, CONFIG } from '../../api';
 
 /**

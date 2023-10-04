@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, List } from 'semantic-ui-react';
-import { EventDTO, EVENT_TYPES, CrewData, CrewAvatarDTO } from "../../api/DTO21";
+import { EventDTO, EVENT_TYPES, CrewData, CrewAvatarDTO } from "../../api/DTO";
 import STTApi from '../../api';
 import { EventCrewBonusTable } from './EventHelperPage';
 

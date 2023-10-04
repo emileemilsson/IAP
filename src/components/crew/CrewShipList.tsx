@@ -11,7 +11,7 @@ import { isMobile } from 'react-device-detect';
 import { ItemDisplay } from '../../utils/ItemDisplay';
 
 import STTApi, { CONFIG, RarityStars, getCrewDetailsLink } from '../../api';
-import { CrewData, ItemArchetypeDTO, CrewActionChargePhaseDTO } from '../../api/DTO21';
+import { CrewData, ItemArchetypeDTO, CrewActionChargePhaseDTO } from '../../api/DTO';
 
 interface CrewShipListState {
 	items: CrewData[];

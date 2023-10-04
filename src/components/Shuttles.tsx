@@ -4,7 +4,7 @@ import { Dropdown as SuiDropdown, Item, Image, Label, Form, Checkbox, List } fro
 import STTApi, { CONFIG, formatTimeSeconds, CrewSkills, RarityStars, bonusCrewForCurrentEvent } from '../api';
 import { CrewData, PlayerShuttleDTO, EventDTO,
 	EVENT_TYPES, SHUTTLE_STATE_NAMES, SHUTTLE_STATE_NAME_UNKNOWN, SHUTTLE_STATE_OPENED,
-	PlayerShuttleAdventureDTO, SHUTTLE_STATE_INPROGRESS, ItemDTO, ItemData } from '../api/DTO21';
+	PlayerShuttleAdventureDTO, SHUTTLE_STATE_INPROGRESS, ItemDTO, ItemData } from '../api/DTO';
 import { Dropdown } from 'react-bootstrap';
 import { ShuttleSelection, ShuttleCalc, CrewItem, CrewChoice,
 	getBonusedRoster, computeCrew, cid, ShuttleCalcSlot, shuttleStart, computeChance, skillBonus
@@ -450,7 +450,7 @@ const ShuttleBonusSelector = (props:{
 	const [, imageCacheUpdated] = React.useState<string>('');
 	let availableBonuses: ItemData[] = [];
 	if (props.options?.useBonuses) {
-		availableBonuses = STTApi.items.filter(item => item.type === 4);
+		availableBonuses = STTApi.items.filter(item => item.type === '+%VAL% to Crit Rating'); // was 4
 		if (!props.options.useBonuses45) {
 			availableBonuses = availableBonuses.filter(item => item.rarity < 4);
 		}

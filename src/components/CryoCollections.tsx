@@ -1,7 +1,7 @@
 import React from 'react';
 
 import STTApi, { CONFIG, RarityStars } from '../api';
-import { CrewAvatarDTO, CrewData, CryoCollectionDTO } from '../api/DTO21';
+import { CrewAvatarDTO, CrewData, CryoCollectionDTO } from '../api/DTO';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
 
 export const CryoCollections = (props: {

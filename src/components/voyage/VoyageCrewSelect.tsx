@@ -3,7 +3,7 @@ import Moment from 'moment';
 import { Message, Dropdown, Header, Select, Checkbox, Form, Image, Card, Button, DropdownItem, DropdownItemProps } from 'semantic-ui-react';
 
 import STTApi, { CONFIG, bonusCrewForCurrentEvent, formatTimeSeconds, download, CrewSkills } from '../../api';
-import { CrewData, VoyageDTO } from '../../api/DTO21';
+import { CrewData, VoyageDTO } from '../../api/DTO';
 import { bestVoyageShip, startVoyage, calculateVoyage, estimateVoyageDuration, toSkillValues, calculateVoyageCrewRank } from './VoyageTools';
 import { VoyageSkillsReadout, Skill } from './VoyageSkillsReadout';
 import { CalcChoice, cleanCrewName } from './voyageCalc';

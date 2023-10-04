@@ -65,7 +65,7 @@ export interface CrewDTO {
 	active_id?: number;
 	active_index: number;
 	active_status: number;
-	archetype_id: number;
+	archetype_id: string;
 	base_skills: { [sk: string]: SkillDTO; };
 	cap_achiever: {
 		date: number;
@@ -78,7 +78,7 @@ export interface CrewDTO {
 	equipment_rank: number;
 	equipment_slots: {
 		level: number;
-		archetype: number;
+		archetype: string;
 	}[];
 	expires_in?: number;
 	favorite: boolean;
@@ -132,7 +132,7 @@ export interface SkillData {
 }
 
 export interface CrewEquipmentSlotData {
-	archetype: number;
+	archetype: string;
 	level: number;
 	// TODO type info
 	symbol: any;
@@ -213,12 +213,12 @@ export interface BorrowedCrewDTO {
 	active_id?: number;
 	active_index?: number;
 	active_status?: number;
-	archetype_id: number;
+	archetype_id: string;
 	equipment: number[][];
 	equipment_rank: number;
 	equipment_slots: {
 		level: number;
-		archetype: number;
+		archetype: string;
 	}[];
 	full_body: ImageDataDTO;
 	icon: ImageDataDTO;
@@ -847,10 +847,11 @@ export interface FleetStarbaseRoomUpgradeDTO {
 		icon: ImageDataDTO;
 		id: number;
 		item_sources: any[];
+		item_type: number;
 		name: string;
 		rarity: number;
 		symbol: string;
-		type: number;
+		type: string;
 	}[];
 	name: string;
 	short_description: string;
@@ -862,10 +863,16 @@ export interface FleetStarbaseRoomUpgradeBuffDTO {
 	icon: ImageDataDTO;
 	id: number;
 	item_sources: any[];
+	item_type: number;
+	operator: string;
 	name: string;
 	rarity: number;
+	short_name: string;
+	source: string;
+	stat: string;
 	symbol: string;
-	type: number;
+	type: string;
+	value: number;
 }
 
 export interface FleetDTO {
@@ -970,7 +977,7 @@ export interface ShipDTO {
 	accuracy: number;
 	actions: any[];
 	antimatter: number;
-	archetype_id: number;
+	archetype_id: string;
 	attack: number;
 	attacks_per_second: number;
 	battle_stations: any[];
@@ -1032,7 +1039,7 @@ export interface ShipSchematicDTO {
 }
 
 export interface ItemArchetypeDemandDTO {
-	archetype_id: number;
+	archetype_id: string;
 	count: number;
 }
 
@@ -1075,17 +1082,18 @@ export interface ItemArchetypeSourceDTO {
 }
 
 export interface ItemDTO {
-	archetype_id: number;
+	archetype_id: string;
 	expires_in: any; // null
 	flavor: string;
 	icon: ImageDataDTO;
 	id: number;
 	name: string;
+	short_name: string;
 	quantity: number;
 	rarity: number;
 	symbol: string;
 	/** See CONFIG.REWARDS_ITEM_TYPE */
-	type: number;
+	type: string;
 
 	// These fields are found on shuttle/craft bonus items
 
@@ -1146,8 +1154,8 @@ export interface PlatformConfigDTO {
 	replicator_config: {
 		currency_costs: { amount: number; currency: number; }[];
 		fuel_blacklist: number[];
-		fuel_costs: { item_type: number; rarity: number; fuel: number; }[];
-		fuel_values: { item_type: number; rarity: number; fuel: number; }[];
+		fuel_costs: { item_type: string; rarity: number; fuel: number; }[];
+		fuel_values: { item_type: string; rarity: number; fuel: number; }[];
 		target_blacklist: number[];
 	};
 	ship_trait_names: { [trait: string]: string };
@@ -1168,7 +1176,7 @@ export interface ServerConfigDTO {
 			recipes: {
 				id: number;
 				recipe: {
-					archetype_id: number;
+					archetype_id: string;
 					count: number;
 				}[];
 			}[];
@@ -1492,7 +1500,7 @@ export interface ShuttleRewardDTO {
 }
 
 export interface EventGatherPoolAdventureDTO {
-	demands: { archetype_id: number; count: number; }[];
+	demands: { archetype_id: string; count: number; }[];
 	description: string;
 	golden_octopus: boolean;
 	id: number;

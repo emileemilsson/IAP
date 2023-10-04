@@ -6,7 +6,7 @@ import { Dropdown, DropdownMenuItemType, IDropdownOption } from 'office-ui-fabri
 import STTApi from '../../api';
 
 import { MissionDetails } from './MissionDetails';
-import { MissionData } from '../../api/DTO21';
+import { MissionData } from '../../api/DTO';
 
 interface MissionExplorerProps {
 	onCommandItemsUpdate?: (items: ICommandBarItemProps[]) => void;

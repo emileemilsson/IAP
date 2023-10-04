@@ -14,7 +14,7 @@ export function canReplicate(archetypeId: number): boolean {
     return STTApi.platformConfig!.config.replicator_config.target_blacklist.indexOf(archetypeId) === -1;
 }
 
-export function replicatorFuelValue(itemType: number, itemRarity: number): number {
+export function replicatorFuelValue(itemType: string, itemRarity: number): number {
     let replicatorFuel = STTApi.platformConfig!.config.replicator_config.fuel_values.find((replicatorFuel) => (replicatorFuel.item_type === itemType) && (replicatorFuel.rarity === itemRarity));
     return replicatorFuel!.fuel;
 }
@@ -24,7 +24,7 @@ export function canUseAsFuel(itemId: number): boolean {
 }
 
 export type ReplicatorFuel = {
-    archetype_id: number;
+    archetype_id: string;
     quantity: number;
 }
 

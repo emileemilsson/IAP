@@ -1,7 +1,7 @@
 const XlsxPopulate = require('xlsx-populate');
 
 import STTApi, {CONFIG} from '../../api';
-import { ItemData } from '../../api/DTO21';
+import { ItemData } from '../../api/DTO';
 
 export async function exportExcel(itemList: ItemData[]) {
 	let workbook = await XlsxPopulate.fromBlankAsync();

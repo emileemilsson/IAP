@@ -1,4 +1,4 @@
-import { ImageDataDTO } from "../../api/DTO21";
+import { ImageDataDTO } from "../../api/DTO";
 
 export interface FoundResult<T> {
 	id: T; // value supplied when a request is made

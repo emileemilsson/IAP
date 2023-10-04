@@ -1,5 +1,5 @@
 import STTApi, { CONFIG } from './index';
-import { CrewData, PotentialRewardDTO, ItemArchetypeDTO, MissionData, MissionQuestDTO, FactionDTO, MissionQuestMasteryLevelDTO, ItemData, ItemDTO, RewardDTO, ItemDataSource } from './DTO21';
+import { CrewData, PotentialRewardDTO, ItemArchetypeDTO, MissionData, MissionQuestDTO, FactionDTO, MissionQuestMasteryLevelDTO, ItemData, ItemDTO, RewardDTO, ItemDataSource } from './DTO';
 
 export function fixupAllCrewIds() : void {
 	// Now replace the ids with proper ones
@@ -342,7 +342,7 @@ export function buildItemData(dtos: ItemDTO[]) : ItemData[] {
 						return;
 					}
 					// Only capture sources for equipment and components
-					if (item.type !== 2 && item.type !== 3) {
+					if (item.type !== 'Equipment' && item.type !== 'Component') {
 						return;
 					}
 					let src = item.sources.find(src => src.mission?.id === m.id && src.quest?.id === q.id);

@@ -4,7 +4,7 @@ import { SearchBox } from 'office-ui-fabric-react/lib/SearchBox';
 import { CrewShipList } from './CrewShipList';
 
 import STTApi from '../../api';
-import { CrewData } from '../../api/DTO21';
+import { CrewData } from '../../api/DTO';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
 
 export interface CrewShipPageProps {

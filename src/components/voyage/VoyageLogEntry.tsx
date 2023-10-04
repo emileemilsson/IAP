@@ -1,7 +1,7 @@
 import React from "react";
 import STTApi, { CONFIG } from "../../api";
 import { Image, Icon } from 'semantic-ui-react';
-import { VoyageNarrativeDTO } from "../../api/DTO21";
+import { VoyageNarrativeDTO } from "../../api/DTO";
 
 export const VoyageLogEntry = (props: {
 	spriteClass: string;

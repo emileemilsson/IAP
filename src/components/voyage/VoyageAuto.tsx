@@ -1,6 +1,6 @@
 import React from 'react';
 import Moment from 'moment';
-import { VoyageDTO } from '../../api/DTO21';
+import { VoyageDTO } from '../../api/DTO';
 import STTApi, { loadVoyage, formatTimeSeconds } from '../../api';
 import { VOYAGE_AM_DECAY_PER_MINUTE } from './VoyageTools';
 

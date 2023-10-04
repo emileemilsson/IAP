@@ -1,4 +1,4 @@
-import { VoyageDescriptionDTO, CrewData } from "../../api/DTO21";
+import { VoyageDescriptionDTO, CrewData } from "../../api/DTO";
 import { CalcChoice } from "./voyageCalc";
 import CONFIG from "../../api/CONFIG";
 

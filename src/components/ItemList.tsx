@@ -4,7 +4,7 @@ import ReactTable, { SortingRule, Column } from 'react-table';
 import { ItemDisplay } from '../utils/ItemDisplay';
 import { RarityStars } from '../utils/RarityStars';
 import STTApi, { CONFIG, getItemDetailsLink } from '../api';
-import { ItemData, ItemArchetypeDTO, ItemDataSource } from '../api/DTO21';
+import { ItemData, ItemArchetypeDTO, ItemDataSource } from '../api/DTO';
 import { ReplicatorDialog } from './replicator/ReplicatorDialog';
 import { HoverCard } from 'office-ui-fabric-react/lib/HoverCard';
 

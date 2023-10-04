@@ -9,7 +9,7 @@ import { ItemDisplay } from '../../utils/ItemDisplay';
 import UserStore from '../Styles';
 
 import STTApi, { CONFIG, RarityStars } from '../../api';
-import { ItemData, ItemArchetypeDTO } from '../../api/DTO21';
+import { ItemData, ItemArchetypeDTO } from '../../api/DTO';
 import { ReplicatorFuel, computeExtraSchematics, computeExtraItems,
 	replicatorCurrencyCost, replicatorFuelCost, canReplicate,
 	replicatorFuelValue, canUseAsFuel, replicate } from './ReplicatorTools';
@@ -18,7 +18,7 @@ type FuelTankItem = {
 	name: string;
 	quantity: number;
 	id: number;
-	type: number;
+	type: string;
 	rarity: number;
 	item: ItemData;
 };
@@ -97,7 +97,6 @@ export const ReplicatorDialog = (props:{
 			props.onClose();
 		}
 	}
-
 	function reloadItems(fuelConfig: string) {
 		if (fuelConfig === 'everything') {
 			setFuelList(STTApi.items);
@@ -106,9 +105,9 @@ export const ReplicatorDialog = (props:{
 		} else if (fuelConfig === 'extraItems') {
 			setFuelList(computeExtraItems());
 		} else if (fuelConfig === 'trainers') {
-			setFuelList(STTApi.items.filter(item => item.type === 7));
+			setFuelList(STTApi.items.filter(item => item.type === 'Crew experience training'));
 		} else if (fuelConfig === 'rations') {
-			setFuelList(STTApi.items.filter(item => item.type === 9));
+			setFuelList(STTApi.items.filter(item => item.type === 'Replicator ration'));
 		} else {
 			setFuelList([]);
 		}

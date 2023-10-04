@@ -1,5 +1,5 @@
 import STTApi from "./index";
-import { ShipDTO } from "./DTO21";
+import { ShipDTO } from "./DTO";
 
 export function matchShips(ships: ShipDTO[]): Promise<ShipDTO[]> {
 	let newShips: ShipDTO[] = [];

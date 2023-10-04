@@ -1,5 +1,5 @@
 import STTApi from "./index";
-import { AcceptedMissionsDTO, MissionData, MissionQuestDTO, MissionDisputeHistoryDTO, MissionCadetScheduleDTO } from "./DTO21";
+import { AcceptedMissionsDTO, MissionData, MissionQuestDTO, MissionDisputeHistoryDTO, MissionCadetScheduleDTO } from "./DTO";
 
 async function loadQuestData(completed: boolean, quest: MissionQuestDTO) {
 	// The mission is incomplete, but maybe the quest itself is complete and already cached

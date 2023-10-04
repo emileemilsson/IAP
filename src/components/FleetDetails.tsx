@@ -3,7 +3,7 @@ import ReactTable, { Column } from "react-table";
 import { Button } from 'semantic-ui-react';
 import STTApi, { CollapsibleSection, RarityStars, formatTimeSeconds, download } from '../api';
 import { simplejson2csv } from '../utils/simplejson2csv';
-import { CrewAvatarDTO } from '../api/DTO21';
+import { CrewAvatarDTO } from '../api/DTO';
 
 // #!if ENV === 'electron'
 import { loginPubNub } from '../utils/chat';

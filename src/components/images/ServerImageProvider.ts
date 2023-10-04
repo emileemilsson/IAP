@@ -1,5 +1,5 @@
 import STTApi, { CONFIG }  from '../../api';
-import { ImageDataDTO } from '../../api/DTO21';
+import { ImageDataDTO } from '../../api/DTO';
 import { CrewImageData, ImageProvider, FoundResult, ItemImageData } from './ImageProvider';
 
 export class ServerImageProvider implements ImageProvider {

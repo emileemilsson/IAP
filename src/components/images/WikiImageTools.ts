@@ -1,7 +1,7 @@
 import STTApi from "../../api/index";
 import CONFIG from "../../api/CONFIG";
 import { ImageProvider, FoundResult, ImageCache, CrewImageData, ItemImageData } from './ImageProvider';
-import { ShipDTO, FactionDTO } from "../../api/DTO21";
+import { ShipDTO, FactionDTO } from "../../api/DTO";
 
 const fs = require('fs');
 const request = require('request');

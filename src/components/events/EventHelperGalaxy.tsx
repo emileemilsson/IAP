@@ -5,7 +5,7 @@ import { Item, Image, List, Accordion, Icon, AccordionTitleProps } from 'semanti
 import { ItemDisplay } from '../../utils/ItemDisplay';
 
 import STTApi, { CONFIG, RarityStars, getItemDetailsLink } from '../../api';
-import { EventDTO, EventGatherPoolAdventureDTO, EVENT_TYPES, ItemArchetypeDTO, ItemData, CrewData, ItemArchetypeDemandDTO } from '../../api/DTO21';
+import { EventDTO, EventGatherPoolAdventureDTO, EVENT_TYPES, ItemArchetypeDTO, ItemData, CrewData, ItemArchetypeDemandDTO } from '../../api/DTO';
 import { EventCrewBonusTable, EventStat } from './EventHelperPage';
 import ReactTable, { Column, SortingRule } from 'react-table';
 import { MissionCostDetails } from '../../api/EquipmentTools';

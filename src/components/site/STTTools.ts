@@ -1,5 +1,5 @@
 import STTApi from '../../api';
-import { CrewDTO } from '../../api/DTO21';
+import { CrewDTO } from '../../api/DTO';
 
 class STTToolsClass {
     private _allcrew : CrewDTO[];

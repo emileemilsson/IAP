@@ -1,4 +1,4 @@
-import { CrewData, ItemData, ItemArchetypeDTO, RewardDTO } from './DTO21';
+import { CrewData, ItemData, ItemArchetypeDTO, RewardDTO } from './DTO';
 
 // TODO: A configurable UI option?
 const USE_WIKI: boolean = true;

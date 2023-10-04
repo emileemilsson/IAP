@@ -1,7 +1,7 @@
 import React from 'react';
 
 import STTApi, { CONFIG, RarityStars } from '../../api';
-import { CrewData } from '../../api/DTO21';
+import { CrewData } from '../../api/DTO';
 import { ICommandBarItemProps } from 'office-ui-fabric-react/lib/CommandBar';
 import { Image, ImageFit } from 'office-ui-fabric-react/lib/Image';
 import { Icon } from 'office-ui-fabric-react/lib/Icon';

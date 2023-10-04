@@ -5,14 +5,14 @@ import { RarityStars } from '../utils/RarityStars';
 
 import STTApi from '../api';
 import { SearchBox } from 'office-ui-fabric-react/lib/SearchBox';
-import { ShipDTO, ShipSchematicDTO } from '../api/DTO21';
+import { ShipDTO, ShipSchematicDTO } from '../api/DTO';
 
 export const ShipList = () => {
 	const [sorted, setSorted] = React.useState([{ id: 'name', desc: false },{id: 'sort_level', desc:false}] as SortingRule[]);
 	const [filterText, setFilterText] = React.useState<string>('');
 	const [, imageCacheUpdated] = React.useState<string>('');
 
-	let playerSchematics = STTApi.items.filter(item => item.type === 8);
+	let playerSchematics = STTApi.items.filter(item => item.type === 'Ship schematic'); //was 8
 
 	interface ShipObj {
 		ship: ShipDTO;

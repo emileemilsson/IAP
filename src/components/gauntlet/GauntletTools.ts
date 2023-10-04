@@ -1,7 +1,7 @@
 import Moment from 'moment';
 import STTApi from '../../api/index';
 import CONFIG from '../../api/CONFIG';
-import { GauntletDTO, GauntletCrewDTO, CrewData, GauntletContestDTO, GauntletContestLootDTO } from '../../api/DTO21';
+import { GauntletDTO, GauntletCrewDTO, CrewData, GauntletContestDTO, GauntletContestLootDTO } from '../../api/DTO';
 
 export interface GauntletData {
 	gauntlet: GauntletDTO;

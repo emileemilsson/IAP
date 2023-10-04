@@ -6,7 +6,7 @@ import { loadMissionData } from './MissionTools';
 import { loadFullTree, fixupAllCrewIds, buildItemData } from './EquipmentTools';
 import { refreshAllFactions, loadFactionStore } from '../components/factions/FactionTools';
 import { calculateMissionCrewSuccess, calculateMinimalComplementAsync } from './MissionCrewSuccess';
-import { PotentialRewardDTO, RewardDTO } from "./DTO21";
+import { PotentialRewardDTO, RewardDTO } from "./DTO";
 
 export async function loginSequence(onProgress: (description: string, subDesc?: string) => void) {
 	let mainResources = [
