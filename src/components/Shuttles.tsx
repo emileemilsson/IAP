@@ -369,9 +369,7 @@ const ShuttleItem = (props: {
 				</Item.Description>
 				<Item.Extra>
 					State: {SHUTTLE_STATE_NAMES[shuttle.state] || SHUTTLE_STATE_NAME_UNKNOWN}
-					{/* #!if allowPush == true */}
 					{canStart && <Form.Button floated='right' onClick={start} content='Send Shuttle' />}
-					{/* #!endif */}
 				</Item.Extra>
 			</Item.Content>
 		</Item>
@@ -423,8 +421,10 @@ const ShuttleSeatSelector = (props:{
 		<b>{props.calcSlot.skillText}</b>
 		{!isEditable && <div style={styleDiv}>{selectedContent ?? ''}</div>}
 		{isEditable &&
-			<Dropdown key='outline-light' onSelect={(key:string) => {
+			<Dropdown key='outline-light' onSelect={(key:string | null) => {
+			if(key !== null) {
 				props.chooseSlot(props.selection.calc, props.calcSlot, Number(key))
+				}
 			}}>
 				<Dropdown.Toggle
 					as="span"
@@ -489,9 +489,11 @@ const ShuttleBonusSelector = (props:{
 		Bonus:
 		{!isEditable && selectedContent}
 		{isEditable &&
-			<Dropdown key='outline-light' onSelect={(key: string) => {
+			<Dropdown key='outline-light' onSelect={(key: string | null) => {
+			if(key !== null) {
 				const b = availableBonuses.find(item => item.id === Number(key))
 				props.chooseBonus(props.selection.calc, b);
+				}
 			}}>
 				<Dropdown.Toggle
 					as="span"
