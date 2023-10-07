@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
 import STTApi, { CONFIG } from '../api';
-import { ItemDTO, ItemData } from '../api/DTO21';
+import { ItemDTO, ItemData } from '../api/DTO';
 
 export const ItemDisplay = (props: {
     size: number;

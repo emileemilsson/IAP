@@ -369,7 +369,9 @@ const ShuttleItem = (props: {
 				</Item.Description>
 				<Item.Extra>
 					State: {SHUTTLE_STATE_NAMES[shuttle.state] || SHUTTLE_STATE_NAME_UNKNOWN}
+					{/* #!if allowPush == true */}
 					{canStart && <Form.Button floated='right' onClick={start} content='Send Shuttle' />}
+					{/* #!endif */}
 				</Item.Extra>
 			</Item.Content>
 		</Item>
@@ -450,7 +452,7 @@ const ShuttleBonusSelector = (props:{
 	const [, imageCacheUpdated] = React.useState<string>('');
 	let availableBonuses: ItemData[] = [];
 	if (props.options?.useBonuses) {
-		availableBonuses = STTApi.items.filter(item => item.type === '+%VAL% to Crit Rating'); // was 4
+		availableBonuses = STTApi.items.filter(item => item.type === 4);
 		if (!props.options.useBonuses45) {
 			availableBonuses = availableBonuses.filter(item => item.rarity < 4);
 		}

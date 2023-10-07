@@ -231,9 +231,11 @@ export const VoyageCrewSelect = (props: {
 					<Form.Button primary onClick={_calcVoyageData} disabled={calcState.state === 'inprogress'}>
 						Calculate best crew selection
 					</Form.Button>
+					{/* #!if allowPush == true */}
 					<Form.Button secondary onClick={_startVoyage} disabled={calcState.state !== 'done' || voyage !== undefined}>
 						Start voyage with recommendations
 					</Form.Button>
+					{/* #!endif */}
 
 					<Form.Button onClick={() => _generateVoyCrewRank()} disabled={calcState.state === 'inprogress'}>
 						Export CSV with crew Voyage ranking...
@@ -260,6 +262,7 @@ export const VoyageCrewSelect = (props: {
 		});
 	}
 
+	// #!if allowPush == true
 	function _startVoyage() {
 		let selectedCrewIds = [];
 		for (let i = 0; i < STTApi.playerData.character.voyage_descriptions[0].crew_slots.length; i++) {
@@ -295,6 +298,7 @@ export const VoyageCrewSelect = (props: {
 				setError(err.message);
 			});
 	}
+	// #!endif
 
 	function getAvailableCrew() {
 		return STTApi.roster.filter(crew => {

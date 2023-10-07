@@ -28,7 +28,6 @@ export class AssetImageProvider implements ImageProvider {
     async getSprite(assetName: string, spriteName: string, id: string): Promise<FoundResult<string>> {
         let cachedUrl = await this._imageCache.getImage(((assetName.length > 0) ? (assetName + '_') : '') + spriteName);
         if (cachedUrl) {
-        console.log('cache url : ' + cachedUrl);
             return { id: id, url: cachedUrl };
         }
 
@@ -36,7 +35,7 @@ export class AssetImageProvider implements ImageProvider {
         if (!data) {
             throw new Error('Failed to load image');
         }
-	console.log('also here');
+
         let rawBitmap = await new Promise<any>((resolve, reject) => { this._workerPool.addWorkerTask({ data, label: id, resolve, assetName, spriteName }); });
         let url = await this._imageCache.saveImage(((assetName.length > 0) ? (assetName + '_') : '') + spriteName, rawBitmap);
         return { id, url };
@@ -76,7 +75,7 @@ export class AssetImageProvider implements ImageProvider {
         if (!data) {
             throw new Error('Fail to load image');
         }
-	console.log(' here ');
+
         let rawBitmap = await new Promise<any>((resolve, reject) => {
             this._workerPool.addWorkerTask({ data, label: iconFile, resolve, assetName: undefined, spriteName: undefined });
         });

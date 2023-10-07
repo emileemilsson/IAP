@@ -218,7 +218,7 @@ export const ItemList = (props: {
 							styles: { root: { width: '520px' } }
 						}}
 						instantOpenOnClick={true}>
-						<span>{cell.original.sources.length}</span>
+						<a href='javascript:;'>{cell.original.sources.length}</a>
 					</HoverCard>;
 				},
 			},

@@ -356,7 +356,7 @@ export const CrewList = (props: {
 				Header: () => <Icon iconName='FavoriteStar' />,
 				minWidth: 30,
 				maxWidth: 30,
-				style: { paddingLeft: 0, paddingRight: 0, textAlign: 'center' },
+				style: { textAlign: 'center' },
 				resizable: false,
 				accessor: 'favorite',
 				Cell: (cell) => {
@@ -375,7 +375,7 @@ export const CrewList = (props: {
 				Header: () => <Icon iconName='Snowflake' />,
 				minWidth: 30,
 				maxWidth: 30,
-				style: { paddingLeft: 0, paddingRight: 0, textAlign: 'center' },
+				style: { textAlign: 'center' },
 				resizable: false,
 				accessor: 'frozen',
 				Cell: (cell) => {
@@ -399,7 +399,7 @@ export const CrewList = (props: {
 				Header: () => <Icon iconName='EmptyRecycleBin' />,
 				minWidth: 30,
 				maxWidth: 30,
-				style: { paddingLeft: 0, paddingRight: 0, textAlign: 'center' },
+				style: { textAlign: 'center' },
 				resizable: false,
 				accessor: 'buyback',
 				Cell: (cell) => {
@@ -418,26 +418,25 @@ export const CrewList = (props: {
 		if (!isMobile) {
 			_columns.push({
 				id: 'active_id',
-				Header: () => <Icon iconName='Balloons' />,
+				Header: () => 'V/S',
 				minWidth: 30,
 				maxWidth: 30,
-				style: { paddingLeft: 0, paddingRight: 0, textAlign: 'center' },
+				style: { textAlign: 'center' },
 				resizable: false,
 				accessor: 'active_id',
 				Cell: (cell) => {
 					if (cell && cell.original && cell.original.active_id) {
-						if (compactMode) {
-							let isShuttle = false;
-							STTApi.playerData.character.shuttle_adventures.forEach((shuttle) => {
-								if (shuttle.shuttles[0].id === cell.original.active_id) {
-									isShuttle = true;
-								}
-							});
-							return isShuttle ? 'S' : 'V';
-						}
-						return <IconButton iconProps={{ iconName: 'Balloons' }}
-							title='Active engagement'
-							onClick={() => setActive({ activeId: cell.original.active_id, name: cell.original.name })} />;
+						let isShuttle = false;
+						STTApi.playerData.character.shuttle_adventures.forEach((shuttle) => {
+							if (shuttle.shuttles[0].id === cell.original.active_id) {
+								isShuttle = true;
+							}
+						});
+						return <TooltipHost content={ isShuttle ? 'Active on Shuttle' : 'Active on Voyage'} calloutProps={{ gapSpace: 0 }}>
+							<a href='javascript:;' onClick={() => setActive({ activeId: cell.original.active_id, name: cell.original.name })}>{
+								isShuttle ? 'S' : 'V'
+							}</a>
+						</TooltipHost>;
 					} else {
 						return <span />;
 					}
@@ -524,16 +523,16 @@ export const CrewList = (props: {
 				aggregate: (vals) => vals.reduce((a: any, b: any) => (a || 0) + (b || 0), 0) / vals.length,
 				Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
 			},
-			// {
-			// 	id: 'bigbook_tier',
-			// 	Header: 'BBoB',
-			// 	minWidth: 30,
-			// 	maxWidth: 35,
-			// 	resizable: false,
-			// 	Cell: (cell) => cell.original ? <span style={{ color: cell.original.datacore?.in_portal ? "inherit" : "red" }}>{cell.original.datacore?.bigbook_tier ?? ''}</span> : <span />,
-			// 	accessor: (c) => c.datacore?.bigbook_tier ? Number(c.datacore.bigbook_tier) : 0,
-			// 	Aggregated: row => <span />
-			// }
+			{
+				id: 'bigbook_tier',
+				Header: 'BBoB',
+				minWidth: 30,
+				maxWidth: 35,
+				resizable: false,
+				Cell: (cell) => cell.original ? <span style={{ color: cell.original.datacore?.in_portal ? "inherit" : "red" }}>{cell.original.datacore?.bigbook_tier ?? ''}</span> : <span />,
+				accessor: (c) => c.datacore?.bigbook_tier ? c.datacore.bigbook_tier : 0,
+				Aggregated: row => <span />
+			}
 		);
 
 		if (!props.displayMode || props.displayMode === 'Voyage') {
@@ -549,17 +548,17 @@ export const CrewList = (props: {
 					aggregate: aggAvg,
 					Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
 				},
-				// {
-				// 	id: 'voyage_rank',
-				// 	Header: 'V Rank',
-				// 	minWidth: 50,
-				// 	maxWidth: 70,
-				// 	resizable: true,
-				// 	accessor: (c) => c.datacore?.ranks.voyRank ?? 0,
-				// 	Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.voyRank ?? ''}</div> : <span />,
-				// 	aggregate: aggAvg,
-				// 	Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
-				// }
+				{
+					id: 'voyage_rank',
+					Header: 'V Rank',
+					minWidth: 50,
+					maxWidth: 70,
+					resizable: true,
+					accessor: (c) => c.datacore?.ranks.voyRank ?? 0,
+					Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.voyRank ?? ''}</div> : <span />,
+					aggregate: aggAvg,
+					Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
+				}
 			);
 		}
 		if (!props.displayMode || props.displayMode === 'Gauntlet') {
@@ -575,17 +574,17 @@ export const CrewList = (props: {
 					aggregate: aggAvg,
 					Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
 				},
-				// {
-				// 	id: 'gauntlet_rank',
-				// 	Header: 'G Rank',
-				// 	minWidth: 50,
-				// 	maxWidth: 70,
-				// 	resizable: true,
-				// 	accessor: (c) => c.datacore?.ranks.gauntletRank ?? 0,
-				// 	Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.gauntletRank ?? ''}</div> : <span />,
-				// 	aggregate: aggAvg,
-				// 	Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
-				// }
+				{
+					id: 'gauntlet_rank',
+					Header: 'G Rank',
+					minWidth: 50,
+					maxWidth: 70,
+					resizable: true,
+					accessor: (c) => c.datacore?.ranks.gauntletRank ?? 0,
+					Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.gauntletRank ?? ''}</div> : <span />,
+					aggregate: aggAvg,
+					Aggregated: (row) => <span>{Math.floor(row.value)} (avg)</span>
+				}
 			);
 		}
 		_columns.push(

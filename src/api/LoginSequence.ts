@@ -1,6 +1,6 @@
 import STTApi from "./index";
 import CONFIG from "./CONFIG";
-import { buildCrewData } from '../components/crew/CrewTools';
+import { buildCrewData, buildCrewDataAllFromDatacore } from '../components/crew/CrewTools';
 import { matchShips } from './ShipTools';
 import { loadMissionData } from './MissionTools';
 import { loadFullTree, fixupAllCrewIds, buildItemData } from './EquipmentTools';
@@ -26,10 +26,10 @@ export async function loginSequence(onProgress: (description: string, subDesc?: 
 			loader: STTApi.loadShipSchematics.bind(STTApi),
 			description: 'ship information'
 		},
-		// {
-		// 	loader: STTApi.loadDatacore.bind(STTApi),
-		// 	description: 'datacore'
-		// },
+		{
+			loader: STTApi.loadDatacore.bind(STTApi),
+			description: 'datacore'
+		},
 		{
 			loader: STTApi.loadEventBorrowableCrew.bind(STTApi),
 			description: 'borrowable crew'
@@ -130,18 +130,18 @@ export async function loginSequence(onProgress: (description: string, subDesc?: 
 	STTApi.items = buildItemData(STTApi.playerData.character.items);
 
 	onProgress('Loading Faction and Faction Store Images...');
-//	for (let faction of STTApi.playerData.character.factions) {
-//		await updateProgress('', '', loadFactionStore(faction));
-//	}
+	for (let faction of STTApi.playerData.character.factions) {
+		await updateProgress('', '', loadFactionStore(faction));
+	}
 
-	// onProgress('Compiling Crew Data...');
-	// try {
-	// 	STTApi.allcrew = buildCrewDataAllFromDatacore(STTApi.datacore ?? []);
-	// }
-	// catch (e) {
-	// 	console.error(e);
-	// 	STTApi.allcrew = [];
-	// }
+	onProgress('Compiling Crew Data...');
+	try {
+		STTApi.allcrew = buildCrewDataAllFromDatacore(STTApi.datacore ?? []);
+	}
+	catch (e) {
+		console.error(e);
+		STTApi.allcrew = [];
+	}
 
 	onProgress('Loading Equipment...');
 	if (STTApi.inWebMode) {
@@ -154,7 +154,6 @@ export async function loginSequence(onProgress: (description: string, subDesc?: 
 	onProgress('Loading Sprites...');
 	for (let sprite in CONFIG.SPRITES) {
 		CONFIG.SPRITES[sprite].url = STTApi.imageProvider.getSpriteCached(CONFIG.SPRITES[sprite].asset, sprite);
-		//console.log(' sprite : ' + CONFIG.SPRITES[sprite].url);	
 		if (CONFIG.SPRITES[sprite].url === '') {
 			await updateProgress('', sprite,
 				STTApi.imageProvider.getSprite(CONFIG.SPRITES[sprite].asset, sprite, sprite)

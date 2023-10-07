@@ -37,7 +37,7 @@ export const VoyageLog = (props:{}) => {
 	const [skillChecks, setSkillChecks] = React.useState<SkillChecks | undefined>(undefined);
 	const [, imageCacheUpdated] = React.useState<string>('');
 
-   React.useEffect(() => {
+React.useEffect(() => {
       if (STTApi.voyAutoRecall && voyage && voyage.state === 'recalled') {
          download('narrative.' + STTApi.playerData.character.voyage[0].id + '.json',
             JSON.stringify(voyageExport),
@@ -69,7 +69,6 @@ export const VoyageLog = (props:{}) => {
 
       reloadVoyageState();
    }
-
 	React.useEffect(() => {
 		reloadVoyageState();
 	}, []);
@@ -114,7 +113,7 @@ export const VoyageLog = (props:{}) => {
 				recall={recall}
 				refresh={reloadVoyageState}
 				choose={choose}
-			/>
+			/>			
 			<VoyageCurrentCrewSkills
 				voyage={voyage}
 				skillChecks={skillChecks}
@@ -605,19 +604,20 @@ const VoyageState = (props: {
 			props.estimatedMinutesLeft === undefined) {
 			return <div className='voyage-stats'></div>;
 		}
-		const getDilemmaChance = (estimatedMinutesLeft: number) => {
-			let minEstimate = (estimatedMinutesLeft * 0.75 - 1) * 60;
-			let maxEstimate = estimatedMinutesLeft * 60;
+		// This chance was computed to support an older voyage estimator. The current one has a firm lower-bound.
+		// const getDilemmaChance = (estimatedMinutesLeft: number) => {
+		// 	let minEstimate = (estimatedMinutesLeft * 0.75 - 1) * 60;
+		// 	let maxEstimate = estimatedMinutesLeft * 60;
 
-			if (props.voyage!.seconds_between_dilemmas === undefined || props.voyage!.seconds_since_last_dilemma === undefined) {
-				return '0';
-			}
+		// 	if (props.voyage!.seconds_between_dilemmas === undefined || props.voyage!.seconds_since_last_dilemma === undefined) {
+		// 		return '0';
+		// 	}
 
-			let chanceDilemma = (100 * (props.voyage!.seconds_between_dilemmas - props.voyage!.seconds_since_last_dilemma - minEstimate))
-				/ (maxEstimate - minEstimate);
+		// 	let chanceDilemma = (100 * (props.voyage!.seconds_between_dilemmas - props.voyage!.seconds_since_last_dilemma - minEstimate))
+		// 		/ (maxEstimate - minEstimate);
 
-			return (100 - Math.min(Math.max(chanceDilemma, 0), 100)).toFixed();
-		};
+		// 	return (100 - Math.min(Math.max(chanceDilemma, 0), 100)).toFixed();
+		// };
 
 		const estRecallDurationSec = 0.4 * (props.voyage.voyage_duration + (props.estimatedMinutesLeft * 60));
 		const recallNowDurationSec = 0.4 * (props.voyage.voyage_duration);
@@ -636,7 +636,7 @@ const VoyageState = (props: {
 					</div> */}
 					<VoyageStat label="Dilemma In" value={formatTimeSeconds(props.voyage.seconds_between_dilemmas - props.voyage.seconds_since_last_dilemma)} />
 					<VoyageStat label="Dilemma At" value={Moment().add(props.voyage.seconds_between_dilemmas - props.voyage.seconds_since_last_dilemma, 's').format('h:mma')} />
-					<VoyageStat label="Dilemma Reach Chance" value={getDilemmaChance(props.estimatedMinutesLeft) + '%'} />
+					{/* <VoyageStat label="Dilemma Reach Chance" value={getDilemmaChance(props.estimatedMinutesLeft) + '%'} /> */}
 				</div>
 				<div className='times'>
 					<VoyageStat label="Est Length" value={formatTimeSeconds(props.voyage.voyage_duration + props.estimatedMinutesLeft * 60)} />
@@ -649,12 +649,14 @@ const VoyageState = (props: {
 				<div className='recall'>
 					<VoyageStat label="Recall Time Now" value={formatTimeSeconds(recallNowDurationSec)} />
 					<VoyageStat label="Recall End" value={Moment().add(recallNowDurationSec, 's').format('h:mma')} />
+					{/* #!if allowPush == true */}
 					<div className="ui statistic">
 						<button className='ui button' onClick={() => props.recall()}>
 							<i className='icon undo' />
 							Recall now
 						</button>
 					</div>
+					{/* #!endif */}
 				</div>
 			</div>
 		);
@@ -678,7 +680,12 @@ const VoyageDilemma = (props: {
 	reload: () => void;
 }) => {
 	async function chooseDilemma(voyageId: number, dilemmaId: number, index: number) {
-		if (index < 0) {
+		let allowChoose = false;
+		// #!if allowPush == true
+		allowChoose = true;
+		// #!endif
+
+		if (index < 0 || !allowChoose) {
 			return;
 		}
 		await resolveDilemma(voyageId, dilemmaId, index);

@@ -61,6 +61,7 @@ const GauntletCrew = (props: {
 				</span>
 			)}
 		</div>}
+		{/* #!if allowPush == true */}
 		{(props.crew.debuff > 0 || props.crew.disabled) &&
 		<div className="ui bottom attached primary button" onClick={() => props.revive(props.crew.disabled)}>
 			{props.crew.disabled ? <>Revive (<span style={{ display: 'inline-block' }}>
@@ -70,6 +71,7 @@ const GauntletCrew = (props: {
 			</span> {props.reviveCost.amount} dil)</>}
 		</div>
 		}
+		{/* #!endif */}
 	</div>;
 };
 
@@ -143,8 +145,10 @@ const GauntletMatch = (props: {
 
 			<span style={{ gridArea: 'ocrewname', justifySelf: 'center' }}>{oppCrew ? oppCrew.short_name : "<unknown>"}</span>
 		</div>
+		{/* #!if allowPush == true */}
 		<div className="ui bottom attached primary button" style={fleetmate ? { backgroundColor: 'red' } : {}}
 			onClick={playMatch}>Engage {fleetmate ? ' Fleetmate' : ''}!</div>
+		{/* #!endif */}
 	</div>;
 
 	function playMatch() {
@@ -548,11 +552,13 @@ export class GauntletHelper extends React.Component<GauntletHelperProps, Gauntle
 							</div>}
 						</div>
 						<div className="ui two bottom attached buttons">
+							{/* #!if allowPush == true */}
 							<div className={'ui primary button' + ((this.state.roundOdds.matches.length > 0) ? '' : ' disabled')} onClick={this._payForNewOpponents}>
 								New opponents (<span style={{ display: 'inline-block' }}>
 									<img src={CONFIG.SPRITES[CONFIG.CURRENCIES.premium_earnable.icon].url} height={16} />
 								</span>50 merit)
 							</div>
+							{/* #!endif */}
 							<div className="ui button" onClick={() => this._reloadGauntletData()}>
 								<i className="retweet icon"></i>
 								Reload data
@@ -742,7 +748,9 @@ const GauntletSelectCrew = (props: {
 
 			<div style={{ display: 'grid', gridGap: '5px', width: 'fit-content', gridTemplateColumns: 'max-content max-content' }}>
 				<div className={"ui primary button" + (calculating ? ' disabled' : '')} onClick={_calculateSelection}>Calculate best crew selection</div>
+				{/* #!if allowPush == true */}
 				<div className={"ui primary button" + ((!crewSelection || isActive) ? ' disabled' : '')} onClick={_startGauntlet}>Start gauntlet with recommendations</div>
+				{/* #!endif */}
 			</div>
 
 			<GauntletCrewBonusTable gauntlet={props.gauntlet} />
@@ -960,15 +968,15 @@ const GauntletCrewBonusTable = (props: {
 				accessor: 'gauntlet_score',
 				Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.gauntlet_score}</div> : <span />,
 			},
-			// {
-			// 	id: 'gauntlet_rank',
-			// 	Header: 'G Rank',
-			// 	minWidth: 50,
-			// 	maxWidth: 70,
-			// 	resizable: true,
-			// 	accessor: (c) => c.datacore?.ranks.gauntletRank ?? 0,
-			// 	Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.gauntletRank ?? ''}</div> : <span />,
-			// },
+			{
+				id: 'gauntlet_rank',
+				Header: 'G Rank',
+				minWidth: 50,
+				maxWidth: 70,
+				resizable: true,
+				accessor: (c) => c.datacore?.ranks.gauntletRank ?? 0,
+				Cell: (cell) => cell.original ? <div className='skill-stats-div'>{cell.original.datacore?.ranks.gauntletRank ?? ''}</div> : <span />,
+			},
 			{
 				id: 'traits',
 				Header: 'Traits',

@@ -18,7 +18,7 @@ type FuelTankItem = {
 	name: string;
 	quantity: number;
 	id: number;
-	type: string;
+	type: number;
 	rarity: number;
 	item: ItemData;
 };
@@ -97,6 +97,7 @@ export const ReplicatorDialog = (props:{
 			props.onClose();
 		}
 	}
+
 	function reloadItems(fuelConfig: string) {
 		if (fuelConfig === 'everything') {
 			setFuelList(STTApi.items);
@@ -105,9 +106,9 @@ export const ReplicatorDialog = (props:{
 		} else if (fuelConfig === 'extraItems') {
 			setFuelList(computeExtraItems());
 		} else if (fuelConfig === 'trainers') {
-			setFuelList(STTApi.items.filter(item => item.type === 'Crew experience training'));
+			setFuelList(STTApi.items.filter(item => item.type === 7));
 		} else if (fuelConfig === 'rations') {
-			setFuelList(STTApi.items.filter(item => item.type === 'Replicator ration'));
+			setFuelList(STTApi.items.filter(item => item.type === 9));
 		} else {
 			setFuelList([]);
 		}
@@ -427,11 +428,13 @@ export const ReplicatorDialog = (props:{
 		</div>
 
 		<DialogFooter>
+			{/* #!if allowPush == true */}
 			<PrimaryButton
 				onClick={doReplicate}
 				text='Replicate'
 				disabled={!canBeReplicated || fuelTankValue < fuelCost}
 			/>
+			{/* #!endif */}
 			<DefaultButton onClick={closeDialog} text='Cancel' />
 		</DialogFooter>
 	</Dialog>

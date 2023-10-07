@@ -12,7 +12,7 @@ export const ShipList = () => {
 	const [filterText, setFilterText] = React.useState<string>('');
 	const [, imageCacheUpdated] = React.useState<string>('');
 
-	let playerSchematics = STTApi.items.filter(item => item.type === 'Ship schematic'); //was 8
+	let playerSchematics = STTApi.items.filter(item => item.type === 8);
 
 	interface ShipObj {
 		ship: ShipDTO;
