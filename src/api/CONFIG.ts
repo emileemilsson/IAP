@@ -19,7 +19,7 @@ export default class CONFIG {
 
 	// default client_id of the Facebook client - used for login only
 	static readonly CLIENT_ID: string = '322613001274224';
-	static readonly CLIENT_API_VERSION: number = 15; //Need to revalidate DTOs in STTApi.ts when this changes
+	static readonly CLIENT_API_VERSION: number = 21; //Need to revalidate DTOs in STTApi.ts when this changes // was15
 	static readonly CLIENT_VERSION: string = '7.5.3';
 	static readonly CLIENT_PLATFORM: string = 'webgl';
 

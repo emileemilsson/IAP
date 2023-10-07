@@ -66,7 +66,7 @@ export const ReplicatorDialog = (props:{
 			console.log("Can not be replicated " + props.targetArchetype.name);
 			return;
 		}
-		let fuelCost = replicatorFuelCost(props.targetArchetype.type, props.targetArchetype.rarity);
+		let fuelCost = replicatorFuelCost(props.targetArchetype.item_type, props.targetArchetype.rarity);
 		if (!fuelCost) {
 			setCanBeReplicated(false);
 			console.log("Can not be replicated (no fuel cost) " + props.targetArchetype.name);
@@ -79,8 +79,8 @@ export const ReplicatorDialog = (props:{
 		setFuelCost(fuelCost);
 		setCurrencyCost(currencyCost);
 
-		if (props.targetArchetype.type !== 2 && props.targetArchetype.type !== 3 && props.targetArchetype.type !== 9) {
-			setErrorMessage('Item might not replicate, type is ' + CONFIG.REWARDS_ITEM_TYPE[props.targetArchetype.type]);
+		if (props.targetArchetype.item_type !== 2 && props.targetArchetype.item_type !== 3 && props.targetArchetype.item_type !== 9) {
+			setErrorMessage('Item might not replicate, type is ' + CONFIG.REWARDS_ITEM_TYPE[props.targetArchetype.item_type]);
 		}
 
 		reloadItems(fuelconfig);

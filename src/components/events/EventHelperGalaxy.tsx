@@ -155,9 +155,9 @@ function processArchetype(arch: ItemArchetypeDTO | undefined, bestCrew: BonusCre
 	let have = STTApi.items.find(item => item.archetype_id === arch!.id);
 
 	let craftCost = 0;
-	if (arch.type === 3) {
+	if (arch.item_type === 3) {
 		craftCost = STTApi.serverConfig!.config.craft_config.cost_by_rarity_for_component[arch.rarity].amount;
-	} else if (arch.type === 2) {
+	} else if (arch.item_type === 2) {
 		craftCost = STTApi.serverConfig!.config.craft_config.cost_by_rarity_for_equipment[arch.rarity].amount;
 	} else {
 		console.warn('Equipment of unknown type', arch);

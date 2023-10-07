@@ -497,7 +497,7 @@ export interface SkillAggregate {
 
 export interface PlayerResponseDTO {
 	player?: PlayerDTO;
-	item_archetype_cache: {
+	archetype_cache: {
 		archetypes: ItemArchetypeDTO[];
 		id: number;
 	};
@@ -1034,6 +1034,7 @@ export interface ShipSchematicDTO {
 export interface ItemArchetypeDemandDTO {
 	archetype_id: number;
 	count: number;
+
 }
 
 export interface ItemArchetypeDTO {
@@ -1055,7 +1056,8 @@ export interface ItemArchetypeDTO {
 	};
 	short_name?: string;
 	symbol: string;
-	type: number;
+	item_type: number;
+	type: string;
 }
 
 export interface ItemArchetypeSourceDTO {
@@ -1072,6 +1074,7 @@ export interface ItemArchetypeSourceDTO {
 	place: string;
 	/** See CONFIG.ITEM_ARCHETYPE_SOURCE_TYPE */
 	type: number;
+
 }
 
 export interface ItemDTO {
@@ -1319,6 +1322,7 @@ export interface PotentialRewardDTO {
 	quantity: number;
 	rarity: number;
 	type: number; // =0
+
 }
 
 // Can be used for equality comparison to EventDTO.content.content_type

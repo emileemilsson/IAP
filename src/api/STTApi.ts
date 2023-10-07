@@ -230,7 +230,7 @@ export class STTApiClass {
 	}
 
 	get itemArchetypeCache(): { archetypes: ItemArchetypeDTO[]; } {
-		return this._playerData!.item_archetype_cache;
+		return this._playerData!.archetype_cache;
 	}
 
 	get fleetMembers(): FleetMemberDTO[] {
@@ -676,7 +676,7 @@ export class STTApiClass {
 					});
 				}
 
-				if (data.item_archetype_cache) {
+				if (data.archetype_cache) {
 					//TODO
 				}
 			} else if (data.action === 'delete') {
