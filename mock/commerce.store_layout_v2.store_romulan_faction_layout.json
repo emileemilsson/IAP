@@ -1,0 +1,883 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_romulan_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_romulan_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2851,
+                        "symbol": "s_romulan_token",
+                        "item_type": 6,
+                        "name": "Romulan Transmission",
+                        "full_name": "Romulan Transmission",
+                        "flavor": "Spent to acquire Romulan Star Empire faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_romulan_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_romulan_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2851,
+                        "symbol": "s_romulan_token",
+                        "item_type": 6,
+                        "name": "Romulan Transmission",
+                        "full_name": "Romulan Transmission",
+                        "flavor": "Spent to acquire Romulan Star Empire faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_romulan_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 55,
+                        "symbol": "rmor_voyager_crew",
+                        "name": "R'Mor",
+                        "full_name": "Telek R'Mor",
+                        "flavor": "Conducting research near a wormhole, Telek R'Mor agreed to carry a message from the stranded U.S.S. Voyager.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_telekrmor_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_telekrmor_sm" 
+                        },
+                        "rarity": 2,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_telekrmor_full" 
+                        },
+                        "skills":
+                        {
+                            "science_skill":
+                            {
+                                "core": 32,
+                                "range_min": 5,
+                                "range_max": 11 
+                            },
+                            "diplomacy_skill":
+                            {
+                                "core": 26,
+                                "range_min": 4,
+                                "range_max": 9 
+                            },
+                            "security_skill":
+                            {
+                                "core": 13,
+                                "range_min": 2,
+                                "range_max": 6 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "romulan",
+                            "astrophysicist" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 2,
+                            "name": "Solitary Survey",
+                            "symbol": "rmor_voyager_action",
+                            "cooldown": 10,
+                            "initial_cooldown": 10,
+                            "duration": 12,
+                            "bonus_type": 1,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_telekrmor_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 2,
+                                "type": 0,
+                                "amount": 2 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "c13815bcd6de96ff8e5cecf7df34eaf5" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1867,
+                        "symbol": "romulan_disruptor_quality0_equip",
+                        "item_type": 2,
+                        "name": "Disruptor",
+                        "full_name": "Romulan Disruptor",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_disruptor_pistol_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "9": 15 
+                        },
+                        "hash_key": "137756c5a27031453cec35603eba3f83" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 250000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 250000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1282,
+                        "symbol": "romulan_encryption_algorithm_quality2_equip",
+                        "item_type": 2,
+                        "name": "Encryption",
+                        "full_name": "Romulan Encryption Algorithm",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_encryption_algorithum" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "23": 3,
+                            "24": 17 
+                        },
+                        "hash_key": "227fd654e05a407bcc7ccf61f745bbd2" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1879,
+                        "symbol": "star_empire_icon_quality2_equip",
+                        "item_type": 2,
+                        "name": "Icon",
+                        "full_name": "Star Empire Icon",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_star)empire_icon_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "10": 50,
+                            "11": 5 
+                        },
+                        "hash_key": "abca08f07ee421d033382d1ad00c81c5" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1884,
+                        "symbol": "romulan_ale_quality0_equip",
+                        "item_type": 2,
+                        "name": "Ale",
+                        "full_name": "Romulan Ale",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_ale_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "7": 0,
+                            "8": 4,
+                            "19": 0,
+                            "20": 4 
+                        },
+                        "hash_key": "5fa2c345f6224d32be8198d26fa31ff5" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1885,
+                        "symbol": "romulan_ale_quality1_equip",
+                        "item_type": 2,
+                        "name": "Ale",
+                        "full_name": "Romulan Ale",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_ale_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "7": 1,
+                            "8": 9,
+                            "19": 1,
+                            "20": 9 
+                        },
+                        "hash_key": "136fdd60917cecfce1b26ca9c05c7546" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 250000 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_romulan" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 250000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 179,
+                        "symbol": "optronic_circuit_quality3_compon",
+                        "item_type": 3,
+                        "name": "Optronics",
+                        "full_name": "Optronic Circuit",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/optronic_circuit_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 3,
+                        "hash_key": "e02cc000edaa903372fc9d613494c155" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_romulan" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_romulan" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2671,
+                        "symbol": "reman_knife_quality0_equip",
+                        "item_type": 2,
+                        "name": "Knife",
+                        "full_name": "Reman Knife",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/reman_knife_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 2 
+                        },
+                        "hash_key": "3d591d5aeb9d48611a063d5811e31479" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_romulan" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 125 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_romulan" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 125 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 208,
+                        "symbol": "emitter_crystal_quality2_compon",
+                        "item_type": 3,
+                        "name": "Emitter",
+                        "full_name": "Emitter Crystal",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/emitter_crystal_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "hash_key": "90fad1923612101b2854d3c2db43a36e" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_romulan" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_romulan_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_romulan" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "romulan_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1868,
+                        "symbol": "romulan_disruptor_quality1_equip",
+                        "item_type": 2,
+                        "name": "Disruptor",
+                        "full_name": "Romulan Disruptor",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/romulan_disruptor_pistol_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "9": 40 
+                        },
+                        "hash_key": "bd0d2c76c91c91833e6d25a32d89b4fa" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_romulan" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "romulan_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

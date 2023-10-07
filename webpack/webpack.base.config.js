@@ -18,6 +18,9 @@ module.exports = function(targetEnv, devEnv) {
 	let isWeb = targetEnv === 'web' || targetEnv === 'webtest';
 	//console.log('t:' + targetEnv + ' d?:' + devEnv + ' de:' + devElectron + ' w:' + isWeb);
 
+	// Allow push to STT servers only in dev mode (web build is experimental, so allow it also)
+	let allowPush = devEnv || isWeb;
+
 	let config = {
 		entry: SRC_DIR + '/index.js',
 		output: {
@@ -31,13 +34,25 @@ module.exports = function(targetEnv, devEnv) {
 			rules: [
 				{
 					test: /\.jsx?$/,
-					use: [{ loader: 'babel-loader' }, { loader: 'webpack-preprocessor-loader', options: { params: { ENV: targetEnv } } }],
+					use: [{ loader: 'babel-loader' },
+						{ loader: 'webpack-preprocessor-loader', options: {
+							params: {
+								ENV: targetEnv,
+								allowPush: allowPush
+							}
+						} }],
 					include: defaultInclude
 				},
 				{
 					test: /\.tsx?$/,
-					use: [{ loader: 'ts-loader' }, { loader: 'webpack-preprocessor-loader', options: { params: { ENV: targetEnv } } }],
-					include: defaultInclude
+					use: [{ loader: 'ts-loader' },
+						{ loader: 'webpack-preprocessor-loader', options: {
+							params: {
+								ENV: targetEnv,
+								allowPush: allowPush
+							}
+						} }],
+				include: defaultInclude
 				},
 				{
 					test: /\.(eot|svg|ttf|woff|woff2)$/,

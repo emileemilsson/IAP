@@ -1,0 +1,1308 @@
+{
+    "action": "ephemeral",
+    "leaderboard": 
+    [
+        {
+            "dbid": 989484893990913,
+            "display_name": "(SST) Repschie",
+            "pid": 5650767,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_scotty_tribbles_icon" 
+            },
+            "level": 99,
+            "uid": 5656640,
+            "rank": 1,
+            "score": 4384662 
+        },
+        {
+            "dbid": 901142475698176,
+            "display_name": "☺Aandraa☺",
+            "pid": 4797289,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_irina_icon" 
+            },
+            "level": 80,
+            "uid": 4803150,
+            "rank": 2,
+            "score": 1472757 
+        },
+        {
+            "dbid": 673823997030400,
+            "display_name": "------ JOIN OUR FLEET ------",
+            "pid": 363733,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_willscarletworf_icon" 
+            },
+            "level": 92,
+            "uid": 363742,
+            "rank": 3,
+            "score": 1144827 
+        },
+        {
+            "dbid": 1084260325941250,
+            "display_name": "rikersumimasen{{wm}}",
+            "pid": 6557700,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_riker_nemesis_icon" 
+            },
+            "level": 80,
+            "uid": 6563716,
+            "rank": 4,
+            "score": 1069587 
+        },
+        {
+            "dbid": 709457562669056,
+            "display_name": "[G5618] Schmolli*Wolli",
+            "pid": 1647360,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_mara_icon" 
+            },
+            "level": 84,
+            "uid": 1647406,
+            "rank": 5,
+            "score": 1019977 
+        },
+        {
+            "dbid": 672784366006272,
+            "display_name": "[FF] Founder",
+            "pid": 246640,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_femalechangeling_icon" 
+            },
+            "level": 99,
+            "uid": 246649,
+            "rank": 6,
+            "score": 1004617 
+        },
+        {
+            "dbid": 894547130925056,
+            "display_name": "[G5618] InRansito",
+            "pid": 4726745,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_worf_ageofsail_icon" 
+            },
+            "level": 89,
+            "uid": 4732588,
+            "rank": 7,
+            "score": 976994 
+        },
+        {
+            "dbid": 790258506788864,
+            "display_name": "Big Poppa Pump {T.L.W}",
+            "pid": 3483964,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_riker_caveman_icon" 
+            },
+            "level": 95,
+            "uid": 3484342,
+            "rank": 8,
+            "score": 973385 
+        },
+        {
+            "dbid": 686514801614849,
+            "display_name": "[G5618] Norwin_Y",
+            "pid": 701665,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_spock_fugitive_icon" 
+            },
+            "level": 87,
+            "uid": 701675,
+            "rank": 9,
+            "score": 940268 
+        },
+        {
+            "dbid": 735311216988160,
+            "display_name": "[NoT] Chum Lang Hi",
+            "pid": 2152014,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_mugato_icon" 
+            },
+            "level": 92,
+            "uid": 2152388,
+            "rank": 10,
+            "score": 922106 
+        },
+        {
+            "dbid": 895315096715264,
+            "display_name": "=j= Mahree",
+            "pid": 4745197,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_seven_fenris_icon" 
+            },
+            "level": 99,
+            "uid": 4751050,
+            "rank": 11,
+            "score": 914937 
+        },
+        {
+            "dbid": 690030106607618,
+            "display_name": "[TLA] Pike’s Peak",
+            "pid": 791862,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_pike_neweden_icon" 
+            },
+            "level": 99,
+            "uid": 791872,
+            "rank": 12,
+            "score": 907850 
+        },
+        {
+            "dbid": 734450936377344,
+            "display_name": "[10F] Loki",
+            "pid": 2132460,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_watsonlaforge_icon" 
+            },
+            "level": 99,
+            "uid": 2132833,
+            "rank": 13,
+            "score": 869590 
+        },
+        {
+            "dbid": 925712038432768,
+            "display_name": "[SSR] McCloud",
+            "pid": 4985682,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_niners_avatar_icon" 
+            },
+            "level": 96,
+            "uid": 4991547,
+            "rank": 14,
+            "score": 854445 
+        },
+        {
+            "dbid": 801061666889728,
+            "display_name": "[BAD]JimmiZ",
+            "pid": 3712483,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_locutus_icon" 
+            },
+            "level": 99,
+            "uid": 3712861,
+            "rank": 15,
+            "score": 843477 
+        },
+        {
+            "dbid": 981754861166592,
+            "display_name": "=j=Syberthug75",
+            "pid": 5592356,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_worf_ageofsail_icon" 
+            },
+            "level": 99,
+            "uid": 5598227,
+            "rank": 16,
+            "score": 842352 
+        },
+        {
+            "dbid": 818472777838592,
+            "display_name": "[BAD]ZimmiJ",
+            "pid": 4004638,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_mugato_icon" 
+            },
+            "level": 94,
+            "uid": 4005016,
+            "rank": 17,
+            "score": 836171 
+        },
+        {
+            "dbid": 930060397252609,
+            "display_name": "=j= Carpe Diem 7 ",
+            "pid": 5036574,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sevencheesecake_icon" 
+            },
+            "level": 97,
+            "uid": 5042439,
+            "rank": 18,
+            "score": 807067 
+        },
+        {
+            "dbid": 1004562402963456,
+            "display_name": "]-o-[ Jack SEC",
+            "pid": 5760196,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_wesleydressuniform_icon" 
+            },
+            "level": 98,
+            "uid": 5766083,
+            "rank": 19,
+            "score": 804891 
+        },
+        {
+            "dbid": 1215271724065792,
+            "display_name": "[G5618] Moayad",
+            "pid": 7468859,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_data_scrooge_icon" 
+            },
+            "level": 62,
+            "uid": 7474915,
+            "rank": 20,
+            "score": 793562 
+        },
+        {
+            "dbid": 689987967987714,
+            "display_name": "[KM] MECHAlobe",
+            "pid": 790075,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_satans_robot_icon" 
+            },
+            "level": 99,
+            "uid": 790085,
+            "rank": 21,
+            "score": 777408 
+        },
+        {
+            "dbid": 730950438301696,
+            "display_name": "[G5618] Foozer",
+            "pid": 2053918,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_odo_pabst_icon" 
+            },
+            "level": 90,
+            "uid": 2054291,
+            "rank": 22,
+            "score": 756037 
+        },
+        {
+            "dbid": 990185038139393,
+            "display_name": "•CDRE Zippy (V3)",
+            "pid": 5657301,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_obrienpostfirstcontact_icon" 
+            },
+            "level": 85,
+            "uid": 5663174,
+            "rank": 23,
+            "score": 743098 
+        },
+        {
+            "dbid": 768971804385280,
+            "display_name": "Marctec  ÷9IS÷",
+            "pid": 3113945,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_spockmirror_icon" 
+            },
+            "level": 91,
+            "uid": 3114320,
+            "rank": 24,
+            "score": 739608 
+        },
+        {
+            "dbid": 692483655806976,
+            "display_name": "(TAF) KidNamedTrevor",
+            "pid": 844617,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_gorncaptain_icon" 
+            },
+            "level": 87,
+            "uid": 844627,
+            "rank": 25,
+            "score": 737861 
+        },
+        {
+            "dbid": 1133899481669633,
+            "display_name": "Venus Star",
+            "pid": 6929793,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_randyeoman_icon" 
+            },
+            "level": 63,
+            "uid": 6935831,
+            "rank": 26,
+            "score": 722452 
+        },
+        {
+            "dbid": 913356716240898,
+            "display_name": "[G5618] J. Edgar Hoover",
+            "pid": 4874357,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picard_mirror_icon" 
+            },
+            "level": 89,
+            "uid": 4880218,
+            "rank": 27,
+            "score": 716519 
+        },
+        {
+            "dbid": 801159057694722,
+            "display_name": "The Captain Anton Neal",
+            "pid": 3712773,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picardcaptain_icon" 
+            },
+            "level": 85,
+            "uid": 3713151,
+            "rank": 28,
+            "score": 716343 
+        },
+        {
+            "dbid": 754787720613888,
+            "display_name": "Kaen [STU]",
+            "pid": 2868782,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_aleek_om_icon" 
+            },
+            "level": 99,
+            "uid": 2869156,
+            "rank": 29,
+            "score": 709356 
+        },
+        {
+            "dbid": 721065622790146,
+            "display_name": "(GM) Captain Sir Spooky",
+            "pid": 1890280,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_bashir_prince_icon" 
+            },
+            "level": 84,
+            "uid": 1890333,
+            "rank": 30,
+            "score": 696386 
+        },
+        {
+            "dbid": 895927562649602,
+            "display_name": "F. Nightingale",
+            "pid": 4757990,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_obrienwwii_icon" 
+            },
+            "level": 78,
+            "uid": 4763844,
+            "rank": 31,
+            "score": 687854 
+        },
+        {
+            "dbid": 701657643474945,
+            "display_name": "(SST) Maddad",
+            "pid": 1062364,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_doctorchaotica_icon" 
+            },
+            "level": 98,
+            "uid": 1062377,
+            "rank": 32,
+            "score": 670547 
+        },
+        {
+            "dbid": 771108295790593,
+            "display_name": "Horseman3381",
+            "pid": 3153924,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_richardcastillo_icon" 
+            },
+            "level": 88,
+            "uid": 3154299,
+            "rank": 33,
+            "score": 667262 
+        },
+        {
+            "dbid": 870377491488768,
+            "display_name": "[DKA] Piker",
+            "pid": 4537575,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picard_stranded_icon" 
+            },
+            "level": 86,
+            "uid": 4541211,
+            "rank": 34,
+            "score": 660387 
+        },
+        {
+            "dbid": 1060345360309259,
+            "display_name": "[VIP0] TemporalAgent7",
+            "pid": 6286796,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sevencheesecake_icon" 
+            },
+            "level": 91,
+            "uid": 6292799,
+            "rank": 35,
+            "score": 623766 
+        },
+        {
+            "dbid": 976845987704833,
+            "display_name": "Castle",
+            "pid": 5546448,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_kirk_incognito_icon" 
+            },
+            "level": 75,
+            "uid": 5552319,
+            "rank": 36,
+            "score": 617527 
+        },
+        {
+            "dbid": 825270866989057,
+            "display_name": "]-o-[ Rogue Admiral",
+            "pid": 4084036,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_archer_imprinted_icon" 
+            },
+            "level": 90,
+            "uid": 4084414,
+            "rank": 37,
+            "score": 616285 
+        },
+        {
+            "dbid": 681340303785984,
+            "display_name": "[G5618] Lutz Ifer",
+            "pid": 550288,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_pike_neweden_icon" 
+            },
+            "level": 86,
+            "uid": 550297,
+            "rank": 38,
+            "score": 613019 
+        },
+        {
+            "dbid": 811733365489666,
+            "display_name": "Captain Kamikawa",
+            "pid": 3926109,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picard_stranded_icon" 
+            },
+            "level": 91,
+            "uid": 3926487,
+            "rank": 39,
+            "score": 612944 
+        },
+        {
+            "dbid": 745389572308992,
+            "display_name": "Ace Rimmer",
+            "pid": 2690214,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_laforge_interface_icon" 
+            },
+            "level": 99,
+            "uid": 2690588,
+            "rank": 40,
+            "score": 609576 
+        },
+        {
+            "dbid": 706639340326913,
+            "display_name": "Nanak Banak [STU]",
+            "pid": 1331621,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_grilka_icon" 
+            },
+            "level": 83,
+            "uid": 1331649,
+            "rank": 41,
+            "score": 608202 
+        },
+        {
+            "dbid": 806258700214273,
+            "display_name": "[G5618] Muhamet",
+            "pid": 3834451,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picardfirstcontact_icon" 
+            },
+            "level": 86,
+            "uid": 3834829,
+            "rank": 42,
+            "score": 606832 
+        },
+        {
+            "dbid": 819205551996929,
+            "display_name": "=j= Twins",
+            "pid": 4014499,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_duras_sisters_icon" 
+            },
+            "level": 99,
+            "uid": 4014877,
+            "rank": 43,
+            "score": 605041 
+        },
+        {
+            "dbid": 789015632977920,
+            "display_name": "BrianZK",
+            "pid": 3463784,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_pike_acting_icon" 
+            },
+            "level": 87,
+            "uid": 3464162,
+            "rank": 44,
+            "score": 604622 
+        },
+        {
+            "dbid": 689606572810240,
+            "display_name": "[tla] Garrett",
+            "pid": 777719,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_targ_icon" 
+            },
+            "level": 99,
+            "uid": 777729,
+            "rank": 45,
+            "score": 600707 
+        },
+        {
+            "dbid": 764010663235584,
+            "display_name": "÷ Sergius",
+            "pid": 3035670,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_navaar_icon" 
+            },
+            "level": 82,
+            "uid": 3036044,
+            "rank": 46,
+            "score": 599912 
+        },
+        {
+            "dbid": 789109366517760,
+            "display_name": "BRAT BOOMER SST",
+            "pid": 3464727,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_apollo_icon" 
+            },
+            "level": 94,
+            "uid": 3465105,
+            "rank": 47,
+            "score": 599277 
+        },
+        {
+            "dbid": 975918146674688,
+            "display_name": "[PFV] PlayerOne",
+            "pid": 5531376,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sarek_icon" 
+            },
+            "level": 84,
+            "uid": 5537247,
+            "rank": 48,
+            "score": 598332 
+        },
+        {
+            "dbid": 927471334440960,
+            "display_name": "[G5618]Cpt.Ohuraah",
+            "pid": 5012068,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_uhura_lt_icon" 
+            },
+            "level": 83,
+            "uid": 5017933,
+            "rank": 49,
+            "score": 593338 
+        },
+        {
+            "dbid": 695321323335682,
+            "display_name": "Manos Mantzas",
+            "pid": 893106,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_cochranefirstcontact_icon" 
+            },
+            "level": 84,
+            "uid": 893116,
+            "rank": 50,
+            "score": 589661 
+        },
+        {
+            "dbid": 839265186340864,
+            "display_name": "Debjimar *9IS*",
+            "pid": 4228862,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_anij_icon" 
+            },
+            "level": 99,
+            "uid": 4229424,
+            "rank": 51,
+            "score": 581414 
+        },
+        {
+            "dbid": 671619346243584,
+            "display_name": "[G5618] Bananarama",
+            "pid": 15441,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_reed_mirror_icon" 
+            },
+            "level": 89,
+            "uid": 15447,
+            "rank": 52,
+            "score": 579437 
+        },
+        {
+            "dbid": 718899861565440,
+            "display_name": "(KF) KHAN",
+            "pid": 1853566,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_khan_icon" 
+            },
+            "level": 95,
+            "uid": 1853619,
+            "rank": 53,
+            "score": 573894 
+        },
+        {
+            "dbid": 702059949953025,
+            "display_name": "÷ K'retok",
+            "pid": 1095672,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_martokgeneral_icon" 
+            },
+            "level": 79,
+            "uid": 1095688,
+            "rank": 54,
+            "score": 571601 
+        },
+        {
+            "dbid": 672719333670912,
+            "display_name": "(SSR) This Sisko1",
+            "pid": 236734,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sisko_jodmos_icon" 
+            },
+            "level": 89,
+            "uid": 236743,
+            "rank": 55,
+            "score": 569757 
+        },
+        {
+            "dbid": 938055355809792,
+            "display_name": "[RR] Ozzy Is God",
+            "pid": 5112638,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_kol_mekleth_icon" 
+            },
+            "level": 75,
+            "uid": 5118503,
+            "rank": 56,
+            "score": 569122 
+        },
+        {
+            "dbid": 1061527973098508,
+            "display_name": "[RR] caption this",
+            "pid": 6326499,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_quark_rossoff_icon" 
+            },
+            "level": 72,
+            "uid": 6332503,
+            "rank": 57,
+            "score": 568992 
+        },
+        {
+            "dbid": 902806882033666,
+            "display_name": "÷ Richard",
+            "pid": 4807542,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_rios_cristobal_icon" 
+            },
+            "level": 87,
+            "uid": 4813403,
+            "rank": 58,
+            "score": 566512 
+        },
+        {
+            "dbid": 781336316559360,
+            "display_name": "]-o-[ QM Quantum Lept",
+            "pid": 3308757,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_automatedunit3947_icon" 
+            },
+            "level": 98,
+            "uid": 3309135,
+            "rank": 59,
+            "score": 565179 
+        },
+        {
+            "dbid": 1028681479325698,
+            "display_name": "Kib [SST]",
+            "pid": 6016528,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_troi_cowboy_icon" 
+            },
+            "level": 81,
+            "uid": 6022444,
+            "rank": 60,
+            "score": 563741 
+        },
+        {
+            "dbid": 706860692344833,
+            "display_name": "[G5618] M",
+            "pid": 1363964,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_riker_angel_one_icon" 
+            },
+            "level": 82,
+            "uid": 1363992,
+            "rank": 61,
+            "score": 561386 
+        },
+        {
+            "dbid": 731731550892032,
+            "display_name": "T'Kin",
+            "pid": 2073031,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_rikeradmiral_icon" 
+            },
+            "level": 92,
+            "uid": 2073404,
+            "rank": 62,
+            "score": 560241 
+        },
+        {
+            "dbid": 680530934603776,
+            "display_name": "=j= ~ Twillio ~",
+            "pid": 534319,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sevenbluegreyshoulders_icon" 
+            },
+            "level": 95,
+            "uid": 534328,
+            "rank": 63,
+            "score": 559387 
+        },
+        {
+            "dbid": 888420996227072,
+            "display_name": "Lt. Gythgan {{WM}}",
+            "pid": 4687112,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_bashir_dressuniform_icon" 
+            },
+            "level": 84,
+            "uid": 4692572,
+            "rank": 64,
+            "score": 554494 
+        },
+        {
+            "dbid": 672602611441664,
+            "display_name": "Salty Vampire",
+            "pid": 208643,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_kirk_wrathful_icon" 
+            },
+            "level": 99,
+            "uid": 208652,
+            "rank": 65,
+            "score": 546732 
+        },
+        {
+            "dbid": 773552084971520,
+            "display_name": "=j= Heraito Hornblower",
+            "pid": 3193165,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_riker_age_of_sail_icon" 
+            },
+            "level": 99,
+            "uid": 3193540,
+            "rank": 66,
+            "score": 534482 
+        },
+        {
+            "dbid": 751310337032192,
+            "display_name": "RA | TracyDawn",
+            "pid": 2793865,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_troiambassador_icon" 
+            },
+            "level": 63,
+            "uid": 2794239,
+            "rank": 67,
+            "score": 533667 
+        },
+        {
+            "dbid": 939336636555264,
+            "display_name": "÷Stewgold",
+            "pid": 5123810,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_uhurared_icon" 
+            },
+            "level": 81,
+            "uid": 5129675,
+            "rank": 68,
+            "score": 533349 
+        },
+        {
+            "dbid": 808841461239808,
+            "display_name": "[G5618] ChriZ-Mett @recruiting",
+            "pid": 3877355,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sarek_suus_mahna_icon" 
+            },
+            "level": 87,
+            "uid": 3877733,
+            "rank": 69,
+            "score": 531413 
+        },
+        {
+            "dbid": 948745254285316,
+            "display_name": "Redjac",
+            "pid": 5257306,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_bynar_1001_icon" 
+            },
+            "level": 77,
+            "uid": 5263172,
+            "rank": 70,
+            "score": 531268 
+        },
+        {
+            "dbid": 679259224469506,
+            "display_name": "[STFL] Call me Broda",
+            "pid": 493387,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_rikerpoker_icon" 
+            },
+            "level": 89,
+            "uid": 493396,
+            "rank": 71,
+            "score": 530982 
+        },
+        {
+            "dbid": 672326624870401,
+            "display_name": "[PFV] Commander Kching",
+            "pid": 159920,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picard_numberone_icon" 
+            },
+            "level": 97,
+            "uid": 159929,
+            "rank": 72,
+            "score": 525063 
+        },
+        {
+            "dbid": 1127842276499461,
+            "display_name": "{DDM} James Borg. 007 of 9 ",
+            "pid": 6891125,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_locutus_icon" 
+            },
+            "level": 71,
+            "uid": 6897155,
+            "rank": 73,
+            "score": 524821 
+        },
+        {
+            "dbid": 1038480417975297,
+            "display_name": "[SSR] Gilgamesh A. King",
+            "pid": 6088319,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_worf_duchamps_icon" 
+            },
+            "level": 85,
+            "uid": 6094275,
+            "rank": 74,
+            "score": 522282 
+        },
+        {
+            "dbid": 906690681843713,
+            "display_name": "Orneryboy",
+            "pid": 4834731,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_lucero_captain_icon" 
+            },
+            "level": 91,
+            "uid": 4840592,
+            "rank": 75,
+            "score": 518250 
+        },
+        {
+            "dbid": 945923262812160,
+            "display_name": "•§ë• Sarge",
+            "pid": 5209847,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_scottmovievest_icon" 
+            },
+            "level": 99,
+            "uid": 5215713,
+            "rank": 76,
+            "score": 515103 
+        },
+        {
+            "dbid": 817419763073024,
+            "display_name": "Oo-Mox BBTX",
+            "pid": 3992129,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_quark_martian_icon" 
+            },
+            "level": 93,
+            "uid": 3992507,
+            "rank": 77,
+            "score": 515101 
+        },
+        {
+            "dbid": 916278951182338,
+            "display_name": "÷ Nauti Nemo",
+            "pid": 4888924,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_odo_curzon_icon" 
+            },
+            "level": 99,
+            "uid": 4894785,
+            "rank": 78,
+            "score": 511781 
+        },
+        {
+            "dbid": 699897668898819,
+            "display_name": "[KM] Dr. Nick",
+            "pid": 1007154,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_martok_chancellor_icon" 
+            },
+            "level": 99,
+            "uid": 1007165,
+            "rank": 79,
+            "score": 510412 
+        },
+        {
+            "dbid": 1001540101058560,
+            "display_name": "÷ Sir Casti",
+            "pid": 5735285,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_picard_musketeer_icon" 
+            },
+            "level": 99,
+            "uid": 5741168,
+            "rank": 80,
+            "score": 508319 
+        },
+        {
+            "dbid": 961920695582721,
+            "display_name": "KellyKaPOWski [OBS31]",
+            "pid": 5390970,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_seven_tsunkatse_icon" 
+            },
+            "level": 81,
+            "uid": 5396840,
+            "rank": 81,
+            "score": 508227 
+        },
+        {
+            "dbid": 671993390653442,
+            "display_name": "{ACE} Welp-LCDR",
+            "pid": 86348,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_hugh_culber_icon" 
+            },
+            "level": 93,
+            "uid": 86357,
+            "rank": 82,
+            "score": 505282 
+        },
+        {
+            "dbid": 1125949393705992,
+            "display_name": "The Traveler [SA]",
+            "pid": 6878073,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_traveler_icon" 
+            },
+            "level": 78,
+            "uid": 6884103,
+            "rank": 83,
+            "score": 504274 
+        },
+        {
+            "dbid": 881758824181760,
+            "display_name": "*FEDS* La'QuV KoLoTH KLaaRR*",
+            "pid": 4647825,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_worf_future_icon" 
+            },
+            "level": 83,
+            "uid": 4652776,
+            "rank": 84,
+            "score": 503082 
+        },
+        {
+            "dbid": 729635252129792,
+            "display_name": "[QA] Birdy",
+            "pid": 2030505,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sulu_archon_icon" 
+            },
+            "level": 96,
+            "uid": 2030878,
+            "rank": 85,
+            "score": 502939 
+        },
+        {
+            "dbid": 952178144346112,
+            "display_name": "Sevek",
+            "pid": 5286843,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_paris_mutated_icon" 
+            },
+            "level": 76,
+            "uid": 5292710,
+            "rank": 86,
+            "score": 501981 
+        },
+        {
+            "dbid": 727147865219073,
+            "display_name": "[TNS] Sheeana",
+            "pid": 1993047,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_ro_maquis_icon" 
+            },
+            "level": 91,
+            "uid": 1993420,
+            "rank": 87,
+            "score": 500014 
+        },
+        {
+            "dbid": 717040350572545,
+            "display_name": "Captain Klang",
+            "pid": 1825168,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_sisko_jodmos_icon" 
+            },
+            "level": 73,
+            "uid": 1825221,
+            "rank": 88,
+            "score": 499922 
+        },
+        {
+            "dbid": 918723299274753,
+            "display_name": "Fantastika",
+            "pid": 4903906,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_kirktosyellow_icon" 
+            },
+            "level": 92,
+            "uid": 4909767,
+            "rank": 89,
+            "score": 498322 
+        },
+        {
+            "dbid": 702773464215553,
+            "display_name": "Aye Captain",
+            "pid": 1153709,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_emh_president_icon" 
+            },
+            "level": 92,
+            "uid": 1153729,
+            "rank": 90,
+            "score": 498223 
+        },
+        {
+            "dbid": 922056877342720,
+            "display_name": "[TAF]pg738",
+            "pid": 4927070,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_unicorndog_icon" 
+            },
+            "level": 84,
+            "uid": 4932932,
+            "rank": 91,
+            "score": 497938 
+        },
+        {
+            "dbid": 733084214804480,
+            "display_name": "Admiral Archer [FW]",
+            "pid": 2102641,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_archer_testpilot_icon" 
+            },
+            "level": 99,
+            "uid": 2103014,
+            "rank": 92,
+            "score": 495565 
+        },
+        {
+            "dbid": 794998579589120,
+            "display_name": "[G5618] Kanone",
+            "pid": 3583562,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_chakotay_shattered_icon" 
+            },
+            "level": 87,
+            "uid": 3583940,
+            "rank": 93,
+            "score": 493312 
+        },
+        {
+            "dbid": 816667554832385,
+            "display_name": "[SJ] Longbow",
+            "pid": 3984828,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_riker_age_of_sail_icon" 
+            },
+            "level": 84,
+            "uid": 3985206,
+            "rank": 94,
+            "score": 490850 
+        },
+        {
+            "dbid": 699359619698688,
+            "display_name": "Admiral grandiose ",
+            "pid": 989693,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_jadziadaxtos_icon" 
+            },
+            "level": 80,
+            "uid": 989703,
+            "rank": 95,
+            "score": 490519 
+        },
+        {
+            "dbid": 797427655778304,
+            "display_name": "Deckard",
+            "pid": 3646767,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_seven_indignant_icon" 
+            },
+            "level": 94,
+            "uid": 3647145,
+            "rank": 96,
+            "score": 488583 
+        },
+        {
+            "dbid": 791806109765632,
+            "display_name": "÷ Captain Holliday",
+            "pid": 3508964,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_troi_cowboy_icon" 
+            },
+            "level": 90,
+            "uid": 3509342,
+            "rank": 97,
+            "score": 487958 
+        },
+        {
+            "dbid": 803927535239168,
+            "display_name": "Prince of thieves",
+            "pid": 3767122,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_chakotay_mustache_icon" 
+            },
+            "level": 83,
+            "uid": 3767500,
+            "rank": 98,
+            "score": 487387 
+        },
+        {
+            "dbid": 811326142631936,
+            "display_name": "Captain Proton",
+            "pid": 3918964,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_parisproton_icon" 
+            },
+            "level": 79,
+            "uid": 3919342,
+            "rank": 99,
+            "score": 485296 
+        },
+        {
+            "dbid": 786965275402241,
+            "display_name": "(bad)Valkyra",
+            "pid": 3423575,
+            "avatar":
+            {
+                "file": "/crew_icons/cm_spot_avatar_icon" 
+            },
+            "level": 75,
+            "uid": 3423953,
+            "rank": 100,
+            "score": 479928 
+        } 
+    ],
+    "player_rank": 4059,
+    "player_score": 167232 
+}

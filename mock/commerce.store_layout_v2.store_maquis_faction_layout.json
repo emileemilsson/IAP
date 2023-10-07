@@ -1,0 +1,878 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_maquis_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_maquis_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2845,
+                        "symbol": "s_maquis_token",
+                        "item_type": 6,
+                        "name": "Maquis Transmission",
+                        "full_name": "Maquis Transmission",
+                        "flavor": "Spent to acquire Maquis faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_maquis_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_maquis_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2845,
+                        "symbol": "s_maquis_token",
+                        "item_type": 6,
+                        "name": "Maquis Transmission",
+                        "full_name": "Maquis Transmission",
+                        "flavor": "Spent to acquire Maquis faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_maquis_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 1500 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 1500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 4193,
+                        "symbol": "suder_crew",
+                        "name": "Suder",
+                        "full_name": "Lon Suder",
+                        "flavor": "A Betazoid member of the Maquis, Suder successfully channeled his violent tendencies to help retake Voyager from the Kazon.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_sudersabotuer_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_sudersabotuer_sm" 
+                        },
+                        "rarity": 4,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_sudersabotuer_full.png" 
+                        },
+                        "skills":
+                        {
+                            "security_skill":
+                            {
+                                "core": 50,
+                                "range_min": 14,
+                                "range_max": 29 
+                            },
+                            "engineering_skill":
+                            {
+                                "core": 38,
+                                "range_min": 11,
+                                "range_max": 22 
+                            },
+                            "science_skill":
+                            {
+                                "core": 21,
+                                "range_min": 6,
+                                "range_max": 12 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "maquis",
+                            "federation",
+                            "starfleet",
+                            "betazoid",
+                            "brutal",
+                            "botanist",
+                            "saboteur",
+                            "telepath" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 3,
+                            "name": "Control the Violence",
+                            "symbol": "suder_action",
+                            "cooldown": 12,
+                            "initial_cooldown": 12,
+                            "duration": 12,
+                            "bonus_type": 2,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_sudersabotuer_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 0,
+                                "type": 4,
+                                "amount": 1000 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "437dce35c9e5da88f3782d77aac7f05e" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1408,
+                        "symbol": "maquis_security_outfit_quality0_equip",
+                        "item_type": 2,
+                        "name": "Outfit",
+                        "full_name": "Maquis Security Outfit",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/maquis_security_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 2 
+                        },
+                        "hash_key": "4ecb609b36108a70da689429d33c40e9" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1410,
+                        "symbol": "maquis_emblem_quality0_equip",
+                        "item_type": 2,
+                        "name": "Emblem",
+                        "full_name": "Maquis Emblem",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/maquis_emblem_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "10": 15 
+                        },
+                        "hash_key": "85f959b41fbfe58cddbe0223048f0597" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 261,
+                        "symbol": "incense_quality1_compon",
+                        "item_type": 3,
+                        "name": "Incense",
+                        "full_name": "Incense",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/incense_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "hash_key": "e44826aab06d5924f9da3285428bc14f" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 236,
+                        "symbol": "spices_compon",
+                        "item_type": 3,
+                        "name": "Spices",
+                        "full_name": "Spices",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/spices_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "355f4cf48e3ba98335c1e569350e1c18" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1700,
+                        "symbol": "encoded_communique_quality1_equip",
+                        "item_type": 2,
+                        "name": "Communique",
+                        "full_name": "Encoded Communique",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/encryption_algorithm_generic_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "10": 40 
+                        },
+                        "hash_key": "e2b9df3e6c25c61957fdcd1795271754" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_maquis" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1271,
+                        "symbol": "encoded_communique_quality2_equip",
+                        "item_type": 2,
+                        "name": "Communique",
+                        "full_name": "Encoded Communique",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/encryption_algorithm_generic_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "10": 75 
+                        },
+                        "hash_key": "aacc258195497adbd3ab74b1cbc031e3" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_maquis" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_maquis" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2276,
+                        "symbol": "cobalt_diselenide_quality1_equip",
+                        "item_type": 2,
+                        "name": "Weapon",
+                        "full_name": "Cobalt Diselenide Weapon",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kobalt_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "12": 25 
+                        },
+                        "hash_key": "c4e849b4964f7467eeccfe6d591b1872" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_maquis" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_maquis" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 266,
+                        "symbol": "clothing_pattern_compon",
+                        "item_type": 3,
+                        "name": "Pattern",
+                        "full_name": "Clothing Pattern",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/civilian_outfit_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "fd7e13355cc8ae69e7b4bf49247938f4" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_maquis" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_maquis_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 250000 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_maquis" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 250000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "maquis_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1418,
+                        "symbol": "maquis_pistol_quality2_equip",
+                        "item_type": 2,
+                        "name": "Pistol",
+                        "full_name": "Maquis Pistol",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/maquis_pistol_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "23": 3,
+                            "24": 17 
+                        },
+                        "hash_key": "5c11f06f6c359b2d70361a03d879dfc0" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_maquis" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "maquis_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

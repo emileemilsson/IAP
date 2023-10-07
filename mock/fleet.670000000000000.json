@@ -1,0 +1,27 @@
+{
+    "action": "ephemeral",
+    "fleet":
+    {
+        "id": 670000000000000,
+        "name": "Friendly Fleet",
+        "enrollment": "OPEN",
+        "description": "Fun fleet of fun folks",
+        "motd": "Friendly Fleet Message of the day",
+        "chatchannels":
+        {
+            "a": "guild_group_a_670000000000000",
+            "o": "guild_group_o_670000000000000"
+        },
+        "maxsize": 50,
+        "cursize": 3,
+        "created": 1453000000000,
+        "rlevel": 0,
+        "sinsignia": "badge1",
+        "nicon_index": 11,
+        "nleader_player_dbid": 674000000000000,
+        "nstarbase_level": 134,
+        "nleader_login": 1585400000,
+        "slabel": "FriendlyFleet",
+        "nmin_level": 10
+    }
+}

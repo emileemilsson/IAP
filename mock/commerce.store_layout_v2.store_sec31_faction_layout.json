@@ -1,0 +1,872 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_sec31_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_sec31_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 1000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2850,
+                        "symbol": "s_sec31_token",
+                        "item_type": 6,
+                        "name": "Section 31 Transmission",
+                        "full_name": "Section 31 Transmission",
+                        "flavor": "Spent to acquire Section 31 faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_section_31_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_sec31_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2850,
+                        "symbol": "s_sec31_token",
+                        "item_type": 6,
+                        "name": "Section 31 Transmission",
+                        "full_name": "Section 31 Transmission",
+                        "flavor": "Spent to acquire Section 31 faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_section_31_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 1500 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 1500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 3880,
+                        "symbol": "harris_spy_crew",
+                        "name": "Harris",
+                        "full_name": "Agent Harris",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_harris_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_harris_sm" 
+                        },
+                        "rarity": 4,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_harris_full" 
+                        },
+                        "skills":
+                        {
+                            "command_skill":
+                            {
+                                "core": 57,
+                                "range_min": 14,
+                                "range_max": 29 
+                            },
+                            "diplomacy_skill":
+                            {
+                                "core": 41,
+                                "range_min": 11,
+                                "range_max": 22 
+                            },
+                            "security_skill":
+                            {
+                                "core": 21,
+                                "range_min": 6,
+                                "range_max": 12 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "human",
+                            "starfleet",
+                            "brutal",
+                            "undercover_operative",
+                            "resourceful",
+                            "section31" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 3,
+                            "name": "Adjust Your Comfort Level",
+                            "symbol": "harris_spy_action",
+                            "cooldown": 12,
+                            "initial_cooldown": 12,
+                            "duration": 12,
+                            "bonus_type": 2,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_harris_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 2,
+                                "type": 4,
+                                "amount": 1250 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "f78120acf867da2654209d17ba0ba517" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_free_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1110,
+                        "symbol": "security_codes_quality1_equip",
+                        "item_type": 2,
+                        "name": "Codes",
+                        "full_name": "Security Codes",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/starfleet_security_code_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "22": 5 
+                        },
+                        "hash_key": "9ae4e2da273abf532d8145d8be8bead5" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_free_02_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 171,
+                        "symbol": "isolinear_chips_quality1_compon",
+                        "item_type": 3,
+                        "name": "Isolinear",
+                        "full_name": "Isolinear Chips",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/isolinear_chips_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "hash_key": "1cd25b76919ac7503a8e0ceda692de55" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_free_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1382,
+                        "symbol": "holoprogram_quality0_equip",
+                        "item_type": 2,
+                        "name": "Holoprogram",
+                        "full_name": "Holoprogram",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/holostory_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "10": 15 
+                        },
+                        "hash_key": "cdb3824bd96a3b0343fdb4e467c356dd" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_free_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 510,
+                        "symbol": "security_codes_quality0_equip",
+                        "item_type": 2,
+                        "name": "Codes",
+                        "full_name": "Security Codes",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/starfleet_security_code_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "22": 2 
+                        },
+                        "hash_key": "adb98844ea62693dc98302aea3ddec28" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_free_05_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 50,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 200 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 200 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_free_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2877,
+                        "symbol": "nova_ship_schematic",
+                        "item_type": 8,
+                        "name": "Nova Class Schematic",
+                        "full_name": "Nova Class Schematic",
+                        "flavor": "Used to build and upgrade Nova Class.",
+                        "icon":
+                        {
+                            "file": "/schematics/fed_nova" 
+                        },
+                        "quantity": 50,
+                        "rarity": 2,
+                        "hash_key": "3d94f8f2a90984f5888fe9acfc1a7c5a" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_bonus_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_sec31" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 1382,
+                        "symbol": "holoprogram_quality0_equip",
+                        "item_type": 2,
+                        "name": "Holoprogram",
+                        "full_name": "Holoprogram",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/holostory_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "10": 15 
+                        },
+                        "hash_key": "5395a3725f0d3a70c833f6de81ae9263" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_sec31" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_bonus_02_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_sec31" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2042,
+                        "symbol": "covert_contacts_quality1_equip",
+                        "item_type": 2,
+                        "name": "Contacts",
+                        "full_name": "Covert Contacts",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/covert_contacts_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "10": 25,
+                            "11": 3 
+                        },
+                        "hash_key": "f3f06affed3f7cffa18aed87cfd071ac" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_sec31" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_bonus_03_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_sec31" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 195,
+                        "symbol": "interlink_quality1_compon",
+                        "item_type": 3,
+                        "name": "Interlink",
+                        "full_name": "Interlink",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/interlink_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "hash_key": "59c7e944ec3b901f0dc44b8d1c533e8a" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_sec31" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_section31_bonus_04_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_sec31" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "section31_shop_bonus_tier1_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 194,
+                        "symbol": "interlink_compon",
+                        "item_type": 3,
+                        "name": "Interlink",
+                        "full_name": "Interlink",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/interlink_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "f0cb8d3386f8ee193bfb5afc0a496a69" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_sec31" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "section31_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]

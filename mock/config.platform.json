@@ -1,0 +1,2586 @@
+{
+    "action": "update",
+    "config":
+    {
+        "id": 0,
+        "vip":
+        {
+            "points_for_level": 
+            [
+                0,
+                150,
+                250,
+                500,
+                1000,
+                1500,
+                2500,
+                4000,
+                5000,
+                7000,
+                9000,
+                12000,
+                15000,
+                25000,
+                50000 
+            ],
+            "values":
+            {
+                "bonus_premium_purchasable": 
+                [
+                    0,
+                    10,
+                    10,
+                    10,
+                    10,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    40,
+                    40,
+                    40,
+                    40,
+                    50 
+                ],
+                "minimum_crew_level_for_avatar": 
+                [
+                    40,
+                    40,
+                    40,
+                    40,
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1 
+                ],
+                "bonus_nonpremium": 
+                [
+                    0,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130,
+                    140 
+                ],
+                "energy_exchanges_per_day": 
+                [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16 
+                ],
+                "cadet_ticket_exchanges_per_day": 
+                [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16 
+                ],
+                "pvp_ticket_exchanges_per_day": 
+                [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16 
+                ],
+                "scan_speedups_per_day": 
+                [
+                    0,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13 
+                ],
+                "event_tickets": 
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1 
+                ],
+                "crew_limit_bonus": 
+                [
+                    0,
+                    0,
+                    10,
+                    10,
+                    20,
+                    20,
+                    35,
+                    35,
+                    55,
+                    55,
+                    75,
+                    75,
+                    95,
+                    95,
+                    115 
+                ],
+                "shared_crew_limit": 
+                [
+                    1,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2 
+                ],
+                "replicator_uses": 
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    4,
+                    5 
+                ] 
+            },
+            "unlocks":
+            {
+                "warp_1":
+                {
+                    "level": 0,
+                    "name": "Warp" 
+                },
+                "warp_10":
+                {
+                    "level": 3,
+                    "name": "Warp 10" 
+                } 
+            } 
+        },
+        "trait_names":
+        {
+            "advocate": "Advocate",
+            "aenar": "Aenar",
+            "ambassador": "Ambassador",
+            "andorian": "Andorian",
+            "android": "Android",
+            "angosian": "Angosian",
+            "archon": "Archon",
+            "artist": "Artist",
+            "argelian": "Argelian",
+            "astronomer": "Astronomer",
+            "astrophysicist": "Astrophysicist",
+            "athlete": "Athlete",
+            "augment": "Augments",
+            "aurelian": "Aurelian",
+            "automated_unit": "Automated Unit",
+            "baku": "Ba'ku",
+            "bajoran": "Bajoran",
+            "bartender": "Bartender",
+            "barzan": "Barzan",
+            "baul": "Ba'ul",
+            "benzite": "Benzite",
+            "betazoid": "Betazoid",
+            "boomer": "Boomer",
+            "borg": "Borg",
+            "botanist": "Botanist",
+            "brat": "Brat",
+            "breen": "Breen",
+            "brunali": "Brunali",
+            "brutal": "Brutal",
+            "bynar": "Bynar",
+            "cardassian": "Cardassian",
+            "caregiver": "Caregiver",
+            "casual": "Casual",
+            "cetacean_biologist": "Cetacean Biologist",
+            "chameloid": "Chameloid",
+            "chancellor": "Chancellor",
+            "changeling": "Changeling",
+            "chef": "Chef",
+            "civilian": "Civilian",
+            "clone": "Clone",
+            "communicator": "Communicator",
+            "control": "Control",
+            "constable": "Constable",
+            "costumed": "Costumed",
+            "counselor": "Counselor",
+            "courier": "Courier",
+            "crafty": "Crafty",
+            "criminal": "Criminal",
+            "cultural_figure": "Cultural Figure",
+            "cursed": "Cursed",
+            "cyberneticist": "Cyberneticist",
+            "dahar_master": "Dahar Master",
+            "deltan": "Deltan",
+            "denobulan": "Denobulan",
+            "desperate": "Desperate",
+            "diplomat": "Diplomat",
+            "doctor": "Physician",
+            "dominion": "Dominion",
+            "dosi": "Dosi",
+            "duelist": "Duelist",
+            "edosian": "Edosian",
+            "efrosian": "Efrosian",
+            "elaurian": "El-Aurian",
+            "elaysian": "Elaysian",
+            "empath": "Empath",
+            "empress": "Empress",
+            "engineer": "Engineer",
+            "engineered": "Engineered",
+            "evolved": "Evolved",
+            "excalbian": "Excalbian",
+            "exoarchaeology": "Exoarchaeology",
+            "exobiology": "Exobiology",
+            "exomycologist": "Exomycologist",
+            "explorer": "Explorer",
+            "federation": "Federation",
+            "ferengi": "Ferengi",
+            "gambler": "Gambler",
+            "gardener": "Gardener",
+            "geneticist": "Geneticist",
+            "geologist": "Geologist",
+            "gorn": "Gorn",
+            "hero": "Hero",
+            "high_command": "High Command",
+            "hirogen": "Hirogen",
+            "hologram": "Hologram",
+            "human": "Human",
+            "hunter": "Hunter",
+            "imperial_guard": "Imperial Guard",
+            "innovator": "Innovator",
+            "inspiring": "Inspiring",
+            "interrogator": "Interrogator",
+            "investigator": "Investigator",
+            "jahsepp": "jahSepp",
+            "jemhadar": "Jem'hadar",
+            "jury_rigger": "Jury Rigger",
+            "kai": "Kai",
+            "kazon": "Kazon",
+            "kaelon": "Kaelon",
+            "kalandan": "Kalandan",
+            "kca": "Klingon-Cardassian Alliance",
+            "kelpien": "Kelpien",
+            "klingon": "Klingon",
+            "ktarian": "Ktarian",
+            "kraylor": "Kraylor",
+            "kriosian": "Kriosian",
+            "krenim": "Krenim",
+            "loqueeque": "Loque'eque",
+            "lord": "Lord",
+            "lurian": "Lurian",
+            "m113_creature": "M-113 Creature",
+            "maco": "MACO",
+            "malon": "Malon",
+            "maquis": "Maquis",
+            "marksman": "Marksman",
+            "maverick": "Maverick",
+            "merchant": "Merchant",
+            "mimetic_symbiote": "Mimetic Symbiote",
+            "mintakan": "Mintakan",
+            "mirror_universe": "Mirror Universe",
+            "multi_dimensional": "Multi-Dimensional",
+            "musician": "Musician",
+            "mylean": "Mylean",
+            "mugato": "Mugato",
+            "nacene": "Nacene",
+            "nakuhl": "Na'kuhl",
+            "nausicaan": "Nausicaan",
+            "neurologist": "Neurologist",
+            "nurse": "Nurse",
+            "obsidian_order": "Obsidian Order",
+            "ocampa": "Ocampa",
+            "orion": "Orion",
+            "pandronian": "Pandronian",
+            "pilot": "Pilot",
+            "presage": "Presage",
+            "president": "President",
+            "primal": "Primal",
+            "prisoner": "Prisoner",
+            "probe": "Probe",
+            "prodigy": "Prodigy",
+            "prophet": "Prophet",
+            "q": "Q Continuum",
+            "quantum_mechanics": "Quantum Mechanics",
+            "ramatis_3_native": "Ramatis III Native",
+            "reman": "Reman",
+            "resourceful": "Resourceful",
+            "rich": "Rich",
+            "risian": "Risian",
+            "romantic": "Romantic",
+            "romulan": "Romulan",
+            "royalty": "Royalty",
+            "saboteur": "Saboteur",
+            "scientist": "Scientist",
+            "scoundrel": "Scoundrel",
+            "section31": "Section 31",
+            "senator": "Senator",
+            "shapeshifter": "Shapeshifter",
+            "shepherd": "Shepherd",
+            "silicon_lifeform": "Silicon Lifeform",
+            "smuggler": "Smuggler",
+            "sona": "Son'a",
+            "special_envoy": "Special Envoy",
+            "species_8472": "Species 8472",
+            "spiritual": "Spiritual",
+            "spy": "Spy",
+            "starfleet": "Starfleet",
+            "suliban": "Suliban",
+            "survivalist": "Survivalist",
+            "syrrannite": "Syrrannite",
+            "tactician": "Tactician",
+            "tailor": "Tailor",
+            "talaxian": "Talaxian",
+            "talosian": "Talosian",
+            "tal_shiar": "Tal Shiar",
+            "tamarian": "Tamarian",
+            "taresian": "Taresian",
+            "telekinetic": "Telekinetic",
+            "telepath": "Telepath",
+            "temporal_agent": "Temporal Agent",
+            "terran_empire": "Terran Empire",
+            "terran_rebellion": "Terran Rebellion",
+            "terrellian": "Terrellian",
+            "theoretical_engineer": "Theoretical Engineer",
+            "thief": "Thief",
+            "tholian": "Tholian",
+            "timekeeper": "Timekeeper",
+            "tkon": "Tkon",
+            "torchbearer": "Torchbearer",
+            "tosk": "Tosk",
+            "trill": "Trill",
+            "undercover_operative": "Undercover Operative",
+            "vedek": "Vedek",
+            "veteran": "Veteran",
+            "vidiian": "Vidiian",
+            "villain": "Villain",
+            "vorta": "Vorta",
+            "voth": "Voth",
+            "vulcan": "Vulcan",
+            "warp_theorist": "Warp Theorist",
+            "warrior": "Warrior",
+            "writer": "Writer",
+            "xahean": "Xahean",
+            "xenoanthropology": "Xenoanthropology",
+            "xindi": "Xindi",
+            "zhiantara": "Zhian'tara",
+            "linguist": "Linguist",
+            "zahl": "Zahl",
+            "beanlike": "Beanlike",
+            "firefighter": "Firefighter",
+            "cool": "Cool",
+            "handsome": "Handsome" 
+        },
+        "ship_trait_names":
+        {
+            "hirogen": "Hirogen",
+            "borg": "Borg",
+            "federation": "Federation",
+            "ferengi": "Ferengi",
+            "cardassian": "Cardassian",
+            "klingon": "Klingon",
+            "romulan": "Romulan",
+            "terran": "Terran",
+            "maquis": "Maquis",
+            "dominion": "Dominion",
+            "andorian": "Andorian",
+            "orion_syndicate": "Orion Syndicate",
+            "vulcan": "Vulcan",
+            "breen": "Breen",
+            "warship": "Warship",
+            "cloaking_device": "Cloaking Device",
+            "battle_cruiser": "Battlecruiser",
+            "explorer": "Explorer",
+            "fighter": "Fighter",
+            "scout": "Scout",
+            "transwarp": "Transwarp Drive",
+            "ruthless": "Ruthless",
+            "war_veteran": "War Veteran",
+            "emp": "Electromagnetic Pulse",
+            "historic": "Historic",
+            "pioneer": "Pioneer",
+            "spore_drive": "Spore Drive",
+            "hologram": "Hologram",
+            "xindi": "Xindi",
+            "reman": "Reman" 
+        },
+        "crew_exp_trainings": 
+        [
+            {
+                "id": 2856,
+                "symbol": "small_training",
+                "type": 7,
+                "name": "Basic Survival Training",
+                "icon":
+                {
+                    "file": "/items/exp/exp_bundle01" 
+                },
+                "flavor": "Increases crew XP by 10.",
+                "rarity": 1,
+                "item_sources": 
+                [
+                    {
+                        "type": 1,
+                        "id": 2842,
+                        "name": "Augment Transmission",
+                        "energy_quotient": 0.26,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2843,
+                        "name": "Klingon Empire Transmission",
+                        "energy_quotient": 0.26,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2844,
+                        "name": "Bajoran Transmission",
+                        "energy_quotient": 0.32,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2845,
+                        "name": "Maquis Transmission",
+                        "energy_quotient": 0.32,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2846,
+                        "name": "Cardassian Union Transmission",
+                        "energy_quotient": 0.32,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2847,
+                        "name": "Ferengi Traditionalists Transmission",
+                        "energy_quotient": 0.32,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2848,
+                        "name": "Ferengi Alliance Transmission",
+                        "energy_quotient": 0.34,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2849,
+                        "name": "Terran Empire Transmission",
+                        "energy_quotient": 0.28,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2850,
+                        "name": "Section 31 Transmission",
+                        "energy_quotient": 0.28,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2851,
+                        "name": "Romulan Transmission",
+                        "energy_quotient": 0.28,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2852,
+                        "name": "Klingon-Cardassian Alliance Transmission",
+                        "energy_quotient": 0.28,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2853,
+                        "name": "Hirogen Transmission",
+                        "energy_quotient": 0.26,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2854,
+                        "name": "Dominion Transmission",
+                        "energy_quotient": 0.26,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 2855,
+                        "name": "Federation Transmission",
+                        "energy_quotient": 0.24,
+                        "chance_grade": 5 
+                    },
+                    {
+                        "type": 1,
+                        "id": 9547,
+                        "name": "Borg Transmission",
+                        "energy_quotient": 0.2,
+                        "chance_grade": 5 
+                    } 
+                ],
+                "short_name": "Training" 
+            },
+            {
+                "id": 2857,
+                "symbol": "medium_production_training",
+                "type": 7,
+                "name": "Elementary Flight Training",
+                "icon":
+                {
+                    "file": "/items/exp/exp_bundle02" 
+                },
+                "flavor": "Increases crew XP by 25.",
+                "rarity": 2,
+                "item_sources": [],
+                "short_name": "Training" 
+            },
+            {
+                "id": 2858,
+                "symbol": "large_production_training",
+                "type": 7,
+                "name": "Intermediate Command Training",
+                "icon":
+                {
+                    "file": "/items/exp/exp_bundle03" 
+                },
+                "flavor": "Increases crew XP by 100.",
+                "rarity": 3,
+                "item_sources": [],
+                "short_name": "Training" 
+            },
+            {
+                "id": 2859,
+                "symbol": "huge_production_training",
+                "type": 7,
+                "name": "Advanced Tactical Training",
+                "icon":
+                {
+                    "file": "/items/exp/exp_bundle04" 
+                },
+                "flavor": "Increases crew XP by 500.",
+                "rarity": 4,
+                "item_sources": [],
+                "short_name": "Training" 
+            },
+            {
+                "id": 2860,
+                "symbol": "mega_production_training",
+                "type": 7,
+                "name": "Dynamic Officer Training",
+                "icon":
+                {
+                    "file": "/items/exp/exp_bundle05" 
+                },
+                "flavor": "Increases crew XP by 2500.",
+                "rarity": 5,
+                "item_sources": [],
+                "short_name": "Training" 
+            } 
+        ],
+        "honorable_citations": 
+        [
+            {
+                "id": 5392,
+                "symbol": "honorable_citation_quality2",
+                "type": 10,
+                "name": "Uncommon Honorable Citation",
+                "icon":
+                {
+                    "file": "/items/consumables/honorable_citation_item_0" 
+                },
+                "flavor": "Fuse this item with an Uncommon crew to increase their star rating by one up to their maximum.",
+                "rarity": 2,
+                "item_sources": [],
+                "short_name": "Hon. Citation" 
+            },
+            {
+                "id": 5393,
+                "symbol": "honorable_citation_quality3",
+                "type": 10,
+                "name": "Rare Honorable Citation",
+                "icon":
+                {
+                    "file": "/items/consumables/honorable_citation_item_1" 
+                },
+                "flavor": "Fuse this item with Rare crew to increase their star rating by one up to their maximum.",
+                "rarity": 3,
+                "item_sources": [],
+                "short_name": "Hon. Citation" 
+            },
+            {
+                "id": 5394,
+                "symbol": "honorable_citation_quality4",
+                "type": 10,
+                "name": "Super Rare Honorable Citation",
+                "icon":
+                {
+                    "file": "/items/consumables/honorable_citation_item_2" 
+                },
+                "flavor": "Fuse this item with Super Rare crew to increase their star rating by one up to their maximum.",
+                "rarity": 4,
+                "item_sources": [],
+                "short_name": "Hon. Citation" 
+            },
+            {
+                "id": 5395,
+                "symbol": "honorable_citation_quality5",
+                "type": 10,
+                "name": "Legendary Honorable Citation",
+                "icon":
+                {
+                    "file": "/items/consumables/honorable_citation_item_3" 
+                },
+                "flavor": "Fuse this item with Legendary crew to increase their star rating by one up to their maximum.",
+                "rarity": 5,
+                "item_sources": [],
+                "short_name": "Hon. Citation" 
+            } 
+        ],
+        "faction_config":
+        {
+            "reputation_buckets": 
+            [
+                {
+                    "name": "Despised",
+                    "upper_bound": -926,
+                    "status": "despised" 
+                },
+                {
+                    "name": "Hostile",
+                    "upper_bound": -775,
+                    "status": "hostile" 
+                },
+                {
+                    "name": "Neutral",
+                    "upper_bound": -474,
+                    "status": "neutral" 
+                },
+                {
+                    "name": "Friendly",
+                    "upper_bound": 127,
+                    "status": "friendly" 
+                },
+                {
+                    "name": "Allied",
+                    "upper_bound": 978,
+                    "status": "allied" 
+                },
+                {
+                    "name": "Honored",
+                    "upper_bound": null,
+                    "status": "honored" 
+                } 
+            ] 
+        },
+        "platform":
+        {
+            "realm":
+            {
+                "cid": 326859044761600,
+                "pid": "sttprod" 
+            },
+            "commerce":
+            {
+                "store_fronts": 
+                [
+                    {
+                        "name": "currency",
+                        "symbol": "store_default_currency_layout" 
+                    },
+                    {
+                        "name": "crew",
+                        "symbol": "store_default_timeportal_layout" 
+                    },
+                    {
+                        "name": "faction",
+                        "symbol": "store_default_faction_layout" 
+                    },
+                    {
+                        "name": "special_offer",
+                        "symbol": "store_layout_special_offer" 
+                    },
+                    {
+                        "name": "hud_special_offer",
+                        "symbol": "mini_offers" 
+                    },
+                    {
+                        "name": "event",
+                        "symbol": "store_the_daystrom_award_event_layout" 
+                    },
+                    {
+                        "name": "consumables",
+                        "symbol": "store_default_consumables_layout" 
+                    },
+                    {
+                        "name": "honor",
+                        "symbol": "store_default_honor_layout" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_0",
+                        "symbol": "standalone_premium_bundle_0" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_1",
+                        "symbol": "standalone_premium_bundle_1" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_2",
+                        "symbol": "standalone_premium_bundle_2" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_3",
+                        "symbol": "standalone_premium_bundle_3" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_4",
+                        "symbol": "standalone_premium_bundle_4" 
+                    } 
+                ],
+                "store_fronts_v2": 
+                [
+                    {
+                        "name": "crew",
+                        "symbol": "crew" 
+                    },
+                    {
+                        "name": "honor",
+                        "symbol": "honor" 
+                    },
+                    {
+                        "name": "consumables",
+                        "symbol": "consumables" 
+                    },
+                    {
+                        "name": "currency",
+                        "symbol": "currency" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_0",
+                        "symbol": "standalone_premium_bundle_0" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_1",
+                        "symbol": "standalone_premium_bundle_1" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_2",
+                        "symbol": "standalone_premium_bundle_2" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_3",
+                        "symbol": "standalone_premium_bundle_3" 
+                    },
+                    {
+                        "name": "standalone_premium_bundle_4",
+                        "symbol": "standalone_premium_bundle_4" 
+                    },
+                    {
+                        "name": "store_layout_npe",
+                        "symbol": "store_layout_npe" 
+                    },
+                    {
+                        "name": "hud_special_offer",
+                        "symbol": "hud_special_offer" 
+                    },
+                    {
+                        "name": "special_offer",
+                        "symbol": "special_offer" 
+                    },
+                    {
+                        "name": "adaptive_offer",
+                        "symbol": "adaptive_offer" 
+                    },
+                    {
+                        "name": "event",
+                        "symbol": "event" 
+                    },
+                    {
+                        "name": "steam_dlc",
+                        "symbol": "steam_dlc" 
+                    },
+                    {
+                        "name": "event_ships",
+                        "symbol": "event_ships" 
+                    },
+                    {
+                        "name": "seasons",
+                        "symbol": "seasons" 
+                    },
+                    {
+                        "name": "faction",
+                        "symbol": "store_default_faction_layout" 
+                    } 
+                ],
+                "currency_bundles": 
+                [
+                    {
+                        "symbol": "dlc_steam_starter_pack",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_02_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Chunk of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 700 
+                            },
+                            {
+                                "ent": "gift_direct_game_item",
+                                "spec": "premium_10x_bundle",
+                                "count": 10 
+                            },
+                            {
+                                "currency": "nonpremium",
+                                "amount": 500000 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 500 
+                            } 
+                        ],
+                        "real_price": 999,
+                        "price_am": 999,
+                        "name": "Steam Starter Pack",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t5.dupe.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t5.dupe.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t5.dupe.premium",
+                        "productid_facebook_production": "dlc_steam_starter_pack",
+                        "productid_steam": "668710" 
+                    },
+                    {
+                        "symbol": "dlc_steam_fleet_commander_pack",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_04_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Chunk of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 4000 
+                            },
+                            {
+                                "ent": "purchase_direct_game_item",
+                                "spec": "borg_cube_ship_schematic",
+                                "count": 1500 
+                            },
+                            {
+                                "ent": "purchase_direct_game_item",
+                                "spec": "kdf_birdofprey_bounty_ship_schematic",
+                                "count": 1500 
+                            },
+                            {
+                                "ent": "purchase_direct_game_item",
+                                "spec": "defiant_ship_schematic",
+                                "count": 1200 
+                            },
+                            {
+                                "ent": "purchase_direct_game_item",
+                                "spec": "enterprise_d_ship_schematic",
+                                "count": 1200 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 2000 
+                            } 
+                        ],
+                        "real_price": 3999,
+                        "price_am": 3999,
+                        "name": "Steam Fleet Commander Pack",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t5.dupe.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t5.dupe.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t5.dupe.premium",
+                        "productid_facebook_production": "dlc_steam_fleet_commander_pack",
+                        "productid_steam": "668714" 
+                    },
+                    {
+                        "symbol": "premium_bundle_0",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_01_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Stick of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 330 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 250 
+                            } 
+                        ],
+                        "real_price": 499,
+                        "price_am": 499,
+                        "name": "330 Dilithium",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t1.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t1.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t1.premium",
+                        "productid_facebook_production": "premium_bundle_0",
+                        "productid_steam": "1001" 
+                    },
+                    {
+                        "symbol": "premium_bundle_1",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_02_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Chunk of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 700 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 500 
+                            } 
+                        ],
+                        "real_price": 999,
+                        "price_am": 999,
+                        "name": "700 Dilithium",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t5.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t5.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t5.premium",
+                        "productid_facebook_production": "premium_bundle_1",
+                        "productid_steam": "1002" 
+                    },
+                    {
+                        "symbol": "premium_bundle_2",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_03_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Pile of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 1500 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 1000 
+                            } 
+                        ],
+                        "real_price": 1999,
+                        "price_am": 1999,
+                        "name": "1500 Dilithium",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t10.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t10.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t10.premium",
+                        "productid_facebook_production": "premium_bundle_2",
+                        "productid_steam": "1003" 
+                    },
+                    {
+                        "symbol": "premium_bundle_3",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_04_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Box of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 4000 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 2500 
+                            } 
+                        ],
+                        "real_price": 4999,
+                        "price_am": 4999,
+                        "name": "4000 Dilithium",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t20.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t20.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t20.premium",
+                        "productid_facebook_production": "premium_bundle_3",
+                        "productid_steam": "1004" 
+                    },
+                    {
+                        "symbol": "premium_bundle_4",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Shipment of Dilithium",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 8200 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 5000 
+                            } 
+                        ],
+                        "real_price": 9999,
+                        "price_am": 9999,
+                        "name": "8200 Dilithium",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.t50.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.t50.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.t50.premium",
+                        "productid_facebook_production": "premium_bundle_4",
+                        "productid_steam": "1005",
+                        "bonus_text_2": "Best Value!" 
+                    },
+                    {
+                        "symbol": "premium_bundle_civilian",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Civilian Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 50 
+                            } 
+                        ],
+                        "real_price": 99,
+                        "price_am": 99,
+                        "name": "Civilian Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.civilian.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.civilian.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.civilian.premium",
+                        "productid_facebook_production": "premium_bundle_civilian",
+                        "productid_steam": "1011" 
+                    },
+                    {
+                        "symbol": "premium_bundle_klingon",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Klingon Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 100 
+                            } 
+                        ],
+                        "real_price": 199,
+                        "price_am": 199,
+                        "name": "Klingon Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.klingon.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.klingon.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.klingon.premium",
+                        "productid_facebook_production": "premium_bundle_klingon",
+                        "productid_steam": "1802" 
+                    },
+                    {
+                        "symbol": "premium_bundle_vulcan",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Vulcan Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 150 
+                            } 
+                        ],
+                        "real_price": 299,
+                        "price_am": 299,
+                        "name": "Vulcan Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.vulcan.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.vulcan.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.vulcan.premium",
+                        "productid_facebook_production": "premium_bundle_vulcan",
+                        "productid_steam": "1803" 
+                    },
+                    {
+                        "symbol": "premium_bundle_ferengi",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Ferengi Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 200 
+                            } 
+                        ],
+                        "real_price": 399,
+                        "price_am": 399,
+                        "name": "Ferengi Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.ferengi.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.ferengi.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.ferengi.premium",
+                        "productid_facebook_production": "premium_bundle_ferengi",
+                        "productid_steam": "1804" 
+                    },
+                    {
+                        "symbol": "premium_bundle_ensign",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Ensign Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 250 
+                            } 
+                        ],
+                        "real_price": 499,
+                        "price_am": 499,
+                        "name": "Ensign Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.ensign.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.ensign.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.ensign.premium",
+                        "productid_facebook_production": "premium_bundle_ensign",
+                        "productid_steam": "1007" 
+                    },
+                    {
+                        "symbol": "premium_bundle_cadet",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Cadet Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 500 
+                            } 
+                        ],
+                        "real_price": 999,
+                        "price_am": 999,
+                        "name": "Cadet Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.cadet.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.cadet.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.cadet.premium",
+                        "productid_facebook_production": "premium_bundle_cadet",
+                        "productid_steam": "1006" 
+                    },
+                    {
+                        "symbol": "premium_bundle_changeling",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Changeling Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 1000 
+                            } 
+                        ],
+                        "real_price": 1499,
+                        "price_am": 1499,
+                        "name": "Changeling Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.changeling.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.changeling.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.changeling.premium",
+                        "productid_facebook_production": "premium_bundle_changeling",
+                        "productid_steam": "1815" 
+                    },
+                    {
+                        "symbol": "premium_bundle_commander",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Commander Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 1500 
+                            } 
+                        ],
+                        "real_price": 2499,
+                        "price_am": 2499,
+                        "name": "Commander Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.commander.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.commander.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.commander.premium",
+                        "productid_facebook_production": "premium_bundle_commander",
+                        "productid_steam": "1008" 
+                    },
+                    {
+                        "symbol": "premium_bundle_captain",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Captain Bundle",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 5000 
+                            } 
+                        ],
+                        "real_price": 9999,
+                        "price_am": 9999,
+                        "name": "Captain Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.captain.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.captain.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.captain.premium",
+                        "productid_facebook_production": "premium_bundle_captain",
+                        "productid_steam": "1009" 
+                    },
+                    {
+                        "symbol": "premium_bundle_admiral",
+                        "image":
+                        {
+                            "file": "store/currency/dilithium_05_image1.png" 
+                        },
+                        "title": "{0} Crystals",
+                        "subtitle": "Plus {0} Bonus Crystals",
+                        "flavor": "Admiral Offer",
+                        "bonus_text": "+{0} VIP POINTS",
+                        "info": "Plus {0} Bonus Crystals",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 2500 
+                            } 
+                        ],
+                        "real_price": 4999,
+                        "price_am": 4999,
+                        "name": "Admiral Offer",
+                        "bluesnap_contract_sandbox": "",
+                        "bluesnap_contract_production": "",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.admiral.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.admiral.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.admiral.premium",
+                        "productid_facebook_production": "premium_bundle_admiral",
+                        "productid_steam": "1010" 
+                    },
+                    {
+                        "symbol": "monthly_card_purchase_bundle",
+                        "image":
+                        {
+                            "file": "store/currency/currency-001.png" 
+                        },
+                        "title": "Monthly Card",
+                        "subtitle": "Should never see this!",
+                        "flavor": "Monthly Card Purchase",
+                        "info": "translation missing: en.monthly_card_purchase_bundle_info",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 150 
+                            } 
+                        ],
+                        "real_price": 399,
+                        "price_am": 399,
+                        "name": "Monthly Card",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.monthly1.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.monthly1.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.mc1.premium",
+                        "productid_facebook_production": "monthly_card_purchase_bundle",
+                        "productid_steam": "2001" 
+                    },
+                    {
+                        "symbol": "monthly_10x_card_purchase_bundle",
+                        "image":
+                        {
+                            "file": "store/currency/currency-001.png" 
+                        },
+                        "title": "$100 Monthly Card",
+                        "subtitle": "Should never see this!",
+                        "flavor": "$100 Monthly Card",
+                        "info": "30 Daily 10x Pack!",
+                        "obtain": 
+                        [
+                            {
+                                "currency": "premium_purchasable",
+                                "amount": 0 
+                            },
+                            {
+                                "currency": "vip",
+                                "amount": 5000 
+                            } 
+                        ],
+                        "real_price": 9999,
+                        "price_am": 9999,
+                        "name": "$100 Monthly Card",
+                        "bluesnap_contract_sandbox": "2140272",
+                        "bluesnap_contract_production": "3191772",
+                        "productid_ios_sandbox": "com.disruptorbeam.mobile.stt.mc100.captain.premium",
+                        "productid_ios_production": "com.disruptorbeam.mobile.stt.mc100.captain.premium",
+                        "productid_am_production": "com.disruptorbeam.mobile.stt.google.mc100.premium",
+                        "productid_facebook_production": "monthly_10x_card_purchase_bundle",
+                        "productid_steam": "2002" 
+                    } 
+                ] 
+            },
+            "notification_defs": 
+            [
+                {
+                    "symbol": "engagement_1",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 1,
+                    "title": "Boldly Go",
+                    "message": "Your crew is awaiting your orders. Log in now!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 1,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "engagement_2",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 2,
+                    "title": "Boldly Go",
+                    "message": "Fix the past, save the present, secure the future. Log in now!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 3,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "engagement_3",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 3,
+                    "title": "Boldly Go",
+                    "message": "Return to a galaxy where time has gone wrong. Log in now!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 7,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "fleet_engagement_1",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 4,
+                    "title": "Boldly Go",
+                    "message": "Your Fleet calls all starships to battle. Log in now!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 1,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "fleet_engagement_2",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 5,
+                    "title": "Boldly Go",
+                    "message": "Help your Fleet maintain order. Log in now!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 3,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "fleet_engagement_3",
+                    "note_id": "STT.ENGAGEMENT",
+                    "type": "local",
+                    "tracking_id": 6,
+                    "title": "Boldly Go",
+                    "message": "Rejoin your Fleet and restore the timeline. Log in now!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 7,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "mailbox_1",
+                    "note_id": "STT.MAILBOX.UNREAD",
+                    "type": "local",
+                    "tracking_id": 7,
+                    "title": "Boldly Go",
+                    "message": "You have unread Communications.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 12,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "mailbox_2",
+                    "note_id": "STT.MAILBOX.UNREAD",
+                    "type": "local",
+                    "tracking_id": 8,
+                    "title": "Boldly Go",
+                    "message": "You have unread Communications.",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 1,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "shuttle_adventure_1",
+                    "note_id": "STT.SHUTTLE_ADV.{0}",
+                    "type": "local",
+                    "tracking_id": 9,
+                    "title": "Boldly Go",
+                    "message": "Your crew has returned from a Shuttle Mission.",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "shuttle_adventure_2",
+                    "note_id": "STT.SHUTTLE_ADV.{0}",
+                    "type": "ingame",
+                    "tracking_id": 10,
+                    "title": "Boldly Go",
+                    "message": "Your crew has returned from a Shuttle Mission.",
+                    "enabled": false,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "relegation_soon",
+                    "note_id": "DBENGINE.LEAGUE.RELSOON",
+                    "type": "ingame",
+                    "tracking_id": 11,
+                    "title": "Boldly Go",
+                    "message": "League promotion will begin soon. Prepare for battle!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "league_change",
+                    "note_id": "STT.LEAGUE.CHANGE",
+                    "type": "remote",
+                    "tracking_id": 12,
+                    "title": "Boldly Go",
+                    "message": "You have changed Leagues. Size up the new competition!",
+                    "enabled": false,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "scan_cooldown_1",
+                    "note_id": "STT.SCAN_COOLDOWN",
+                    "type": "local",
+                    "tracking_id": 13,
+                    "title": "Boldly Go",
+                    "message": "Free scans are available.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "scan_cooldown_2",
+                    "note_id": "STT.SCAN_COOLDOWN",
+                    "type": "ingame",
+                    "tracking_id": 14,
+                    "title": "Boldly Go",
+                    "message": "Free scans are available.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "level_2_engagement",
+                    "note_id": "STT.ENGAGEMENT.LVL",
+                    "type": "local",
+                    "tracking_id": 15,
+                    "title": "Boldly Go",
+                    "message": "Your crew is awaiting your orders. Log in now!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 3,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "level_3_engagement",
+                    "note_id": "STT.ENGAGEMENT.LVL",
+                    "type": "local",
+                    "tracking_id": 16,
+                    "title": "Boldly Go",
+                    "message": "Set a course for your starship. Log in now!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 3,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "energy_replenish_1",
+                    "note_id": "STT.ENERGY.REPLENISH",
+                    "type": "local",
+                    "tracking_id": 17,
+                    "title": "Boldly Go",
+                    "message": "Your Chronitons have recharged.",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "energy_replenish_2",
+                    "note_id": "STT.ENERGY.REPLENISH",
+                    "type": "ingame",
+                    "tracking_id": 18,
+                    "title": "Boldly Go",
+                    "message": "Your Chronitons have recharged.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "energy_free_1",
+                    "note_id": "STT.ENERGY.FREE",
+                    "type": "local",
+                    "tracking_id": 19,
+                    "title": "Boldly Go",
+                    "message": "Boost your Chronitons for FREE now!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "energy_free_2",
+                    "note_id": "STT.ENERGY.FREE",
+                    "type": "ingame",
+                    "tracking_id": 20,
+                    "title": "Boldly Go",
+                    "message": "Boost your Chronitons for FREE now!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "monthlycard_expire_1",
+                    "note_id": "STT.MONTHLYCARD.EXPIRE",
+                    "type": "local",
+                    "tracking_id": 21,
+                    "title": "Boldly Go",
+                    "message": "Monthly Dilithium Pass will expire soon.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "monthlycard_expire_2",
+                    "note_id": "STT.MONTHLYCARD.EXPIRE",
+                    "type": "ingame",
+                    "tracking_id": 22,
+                    "title": "Boldly Go",
+                    "message": "Monthly Dilithium Pass will expire soon.",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "pvp_lost_1",
+                    "note_id": "STT.PVPLOST",
+                    "type": "remote",
+                    "tracking_id": 23,
+                    "title": "Boldly Go",
+                    "message": "You have lost a ship battle to %{winner}.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "pvp_lost_2",
+                    "note_id": "STT.PVPLOST",
+                    "type": "ingame",
+                    "tracking_id": 24,
+                    "title": "Boldly Go",
+                    "message": "You have lost a ship battle to {0}.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "multiplayer_faction_change_1",
+                    "note_id": "STT.MP.FACTIONCHANGE",
+                    "type": "remote",
+                    "tracking_id": 25,
+                    "title": "Boldly Go",
+                    "message": "Multiplayer Dispute: Faction {0} has taken the lead!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "multiplayer_faction_change_2",
+                    "note_id": "STT.MP.FACTIONCHANGE",
+                    "type": "ingame",
+                    "tracking_id": 26,
+                    "title": "Boldly Go",
+                    "message": "translation missing: en.notif_multiplayer_faction_chage_2",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "monthlycard_avail_1",
+                    "note_id": "STT.MONTHLYCARD.AVAIL",
+                    "type": "local",
+                    "tracking_id": 27,
+                    "title": "Boldly Go",
+                    "message": "Claim your Monthly Dilithium Pass!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "monthlycard_avail_2",
+                    "note_id": "STT.MONTHLYCARD.AVAIL",
+                    "type": "ingame",
+                    "tracking_id": 28,
+                    "title": "Boldly Go",
+                    "message": "Claim your Monthly Dilithium Pass!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "daily_avail_1",
+                    "note_id": "STT.DAILY.AVAIL",
+                    "type": "local",
+                    "tracking_id": 29,
+                    "title": "Boldly Go",
+                    "message": "Log in to claim your Daily Reward!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "daily_avail_2",
+                    "note_id": "STT.DAILY.AVAIL",
+                    "type": "ingame",
+                    "tracking_id": 30,
+                    "title": "Boldly Go",
+                    "message": "Claim your Daily Reward!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "multiplayer_dispute_start_1",
+                    "note_id": "STT.MP.DISPUTESTART",
+                    "type": "remote",
+                    "tracking_id": 31,
+                    "title": "Boldly Go",
+                    "message": "Your Fleet has entered a battle.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "multiplayer_dispute_start_2",
+                    "note_id": "STT.MP.DISPUTESTART",
+                    "type": "ingame",
+                    "tracking_id": 32,
+                    "title": "Boldly Go",
+                    "message": "Your Fleet has entered a battle.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "unclaimed_gift",
+                    "note_id": "STT.GIFT.UNCLAIMED",
+                    "type": "local",
+                    "tracking_id": 33,
+                    "title": "Boldly Go",
+                    "message": "You have an unclaimed Gift in your Mailbox.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "unclaimed_commendation",
+                    "note_id": "STT.FLEET.UNCLAIMED_COMMENDATION",
+                    "type": "local",
+                    "tracking_id": 34,
+                    "title": "Boldly Go",
+                    "message": "You have a Commendation waiting to be claimed.",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "league_attacks",
+                    "note_id": "STT.LEAGUE.ATTACKS",
+                    "type": "local",
+                    "tracking_id": 35,
+                    "title": "Boldly Go",
+                    "message": "League promotion will begin soon. Prepare for battle!",
+                    "enabled": false,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_dying",
+                    "note_id": "STT.VOYAGE.DYING",
+                    "type": "local",
+                    "tracking_id": 36,
+                    "title": "Boldly Go",
+                    "message": "Your Voyage is running low on antimatter! Take action, Captain!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_recall_finished",
+                    "note_id": "STT.VOYAGE.RECALLED",
+                    "type": "local",
+                    "tracking_id": 37,
+                    "title": "Boldly Go",
+                    "message": "Your Voyage has ended. Collect your rewards now!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_dilemma",
+                    "note_id": "STT.VOYAGE.DILEMMA",
+                    "type": "local",
+                    "tracking_id": 38,
+                    "title": "Boldly Go",
+                    "message": "A Dilemma has arisen during your Voyage! Resolve now!",
+                    "enabled": true,
+                    "restrict_time": true,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_pending_death",
+                    "note_id": "STT.VOYAGE.INTERACTION",
+                    "type": "local",
+                    "tracking_id": 39,
+                    "title": "Boldly Go",
+                    "message": "Your Voyage is running low on antimatter! Take action, Captain!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_recalled",
+                    "note_id": "STT.VOYAGE.INTERACTION",
+                    "type": "local",
+                    "tracking_id": 40,
+                    "title": "Boldly Go",
+                    "message": "Your Voyage has ended. Collect your rewards now!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                },
+                {
+                    "symbol": "voyage_dilemma_encountered",
+                    "note_id": "STT.VOYAGE.INTERACTION",
+                    "type": "local",
+                    "tracking_id": 41,
+                    "title": "Boldly Go",
+                    "message": "A Dilemma has arisen during your Voyage! Resolve now!",
+                    "enabled": true,
+                    "restrict_time": false,
+                    "days": 0,
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0 
+                } 
+            ] 
+        },
+        "replicator_config":
+        {
+            "fuel_values": 
+            [
+                {
+                    "item_type": 3,
+                    "rarity": 0,
+                    "fuel": 5 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 1,
+                    "fuel": 10 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 2,
+                    "fuel": 20 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 3,
+                    "fuel": 35 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 4,
+                    "fuel": 100 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 5,
+                    "fuel": 100 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 0,
+                    "fuel": 5 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 1,
+                    "fuel": 10 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 2,
+                    "fuel": 25 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 3,
+                    "fuel": 60 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 4,
+                    "fuel": 150 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 5,
+                    "fuel": 375 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 0,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 1,
+                    "fuel": 2 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 2,
+                    "fuel": 3 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 3,
+                    "fuel": 4 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 4,
+                    "fuel": 5 
+                },
+                {
+                    "item_type": 8,
+                    "rarity": 5,
+                    "fuel": 7 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 0,
+                    "fuel": 15 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 1,
+                    "fuel": 30 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 2,
+                    "fuel": 85 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 3,
+                    "fuel": 200 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 4,
+                    "fuel": 550 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 5,
+                    "fuel": 1300 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 0,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 1,
+                    "fuel": 2 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 2,
+                    "fuel": 3 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 3,
+                    "fuel": 4 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 4,
+                    "fuel": 5 
+                },
+                {
+                    "item_type": 7,
+                    "rarity": 5,
+                    "fuel": 6 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 0,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 1,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 2,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 3,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 4,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 12,
+                    "rarity": 5,
+                    "fuel": 1 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 0,
+                    "fuel": 5 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 1,
+                    "fuel": 10 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 2,
+                    "fuel": 20 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 3,
+                    "fuel": 45 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 4,
+                    "fuel": 125 
+                },
+                {
+                    "item_type": 4,
+                    "rarity": 5,
+                    "fuel": 200 
+                } 
+            ],
+            "fuel_costs": 
+            [
+                {
+                    "item_type": 3,
+                    "rarity": 0,
+                    "fuel": 45 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 1,
+                    "fuel": 111 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 2,
+                    "fuel": 312 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 3,
+                    "fuel": 712 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 4,
+                    "fuel": 1691 
+                },
+                {
+                    "item_type": 3,
+                    "rarity": 5,
+                    "fuel": 4895 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 0,
+                    "fuel": 267 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 1,
+                    "fuel": 623 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 2,
+                    "fuel": 1691 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 3,
+                    "fuel": 2581 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 4,
+                    "fuel": 5251 
+                },
+                {
+                    "item_type": 2,
+                    "rarity": 5,
+                    "fuel": 15308 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 0,
+                    "fuel": 13 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 1,
+                    "fuel": 27 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 2,
+                    "fuel": 76 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 3,
+                    "fuel": 178 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 4,
+                    "fuel": 490 
+                },
+                {
+                    "item_type": 9,
+                    "rarity": 5,
+                    "fuel": 1157 
+                } 
+            ],
+            "target_blacklist": 
+            [
+                3883,
+                242,
+                243,
+                244,
+                245,
+                246,
+                247,
+                5392,
+                5393,
+                5394,
+                5395 
+            ],
+            "fuel_blacklist": 
+            [
+                3883,
+                4929,
+                3521,
+                3955,
+                4084,
+                3456,
+                3457,
+                3458,
+                3459,
+                3460,
+                3461,
+                3462,
+                3463,
+                3464,
+                3465,
+                3466,
+                3467,
+                3468,
+                3462,
+                3463,
+                3464,
+                3465,
+                3466,
+                3467,
+                3468,
+                3469,
+                3470,
+                3471,
+                3472,
+                3473,
+                3474,
+                3475,
+                3522,
+                3957,
+                3958,
+                3959,
+                3960,
+                3961,
+                3962,
+                3963,
+                3956,
+                3964,
+                3965,
+                4931,
+                4932,
+                4933,
+                4934,
+                4936,
+                4937,
+                4939,
+                4940,
+                4935,
+                4938,
+                4942,
+                4941,
+                4415,
+                4424,
+                4423,
+                4422,
+                4421,
+                4420,
+                4419,
+                4418,
+                4417,
+                4416,
+                3455,
+                4085,
+                4086,
+                4087,
+                4088,
+                4090,
+                4091,
+                4093,
+                4094,
+                4089,
+                4092,
+                4096,
+                4095,
+                5413,
+                5392,
+                5393,
+                5394,
+                5395,
+                5691,
+                5693,
+                5692,
+                5822,
+                5859,
+                5858,
+                6018,
+                6199,
+                6198,
+                6563,
+                6564 
+            ],
+            "currency_costs": 
+            [
+                {
+                    "currency": 0,
+                    "amount": 1350 
+                },
+                {
+                    "currency": 0,
+                    "amount": 2700 
+                },
+                {
+                    "currency": 0,
+                    "amount": 8100 
+                },
+                {
+                    "currency": 0,
+                    "amount": 28800 
+                },
+                {
+                    "currency": 0,
+                    "amount": 81000 
+                },
+                {
+                    "currency": 0,
+                    "amount": 225000 
+                } 
+            ] 
+        } 
+    } 
+}

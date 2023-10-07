@@ -1,0 +1,633 @@
+
+[
+    {
+        "action": "update",
+        "character":
+        {
+            "id": 5200001,
+            "voyage": [
+            {
+                "id": 36110000,
+                "hp": 2716,
+                "log_index": 317,
+                "seconds_since_last_dilemma": 6340,
+                "state": "started",
+                "voyage_duration": 6348,
+                "time_to_next_event": 12,
+                "pending_rewards":
+                {
+                    "loot":
+                    [
+                        {
+                            "type": 2,
+                            "id": 266,
+                            "symbol": "clothing_pattern_compon",
+                            "item_type": 3,
+                            "name": "Pattern",
+                            "full_name": "Clothing Pattern",
+                            "flavor": "",
+                            "icon":
+                            {
+                                "file": "/items/equipment/civilian_outfit_equipment"
+                            },
+                            "quantity": 1,
+                            "rarity": 0
+                        },
+                        {
+                            "type": 3,
+                            "id": 2861,
+                            "symbol": "nonpremium",
+                            "name": "Credits",
+                            "full_name": "Federation Credits",
+                            "flavor": "Credits are the galaxy's standard currency. Use Credits in the Time Portal to enlist crew members, build items, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/sc_currency_0.png"
+                            },
+                            "quantity": 6500,
+                            "rarity": 1
+                        },
+                        {
+                            "type": 2,
+                            "id": 2858,
+                            "symbol": "large_production_training",
+                            "item_type": 7,
+                            "name": "Training",
+                            "full_name": "Intermediate Command Training",
+                            "flavor": "Increases crew XP by 100.",
+                            "icon":
+                            {
+                                "file": "/items/exp/exp_bundle03"
+                            },
+                            "quantity": 44,
+                            "rarity": 3
+                        },
+                        {
+                            "type": 3,
+                            "id": 2864,
+                            "symbol": "energy",
+                            "name": "Chronitons",
+                            "full_name": "Chronitons",
+                            "flavor": "Chronitons allow your crew to take action in these chaotic times. Use Chronitons to replay parts of past missions via the Timeline.",
+                            "icon":
+                            {
+                                "file": "energy_icon",
+                                "atlas_info": "atlas_stt_icons_info"
+                            },
+                            "quantity": 24,
+                            "rarity": 1
+                        },
+                        {
+                            "type": 2,
+                            "id": 194,
+                            "symbol": "interlink_compon",
+                            "item_type": 3,
+                            "name": "Interlink",
+                            "full_name": "Interlink",
+                            "flavor": "",
+                            "icon":
+                            {
+                                "file": "/items/components/interlink_compon"
+                            },
+                            "quantity": 3,
+                            "rarity": 0
+                        },
+                        {
+                            "type": 2,
+                            "id": 278,
+                            "symbol": "polyalloy_compon",
+                            "item_type": 3,
+                            "name": "Polyalloy",
+                            "full_name": "Polyalloy",
+                            "flavor": "",
+                            "icon":
+                            {
+                                "file": "/items/components/polyalloy_compon"
+                            },
+                            "quantity": 2,
+                            "rarity": 0
+                        },
+                        {
+                            "type": 2,
+                            "id": 164,
+                            "symbol": "power_cell_compon",
+                            "item_type": 3,
+                            "name": "Power Cell",
+                            "full_name": "Power Cell",
+                            "flavor": "",
+                            "icon":
+                            {
+                                "file": "/items/components/power_cell_compon"
+                            },
+                            "quantity": 1,
+                            "rarity": 0
+                        }
+                    ]
+                }
+            }]
+        }
+    },
+    {
+        "action": "ephemeral",
+        "voyage_narrative":
+        [
+            {
+                "index": 299,
+                "text": "A subspace anomaly briefly cut power to the turbolifts, trapping <b>Thrax</b> inside until <b>Dr. Pollard</b> could get down the emergency shaft.",
+                "encounter_type": "flavor",
+                "event_time": 1585576288,
+                "crew":
+                [
+                    "pollard_tracy_crew",
+                    "thrax_crew"
+                ]
+            },
+            {
+                "index": 300,
+                "text": "<b>Thrax</b>'s shuttle was caught in a vicious fire storm while heading down to survey a Class K planet.",
+                "encounter_type": "hazard",
+                "event_time": 1585576308,
+                "skill_check":
+                {
+                    "skill": "security_skill",
+                    "passed": true
+                },
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 300,
+                "text": "By diverting power from non-essential systems to shields, <b>Thrax</b> prevented any damage to the shuttle's hull.",
+                "encounter_type": "hazard",
+                "event_time": 1585576308,
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 300,
+                "text": "Once <b>Thrax</b> and the away team landed on the planet's surface, they waited for the storm to pass before completing their survey.",
+                "encounter_type": "hazard",
+                "event_time": 1585576308,
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 300,
+                "text": "Gained 5 Antimatter",
+                "encounter_type": "hp_change",
+                "event_time": 1585576308,
+                "skill_check":
+                {
+                    "skill": "security_skill",
+                    "passed": true
+                }
+            },
+            {
+                "index": 301,
+                "text": "<b>Q as \"God\"</b> uncovered a forgotten cache while taking geological samples from a barren moon.",
+                "encounter_type": "reward",
+                "event_time": 1585576328,
+                "crew": ["q_god_crew"],
+                "rewards":
+                {
+                    "loot":
+                    [
+                        {
+                            "type": 3,
+                            "id": 2861,
+                            "symbol": "nonpremium",
+                            "name": "Credits",
+                            "full_name": "Federation Credits",
+                            "flavor": "Credits are the galaxy's standard currency. Use Credits in the Time Portal to enlist crew members, build items, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/sc_currency_0.png"
+                            },
+                            "quantity": 200,
+                            "rarity": 1
+                        },
+                        {
+                            "type": 3,
+                            "id": 2861,
+                            "symbol": "nonpremium",
+                            "name": "Credits",
+                            "full_name": "Federation Credits",
+                            "flavor": "Credits are the galaxy's standard currency. Use Credits in the Time Portal to enlist crew members, build items, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/sc_currency_0.png"
+                            },
+                            "quantity": 100,
+                            "rarity": 1
+                        },
+                        {
+                            "type": 3,
+                            "id": 5396,
+                            "symbol": "honor",
+                            "name": "Honor",
+                            "full_name": "Honor",
+                            "flavor": "Honor is gained by dismissing crew who have served you well, but are ready for reassignment. Redeem in the Time Portal for exclusive crew, special fusion-related items, training programs, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/honor_currency_0.png"
+                            },
+                            "quantity": 189,
+                            "rarity": 3
+                        },
+                        {
+                            "type": 1,
+                            "id": 88,
+                            "symbol": "riker_s2_commander_crew",
+                            "name": "Riker",
+                            "full_name": "Commander Riker",
+                            "flavor": "When off-duty, Commander Riker often held poker nights for his fellow bridge officers.",
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_rikerpoker_icon"
+                            },
+                            "portrait":
+                            {
+                                "file": "/crew_portraits/cm_rikerpoker_sm"
+                            },
+                            "rarity": 2,
+                            "full_body":
+                            {
+                                "file": "/crew_full_body/cm_rikerpoker_full"
+                            },
+                            "skills":
+                            {
+                                "command_skill":
+                                {
+                                    "core": 32,
+                                    "range_min": 5,
+                                    "range_max": 11
+                                },
+                                "diplomacy_skill":
+                                {
+                                    "core": 13,
+                                    "range_min": 4,
+                                    "range_max": 9
+                                },
+                                "security_skill":
+                                {
+                                    "core": 13,
+                                    "range_min": 2,
+                                    "range_max": 6
+                                }
+                            },
+                            "traits":
+                            [
+                                "human",
+                                "federation",
+                                "starfleet",
+                                "pilot",
+                                "maverick",
+                                "gambler",
+                                "romantic"
+                            ],
+                            "action":
+                            {
+                                "bonus_amount": 1,
+                                "name": "Liase",
+                                "symbol": "riker_s2_commander_action",
+                                "cooldown": 14,
+                                "initial_cooldown": 8,
+                                "duration": 10,
+                                "bonus_type": 0,
+                                "crew": 0,
+                                "icon":
+                                {
+                                    "file": "/crew_icons/cm_rikerpoker_icon"
+                                },
+                                "ability":
+                                {
+                                    "condition": 0,
+                                    "type": 5,
+                                    "amount": 10000
+                                },
+                                "special": false
+                            },
+                            "quantity": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "index": 301,
+                "text": "Rewards received: Federation Credits, Federation Credits",
+                "encounter_type": "reward_found",
+                "event_time": 1585576328
+            },
+            {
+                "index": 302,
+                "text": "<b>Assimilated Troi</b> won this week's Vulcan chess tournament aboard the <b>Borg Cube</b>.",
+                "encounter_type": "flavor",
+                "event_time": 1585576348,
+                "crew": ["troi_assimilated_crew"]
+            },
+            {
+                "index": 303,
+                "text": "<b>Dr. Katherine Pulaski</b> treated <b>Dr. Pollard</b> for a sudden case of Mendakan pox. Every officer who has recently worked with <b>Dr. Pollard</b> must report to sickbay for examination.",
+                "encounter_type": "flavor",
+                "event_time": 1585576368,
+                "crew":
+                [
+                    "pollard_tracy_crew",
+                    "pulaski_katherine_crew"
+                ]
+            },
+            {
+                "index": 304,
+                "text": "<b>Thrax</b>'s shuttle was caught in a vicious fire storm while heading down to survey a Class K planet.",
+                "encounter_type": "hazard",
+                "event_time": 1585576388,
+                "skill_check":
+                {
+                    "skill": "security_skill",
+                    "passed": true
+                },
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 304,
+                "text": "By diverting power from non-essential systems to shields, <b>Thrax</b> prevented any damage to the shuttle's hull.",
+                "encounter_type": "hazard",
+                "event_time": 1585576388,
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 304,
+                "text": "Once <b>Thrax</b> and the away team landed on the planet's surface, they waited for the storm to pass before completing their survey.",
+                "encounter_type": "hazard",
+                "event_time": 1585576388,
+                "crew": ["thrax_crew"]
+            },
+            {
+                "index": 304,
+                "text": "Gained 5 Antimatter",
+                "encounter_type": "hp_change",
+                "event_time": 1585576388,
+                "skill_check":
+                {
+                    "skill": "security_skill",
+                    "passed": true
+                }
+            },
+            {
+                "index": 305,
+                "text": "<b>Bell Riots Bashir</b> arranged a poetry night in one of the <b>Borg Cube</b>'s lounges, where <b>Warship EMA</b>'s entry was a surprise favorite.",
+                "encounter_type": "flavor",
+                "event_time": 1585576408,
+                "crew":
+                [
+                    "emh_android_crew",
+                    "bashir_bell_riots_crew"
+                ]
+            },
+            {
+                "index": 306,
+                "text": "A subspace anomaly briefly cut power to the turbolifts, trapping <b>Thrax</b> inside until <b>Dr. Pollard</b> could get down the emergency shaft.",
+                "encounter_type": "flavor",
+                "event_time": 1585576428,
+                "crew":
+                [
+                    "pollard_tracy_crew",
+                    "thrax_crew"
+                ]
+            },
+            {
+                "index": 307,
+                "text": "<b>Kol of House Kor</b> reported a possible malfunction in the universal translator. I've assigned <b>Etana Jol</b> to look into it before we encounter any new lifeforms.",
+                "encounter_type": "flavor",
+                "event_time": 1585576448,
+                "crew":
+                [
+                    "dsc_kol_mekleth_crew",
+                    "jol_etana_crew"
+                ]
+            },
+            {
+                "index": 308,
+                "text": "A <i>Ferengi Traditionalists</i> captain was trapped in her transporter's pattern buffer for days before <b>Etana Jol</b> freed her. She offered us the cargo that had been trapped with her.",
+                "encounter_type": "reward",
+                "event_time": 1585576468,
+                "crew": ["jol_etana_crew"],
+                "rewards":
+                {
+                    "loot":
+                    [
+                        {
+                            "type": 2,
+                            "id": 2858,
+                            "symbol": "large_production_training",
+                            "item_type": 7,
+                            "name": "Training",
+                            "full_name": "Intermediate Command Training",
+                            "flavor": "Increases crew XP by 100.",
+                            "icon":
+                            {
+                                "file": "/items/exp/exp_bundle03"
+                            },
+                            "quantity": 2,
+                            "rarity": 3
+                        },
+                        {
+                            "type": 3,
+                            "id": 2861,
+                            "symbol": "nonpremium",
+                            "name": "Credits",
+                            "full_name": "Federation Credits",
+                            "flavor": "Credits are the galaxy's standard currency. Use Credits in the Time Portal to enlist crew members, build items, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/sc_currency_0.png"
+                            },
+                            "quantity": 100,
+                            "rarity": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "index": 308,
+                "text": "Rewards received: Intermediate Command Training, Federation Credits",
+                "encounter_type": "reward_found",
+                "event_time": 1585576468
+            },
+            {
+                "index": 309,
+                "text": "A quiet day aboard the <b>Borg Cube</b> today. I've given most of the crew short shifts so they can have time to relax.",
+                "encounter_type": "flavor",
+                "event_time": 1585576488,
+                "crew": []
+            },
+            {
+                "index": 310,
+                "text": "A repair team found photonic fleas in two plasma conduits. <b>Etana Jol</b> managed to clear them out before they could spread to main engineering.",
+                "encounter_type": "flavor",
+                "event_time": 1585576508,
+                "crew": ["jol_etana_crew"]
+            },
+            {
+                "index": 311,
+                "text": "An unfamiliar ship drifted past us during the night shift. It did not respond to <b>Dr. Pollard</b>'s hails.",
+                "encounter_type": "flavor",
+                "event_time": 1585576528,
+                "crew": ["pollard_tracy_crew"]
+            },
+            {
+                "index": 312,
+                "text": "<b>Kol of House Kor</b> found <b>Thrax</b> and <b>Warship EMA</b> arguing over their latest hoverball match on the holodeck.",
+                "encounter_type": "hazard",
+                "event_time": 1585576548,
+                "skill_check":
+                {
+                    "skill": "diplomacy_skill",
+                    "passed": true
+                },
+                "crew":
+                [
+                    "emh_android_crew",
+                    "dsc_kol_mekleth_crew",
+                    "thrax_crew"
+                ]
+            },
+            {
+                "index": 312,
+                "text": "Both crew members appreciated <b>Kol of House Kor</b>'s offer to referee the rematch to ensure a fair game.",
+                "encounter_type": "hazard",
+                "event_time": 1585576548,
+                "crew": ["dsc_kol_mekleth_crew"]
+            },
+            {
+                "index": 312,
+                "text": "Trust among the crew is more essential than ever on this voyage. I hope that <b>Thrax</b> and <b>Warship EMA</b>'s dispute will not affect their performance of their duties.",
+                "encounter_type": "hazard",
+                "event_time": 1585576548,
+                "crew":
+                [
+                    "emh_android_crew",
+                    "thrax_crew"
+                ]
+            },
+            {
+                "index": 312,
+                "text": "Gained 5 Antimatter",
+                "encounter_type": "hp_change",
+                "event_time": 1585576548,
+                "skill_check":
+                {
+                    "skill": "diplomacy_skill",
+                    "passed": true
+                }
+            },
+            {
+                "index": 313,
+                "text": "The captain of a <i>Dominion</i> freighter warned us to steer clear of a Tyken's Rift in this sector. <b>Bell Riots Bashir</b> thanked her for the advice.",
+                "encounter_type": "flavor",
+                "event_time": 1585576568,
+                "crew": ["bashir_bell_riots_crew"]
+            },
+            {
+                "index": 314,
+                "text": "Scans have detected a small protostar ahead. We've slowed to impulse so <b>Assimilated Troi</b> can observe its development while the rest of us admire the view.",
+                "encounter_type": "flavor",
+                "event_time": 1585576588,
+                "crew": ["troi_assimilated_crew"]
+            },
+            {
+                "index": 315,
+                "text": "After running salvaged containers through the biofilter several times, <b>Bartender Guinan</b> finally declared it safe for us to open them.",
+                "encounter_type": "reward",
+                "event_time": 1585576608,
+                "crew": ["guinan_bartender_crew"],
+                "rewards":
+                {
+                    "loot":
+                    [
+                        {
+                            "type": 2,
+                            "id": 2858,
+                            "symbol": "large_production_training",
+                            "item_type": 7,
+                            "name": "Training",
+                            "full_name": "Intermediate Command Training",
+                            "flavor": "Increases crew XP by 100.",
+                            "icon":
+                            {
+                                "file": "/items/exp/exp_bundle03"
+                            },
+                            "quantity": 2,
+                            "rarity": 3
+                        },
+                        {
+                            "type": 3,
+                            "id": 2861,
+                            "symbol": "nonpremium",
+                            "name": "Credits",
+                            "full_name": "Federation Credits",
+                            "flavor": "Credits are the galaxy's standard currency. Use Credits in the Time Portal to enlist crew members, build items, and more.",
+                            "icon":
+                            {
+                                "file": "/currency/sc_currency_0.png"
+                            },
+                            "quantity": 100,
+                            "rarity": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "index": 315,
+                "text": "Rewards received: Intermediate Command Training, Federation Credits",
+                "encounter_type": "reward_found",
+                "event_time": 1585576608
+            },
+            {
+                "index": 316,
+                "text": "After a routine away mision, <b>Warship EMA</b> came to sickbay with a badly inflamed insect bite.",
+                "encounter_type": "hazard",
+                "event_time": 1585576628,
+                "skill_check":
+                {
+                    "skill": "medicine_skill",
+                    "passed": true
+                },
+                "crew": ["emh_android_crew"]
+            },
+            {
+                "index": 316,
+                "text": "<b>Dr. Katherine Pulaski</b> identified the compound that triggered the reaction and gave <b>Warship EMA</b> a targeted treatment to reduce the swelling.",
+                "encounter_type": "hazard",
+                "event_time": 1585576628,
+                "crew":
+                [
+                    "emh_android_crew",
+                    "pulaski_katherine_crew"
+                ]
+            },
+            {
+                "index": 316,
+                "text": "Several other members of the same away mission reported to sickbay with similar bites later that day.",
+                "encounter_type": "hazard",
+                "event_time": 1585576628,
+                "crew": []
+            },
+            {
+                "index": 316,
+                "text": "Gained 5 Antimatter",
+                "encounter_type": "hp_change",
+                "event_time": 1585576628,
+                "skill_check":
+                {
+                    "skill": "medicine_skill",
+                    "passed": true
+                }
+            },
+            {
+                "index": 317,
+                "text": "While we negotiated a trade deal with a Karemma merchant, <b>Garth of Izar</b> kept our visitor away from sensitive areas of the <b>Borg Cube</b>.",
+                "encounter_type": "flavor",
+                "event_time": 1585576648,
+                "crew": ["garth_izar_crew"]
+            }
+        ]
+    }
+]

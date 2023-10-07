@@ -1,0 +1,730 @@
+{
+    "action": "update",
+    "character":
+    {
+        "id": 5200000,
+        "gauntlets": [
+        {
+            "gauntlet_id": 54,
+            "bracket_id": "2020-03-29_3",
+            "rank": 52,
+            "score": 1871,
+            "seconds_to_next_crew_refresh": 14088,
+            "seconds_to_next_opponent_refresh": 0,
+            "seconds_to_end": 22957.09052086,
+            "state": "STARTED",
+            "jackpot_crew": "armus_crew",
+            "consecutive_wins": 0,
+            "refresh_cost":
+            {
+                "currency": 2,
+                "amount": 50
+            },
+            "revive_cost":
+            {
+                "currency": 1,
+                "amount": 30
+            },
+            "revive_and_save_cost":
+            {
+                "currency": 1,
+                "amount": 50
+            },
+            "contest_data":
+            {
+                "featured_skill": "medicine_skill",
+                "primary_skill": "security_skill",
+                "secondary_skill": "science_skill",
+                "traits":
+                [
+                    "civilian",
+                    "tactician",
+                    "desperate"
+                ],
+                "selected_crew":
+                [
+                    {
+                        "crew_id": 75010797,
+                        "archetype_symbol": "locutus_crew",
+                        "rarity": false,
+                        "level": 100,
+                        "skills":
+                        [
+                            {
+                                "skill": "diplomacy_skill",
+                                "max": 877,
+                                "min": 447
+                            },
+                            {
+                                "skill": "security_skill",
+                                "max": 551,
+                                "min": 277
+                            },
+                            {
+                                "skill": "science_skill",
+                                "max": 683,
+                                "min": 271
+                            }
+                        ],
+                        "max_rarity": 5,
+                        "debuff": 0,
+                        "disabled": false,
+                        "selected": true,
+                        "crit_chance": 5
+                    },
+                    {
+                        "crew_id": 75010798,
+                        "archetype_symbol": "armus_crew",
+                        "rarity": false,
+                        "level": 100,
+                        "skills":
+                        [
+                            {
+                                "skill": "science_skill",
+                                "max": 920,
+                                "min": 360
+                            },
+                            {
+                                "skill": "command_skill",
+                                "max": 642,
+                                "min": 284
+                            },
+                            {
+                                "skill": "security_skill",
+                                "max": 371,
+                                "min": 181
+                            }
+                        ],
+                        "max_rarity": 5,
+                        "debuff": 0,
+                        "disabled": false,
+                        "selected": true,
+                        "crit_chance": 25
+                    },
+                    {
+                        "crew_id": 75010799,
+                        "archetype_symbol": "kahless_crew",
+                        "rarity": true,
+                        "level": 100,
+                        "skills":
+                        [
+                            {
+                                "skill": "command_skill",
+                                "max": 946,
+                                "min": 300
+                            },
+                            {
+                                "skill": "security_skill",
+                                "max": 631,
+                                "min": 230
+                            },
+                            {
+                                "skill": "diplomacy_skill",
+                                "max": 347,
+                                "min": 114
+                            }
+                        ],
+                        "max_rarity": 5,
+                        "debuff": 0,
+                        "disabled": false,
+                        "selected": true,
+                        "crit_chance": 5
+                    },
+                    {
+                        "crew_id": 75010800,
+                        "archetype_symbol": "caretaker_crew",
+                        "rarity": false,
+                        "level": 100,
+                        "skills":
+                        [
+                            {
+                                "skill": "engineering_skill",
+                                "max": 907,
+                                "min": 372
+                            },
+                            {
+                                "skill": "science_skill",
+                                "max": 554,
+                                "min": 209
+                            },
+                            {
+                                "skill": "medicine_skill",
+                                "max": 423,
+                                "min": 137
+                            }
+                        ],
+                        "max_rarity": 5,
+                        "debuff": 0,
+                        "disabled": false,
+                        "selected": true,
+                        "crit_chance": 25
+                    },
+                    {
+                        "crew_id": 75010801,
+                        "archetype_symbol": "dsc_culber_mycelial_crew",
+                        "rarity": true,
+                        "level": 100,
+                        "skills":
+                        [
+                            {
+                                "skill": "medicine_skill",
+                                "max": 616,
+                                "min": 265
+                            },
+                            {
+                                "skill": "science_skill",
+                                "max": 474,
+                                "min": 222
+                            },
+                            {
+                                "skill": "command_skill",
+                                "max": 336,
+                                "min": 103
+                            }
+                        ],
+                        "max_rarity": 5,
+                        "debuff": 0,
+                        "disabled": false,
+                        "selected": true,
+                        "crit_chance": 25
+                    }
+                ],
+                "ranked_rewards":
+                [
+                    {
+                        "first": 1,
+                        "last": 1,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 7,
+                        "loot_box_rarity": 5
+                    },
+                    {
+                        "first": 2,
+                        "last": 3,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 5,
+                        "loot_box_rarity": 5
+                    },
+                    {
+                        "first": 4,
+                        "last": 5,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 4,
+                        "loot_box_rarity": 5
+                    },
+                    {
+                        "first": 6,
+                        "last": 10,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 3,
+                        "loot_box_rarity": 5
+                    },
+                    {
+                        "first": 11,
+                        "last": 15,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 7,
+                        "loot_box_rarity": 4
+                    },
+                    {
+                        "first": 16,
+                        "last": 20,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 5,
+                        "loot_box_rarity": 4
+                    },
+                    {
+                        "first": 21,
+                        "last": 25,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 3,
+                        "loot_box_rarity": 4
+                    },
+                    {
+                        "first": 26,
+                        "last": 30,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 7,
+                        "loot_box_rarity": 3
+                    },
+                    {
+                        "first": 31,
+                        "last": 35,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 5,
+                        "loot_box_rarity": 3
+                    },
+                    {
+                        "first": 36,
+                        "last": 40,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 3,
+                        "loot_box_rarity": 3
+                    },
+                    {
+                        "first": 41,
+                        "last": 50,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 7,
+                        "loot_box_rarity": 2
+                    },
+                    {
+                        "first": 51,
+                        "last": 75,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 5,
+                        "loot_box_rarity": 2
+                    },
+                    {
+                        "first": 76,
+                        "last": 100,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 3,
+                        "loot_box_rarity": 2
+                    },
+                    {
+                        "first": 101,
+                        "last": 150,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 2,
+                        "loot_box_rarity": 2
+                    },
+                    {
+                        "first": 151,
+                        "last": 1000000,
+                        "rewards": [
+                        {
+                            "type": 13,
+                            "icon":
+                            {
+                                "file": "/items/equipment/box02_icon"
+                            },
+                            "quantity": 1
+                        }],
+                        "quantity": 1,
+                        "loot_box_rarity": 2
+                    }
+                ],
+                "contest_rewards":
+                [
+                    {
+                        "streak_required": 0,
+                        "loot_box_rarity": 1,
+                        "quantity": 1
+                    },
+                    {
+                        "streak_required": 3,
+                        "loot_box_rarity": 2,
+                        "quantity": 1
+                    },
+                    {
+                        "streak_required": 6,
+                        "loot_box_rarity": 2,
+                        "quantity": 1
+                    },
+                    {
+                        "streak_required": 9,
+                        "loot_box_rarity": 3,
+                        "quantity": 1
+                    },
+                    {
+                        "streak_required": 12,
+                        "loot_box_rarity": 3,
+                        "quantity": 1
+                    },
+                    {
+                        "streak_required": 15,
+                        "loot_box_rarity": 4,
+                        "quantity": 1
+                    },
+                    {
+                        "win_interval": 3,
+                        "streak_required": 15,
+                        "loot_box_rarity": 4,
+                        "quantity": 1
+                    }
+                ],
+                "crit_chance_per_trait": 20
+            },
+            "opponents":
+            [
+                {
+                    "player_id": 610000,
+                    "rank": 34,
+                    "value": 90,
+                    "level": 99,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_rikeradmiral_icon"
+                    },
+                    "name": "Friendly Officer",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75010000,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": false,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 862,
+                                    "min": 337
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 618,
+                                    "min": 274
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 354,
+                                    "min": 173
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 0,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                },
+                {
+                    "player_id": 780000,
+                    "rank": 35,
+                    "value": 85,
+                    "level": 85,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_neelix_icon"
+                    },
+                    "name": "Silly Name",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75010001,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": false,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 936,
+                                    "min": 366
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 647,
+                                    "min": 287
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 371,
+                                    "min": 181
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 0,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                },
+                {
+                    "player_id": 770001,
+                    "rank": 36,
+                    "value": 80,
+                    "level": 99,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_martokgeneral_icon"
+                    },
+                    "name": "Default Name",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75011022,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": false,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 936,
+                                    "min": 366
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 653,
+                                    "min": 289
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 374,
+                                    "min": 183
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 4,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                },
+                {
+                    "player_id": 3406000,
+                    "rank": 37,
+                    "value": 75,
+                    "level": 87,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_kirk_platonian_icon"
+                    },
+                    "name": "Captain Dodo",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75010002,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": false,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 895,
+                                    "min": 350
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 630,
+                                    "min": 279
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 361,
+                                    "min": 177
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 0,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                },
+                {
+                    "player_id": 704000,
+                    "rank": 46,
+                    "value": 30,
+                    "level": 57,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_rikeradmiral_icon"
+                    },
+                    "name": "Riker Prime",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75011417,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": true,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 887,
+                                    "min": 347
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 624,
+                                    "min": 276
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 354,
+                                    "min": 173
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 4,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                },
+                {
+                    "player_id": 451000,
+                    "rank": 51,
+                    "value": 10,
+                    "level": 87,
+                    "icon":
+                    {
+                        "file": "/crew_icons/cm_kolos_icon"
+                    },
+                    "name": "Soldier of Winter",
+                    "crew_contest_data":
+                    {
+                        "crew": [
+                        {
+                            "crew_id": 75010005,
+                            "archetype_symbol": "armus_crew",
+                            "rarity": false,
+                            "level": 100,
+                            "skills":
+                            [
+                                {
+                                    "skill": "science_skill",
+                                    "max": 920,
+                                    "min": 360
+                                },
+                                {
+                                    "skill": "command_skill",
+                                    "max": 647,
+                                    "min": 287
+                                },
+                                {
+                                    "skill": "security_skill",
+                                    "max": 374,
+                                    "min": 183
+                                }
+                            ],
+                            "max_rarity": 5,
+                            "debuff": 4,
+                            "disabled": false,
+                            "selected": true,
+                            "crit_chance": 25
+                        }]
+                    }
+                }
+            ]
+        }]
+    }
+}

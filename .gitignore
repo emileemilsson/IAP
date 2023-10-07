@@ -1,2 +1,16 @@
+.vscode/launch.json
+.vscode/ipch
+node_modules/
+dist/
+builds/
+tscout/
+server/build/
+server/public/
+server/logs/
+server/cache/
+/.vs
+/notes.txt
+native/bin/
 
-node_modules/*
+# Ignore All IDEA Folders
+.idea

@@ -1,0 +1,132 @@
+{
+    "action": "ephemeral",
+    "borrowable_crew": [
+    {
+        "id": 620214859,
+        "symbol": "seven_annika_crew",
+        "name": "Annika Hansen Seven",
+        "short_name": "Seven",
+        "archetype_id": 11905,
+        "level": 100,
+        "max_level": 100,
+        "rarity": 5,
+        "max_rarity": 5,
+        "equipment_rank": 9,
+        "max_equipment_rank": 9,
+        "equipment_slots": 
+        [
+            {
+                "level": 90,
+                "archetype": 11954 
+            },
+            {
+                "level": 93,
+                "archetype": 1277 
+            },
+            {
+                "level": 96,
+                "archetype": 9526 
+            },
+            {
+                "level": 99,
+                "archetype": 9361 
+            } 
+        ],
+        "equipment": 
+        [
+            
+            [
+                0,
+                11954 
+            ],
+            
+            [
+                1,
+                1277 
+            ],
+            
+            [
+                2,
+                9526 
+            ],
+            
+            [
+                3,
+                9361 
+            ] 
+        ],
+        "icon":
+        {
+            "file": "/crew_icons/cm_seven_annika_icon" 
+        },
+        "portrait":
+        {
+            "file": "/crew_portraits/cm_seven_annika_sm" 
+        },
+        "full_body":
+        {
+            "file": "/crew_full_body/cm_seven_annika_full" 
+        },
+        "voice_over": "crewvo_seven",
+        "traits": 
+        [
+            "human",
+            "civilian",
+            "federation",
+            "astrophysicist" 
+        ],
+        "traits_hidden": 
+        [
+            "female",
+            "organic",
+            "voy",
+            "bridge_crew",
+            "seven",
+            "crew_max_rarity_5" 
+        ],
+        "skills":
+        {
+            "engineering_skill":
+            {
+                "core": 1485,
+                "range_min": 179,
+                "range_max": 352 
+            },
+            "science_skill":
+            {
+                "core": 1164,
+                "range_min": 120,
+                "range_max": 281 
+            },
+            "command_skill":
+            {
+                "core": 650,
+                "range_min": 43,
+                "range_max": 99 
+            } 
+        },
+        "ship_battle":
+        {
+            "accuracy": 375,
+            "evasion": 400,
+            "crit_chance": 250,
+            "crit_bonus": 200 
+        },
+        "action":
+        {
+            "bonus_amount": 9,
+            "name": "I'm Sure You'll Adapt",
+            "symbol": "seven_annika_action",
+            "cooldown": 10,
+            "initial_cooldown": 6,
+            "duration": 6,
+            "bonus_type": 0,
+            "crew": 620214859,
+            "icon":
+            {
+                "file": "/crew_icons/cm_seven_annika_icon" 
+            },
+            "special": false 
+        } 
+    }] 
+}

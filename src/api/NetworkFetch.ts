@@ -129,30 +129,8 @@ export class NetworkFetch {
 			'Accept': '*/*',
 			'Accept-Encoding': 'gzip, deflate, br'
 		};
-//		console.log('asset name : ' + uri);
-	
-		const regex = /\/images(?!.*\/images).*$/;
-	        const match = uri.match(regex);
-		
-		  if (match) {
-		    // The matched part after the last '/images'
-    		    let textAfterLastImage = match[0].slice(8);
-//       		    console.log('cut : ' + textAfterLastImage.slice(0, -3) + '.png');
 
-			const response = await window.fetch('https://assets.datacore.app/'+ textAfterLastImage.slice(0, -3) + '.png', {
-				method: "get",
-				headers: headers
-			});
-
-			if (response.ok) {
-				return response.arrayBuffer();
-			} else {
-				let data = await response.text();
-				throw new Error(`Network error; status ${response.status}; reply ${data}.`);
-			}
-       		    
-    		}
-		const response = await window.fetch(uri, {
+		let response = await window.fetch(uri, {
 			method: "get",
 			headers: headers
 		});

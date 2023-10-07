@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "plugins": [ "@typescript-eslint" ],
+    "rules": {
+        // needed to allow console.log to work
+        "no-console": "off",
+        // prefer last line in file to be a newline
+        "eol-last": "warn",
+        // prefer no trailing spaces at the end of a line
+        "no-trailing-spaces": "warn",
+        // prefer 3 spaces for indentation, but not a fascist linter
+        //"indent": ["warn", 3]
+        "indent": "off"
+    }
+}

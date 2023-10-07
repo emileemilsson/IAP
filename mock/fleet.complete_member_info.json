@@ -1,0 +1,193 @@
+{
+    "action": "ephemeral",
+    "squads":
+    [
+        {
+            "id": 1110000000000000,
+            "nleader_player_dbid": "674000000000000",
+            "slabel": "Friendly Squad",
+            "name": "Friendly Squad",
+            "enrollment": "RESTRICTED",
+            "description": "",
+            "motd": "",
+            "chatchannels":
+            {
+                "a": "guild_group_a_1110000000000000",
+                "o": "guild_group_o_1110000000000000"
+            },
+            "maxsize": 5,
+            "cursize": 3,
+            "created": 1561244050839,
+            "rootguild": 670000000000000,
+            "event_rank": 1383
+        }
+    ],
+    "members":
+    [
+        {
+            "dbid": 674000000000000,
+            "squad_id": "1110000000000000",
+            "display_name": "Friendly Leader",
+            "level": 80,
+            "crew_avatar":
+            {
+                "id": 3235,
+                "symbol": "riker_admiral_crew",
+                "name": "Admiral Riker",
+                "traits": [
+                    "human",
+                    "federation",
+                    "starfleet",
+                    "pilot",
+                    "maverick",
+                    "gambler"
+                ],
+                "traits_hidden": [
+                    "male",
+                    "organic",
+                    "tng",
+                    "admiral",
+                    "bridge_crew",
+                    "riker",
+                    "crew_max_rarity_5"
+                ],
+                "short_name": "Riker",
+                "max_rarity": 5,
+                "icon": {
+                    "file": "/crew_icons/cm_rikeradmiral_icon"
+                },
+                "portrait": {
+                    "file": "/crew_portraits/cm_rikeradmiral_sm"
+                },
+                "full_body": {
+                    "file": "/crew_full_body/cm_rikeradmiral_full"
+                },
+                "default_avatar": true,
+                "hide_from_cryo": false,
+                "skills": [
+                    "command_skill",
+                    "security_skill",
+                    "diplomacy_skill"
+                ]
+            },
+            "pid": 400000,
+            "uid": 400001,
+            "rank": "LEADER",
+            "squad_rank": "OFFICER",
+            "last_active": 154611,
+            "starbase_activity": 7,
+            "daily_activity": 0,
+            "event_rank": null
+        },
+        {
+            "dbid": 683574982115330,
+            "squad_id": "1110000000000000",
+            "display_name": "Friendly Officer",
+            "level": 99,
+            "crew_avatar":
+            {
+                "id": 3235,
+                "symbol": "riker_admiral_crew",
+                "name": "Admiral Riker",
+                "traits": [
+                    "human",
+                    "federation",
+                    "starfleet",
+                    "pilot",
+                    "maverick",
+                    "gambler"
+                ],
+                "traits_hidden": [
+                    "male",
+                    "organic",
+                    "tng",
+                    "admiral",
+                    "bridge_crew",
+                    "riker",
+                    "crew_max_rarity_5"
+                ],
+                "short_name": "Riker",
+                "max_rarity": 5,
+                "icon": {
+                    "file": "/crew_icons/cm_rikeradmiral_icon"
+                },
+                "portrait": {
+                    "file": "/crew_portraits/cm_rikeradmiral_sm"
+                },
+                "full_body": {
+                    "file": "/crew_full_body/cm_rikeradmiral_full"
+                },
+                "default_avatar": true,
+                "hide_from_cryo": false,
+                "skills": [
+                    "command_skill",
+                    "security_skill",
+                    "diplomacy_skill"
+                ]
+            },
+            "pid": 610000,
+            "uid": 610001,
+            "rank": "OFFICER",
+            "squad_rank": "LEADER",
+            "last_active": 374,
+            "starbase_activity": 7,
+            "daily_activity": 318,
+            "event_rank": 2110
+        },
+        {
+            "dbid": 900000000000000,
+            "squad_id": "1110000000000000",
+            "display_name": "Friendly Player",
+            "level": 79,
+            "crew_avatar":
+            {
+                "id": 3235,
+                "symbol": "riker_admiral_crew",
+                "name": "Admiral Riker",
+                "traits": [
+                    "human",
+                    "federation",
+                    "starfleet",
+                    "pilot",
+                    "maverick",
+                    "gambler"
+                ],
+                "traits_hidden": [
+                    "male",
+                    "organic",
+                    "tng",
+                    "admiral",
+                    "bridge_crew",
+                    "riker",
+                    "crew_max_rarity_5"
+                ],
+                "short_name": "Riker",
+                "max_rarity": 5,
+                "icon": {
+                    "file": "/crew_icons/cm_rikeradmiral_icon"
+                },
+                "portrait": {
+                    "file": "/crew_portraits/cm_rikeradmiral_sm"
+                },
+                "full_body": {
+                    "file": "/crew_full_body/cm_rikeradmiral_full"
+                },
+                "default_avatar": true,
+                "hide_from_cryo": false,
+                "skills": [
+                    "command_skill",
+                    "security_skill",
+                    "diplomacy_skill"
+                ]
+            },
+            "pid": 5200001,
+            "uid": 5200000,
+            "rank": "MEMBER",
+            "squad_rank": "MEMBER",
+            "last_active": 10617,
+            "starbase_activity": 7,
+            "daily_activity": 94,
+            "event_rank": 4550
+        }
+    ]
+}

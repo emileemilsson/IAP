@@ -1,0 +1,884 @@
+[
+{
+    "action": "ephemeral",
+    "symbol": "store_hirogen_faction_layout",
+    "grids": 
+    [
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_transmission_honored_unlimited",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 75 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 75 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_hirogen_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2853,
+                        "symbol": "s_hirogen_token",
+                        "item_type": 6,
+                        "name": "Hirogen Transmission",
+                        "full_name": "Hirogen Transmission",
+                        "flavor": "Spent to acquire Hirogen faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_hirogen_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_transmission_honored_dilithium",
+                "type": "offer",
+                "locked": false,
+                "count": 8,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 60 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 10000,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 60 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "s_hirogen_token",
+                        "count": 8 
+                    }],
+                    "purchase_avail": 10000,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2853,
+                        "symbol": "s_hirogen_token",
+                        "item_type": 6,
+                        "name": "Hirogen Transmission",
+                        "full_name": "Hirogen Transmission",
+                        "flavor": "Spent to acquire Hirogen faction missions.",
+                        "icon":
+                        {
+                            "file": "/items/transmissions/transmission_hirogen_icon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_crew_01_tier1",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 1500 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 1500 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_crew_loot" 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 1,
+                        "id": 3150,
+                        "symbol": "chakotay_wwii_crew",
+                        "name": "Chakotay",
+                        "full_name": "GI Chakotay",
+                        "flavor": "While Voyager was under the control of the Hirogen, Chakotay was made to play the role of an Army captain.",
+                        "icon":
+                        {
+                            "file": "/crew_icons/cm_chakotaywwii_icon" 
+                        },
+                        "portrait":
+                        {
+                            "file": "/crew_portraits/cm_chakotaywwii_sm" 
+                        },
+                        "rarity": 4,
+                        "full_body":
+                        {
+                            "file": "/crew_full_body/cm_chakotaywwii_full" 
+                        },
+                        "skills":
+                        {
+                            "command_skill":
+                            {
+                                "core": 50,
+                                "range_min": 14,
+                                "range_max": 29 
+                            },
+                            "security_skill":
+                            {
+                                "core": 38,
+                                "range_min": 11,
+                                "range_max": 22 
+                            },
+                            "diplomacy_skill":
+                            {
+                                "core": 21,
+                                "range_min": 6,
+                                "range_max": 12 
+                            } 
+                        },
+                        "traits": 
+                        [
+                            "human",
+                            "starfleet",
+                            "federation",
+                            "hunter",
+                            "tactician",
+                            "survivalist",
+                            "costumed",
+                            "maquis" 
+                        ],
+                        "action":
+                        {
+                            "bonus_amount": 3,
+                            "name": "Gung Ho",
+                            "symbol": "chakotay_wwii_action",
+                            "cooldown": 12,
+                            "initial_cooldown": 12,
+                            "duration": 12,
+                            "bonus_type": 0,
+                            "crew": 0,
+                            "icon":
+                            {
+                                "file": "/crew_icons/cm_chakotaywwii_icon" 
+                            },
+                            "ability":
+                            {
+                                "condition": 0,
+                                "type": 7,
+                                "amount": 20 
+                            },
+                            "special": false 
+                        },
+                        "quantity": 1,
+                        "hash_key": "63216987bd732fbfb8cf12ab70f42331" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_free_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 100000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 100000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2511,
+                        "symbol": "hirogen_scanner_quality1_equip",
+                        "item_type": 2,
+                        "name": "Scanner",
+                        "full_name": "Hirogen Scanner",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_scanner_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "9": 40 
+                        },
+                        "hash_key": "7cf26dde4fc9c7f2b7c7b260ee87e032" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_free_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 230,
+                        "symbol": "furs_compon",
+                        "item_type": 3,
+                        "name": "Furs",
+                        "full_name": "Furs",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/kazon_furs_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "dd245cfb519b5caf5a8ee21e126fcb9d" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_free_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2509,
+                        "symbol": "hirogen_relic_quality1_equip",
+                        "item_type": 2,
+                        "name": "Relic",
+                        "full_name": "Hirogen Relic",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_relic_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 1,
+                        "bonuses":
+                        {
+                            "11": 3,
+                            "22": 3 
+                        },
+                        "hash_key": "f26109f49ee3561b615412cb2e4c7608" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_free_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2512,
+                        "symbol": "hirogen_scanner_quality2_equip",
+                        "item_type": 2,
+                        "name": "Scanner",
+                        "full_name": "Hirogen Scanner",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_scanner_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "9": 75 
+                        },
+                        "hash_key": "dd8fb8a1c2e67200af8762bcf72907cf" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_free_05_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq": null,
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_free_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2533,
+                        "symbol": "hirogen_alpha_mark_quality0_equip",
+                        "item_type": 2,
+                        "name": "Alpha Mark",
+                        "full_name": "Hirogen Alpha Mark",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_alpha_mark_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "6": 1 
+                        },
+                        "hash_key": "988bbc1337cdd9f93996beea3dff22c4" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first" 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_bonus_01_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 50000 
+                },
+                "lock_prereq":
+                {
+                    "value": -774,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_hirogen" 
+                    },
+                    "fail_msg": "Neutral reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 50000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2510,
+                        "symbol": "hirogen_scanner_quality0_equip",
+                        "item_type": 2,
+                        "name": "Scanner",
+                        "full_name": "Hirogen Scanner",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_scanner_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "9": 15 
+                        },
+                        "hash_key": "d2db86c3340005fb450cab65ca3977ce" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -774,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_hirogen" 
+                },
+                "fail_msg": "Neutral reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_bonus_02_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_purchasable",
+                    "amount": 100 
+                },
+                "lock_prereq":
+                {
+                    "value": -473,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_hirogen" 
+                    },
+                    "fail_msg": "Friendly reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_purchasable",
+                        "amount": 100 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2527,
+                        "symbol": "hirogen_relic_quality2_equip",
+                        "item_type": 2,
+                        "name": "Relic",
+                        "full_name": "Hirogen Relic",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_relic_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 2,
+                        "bonuses":
+                        {
+                            "11": 5,
+                            "22": 7 
+                        },
+                        "hash_key": "76632adde7516614056bff6c414d77d3" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": -473,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_hirogen" 
+                },
+                "fail_msg": "Friendly reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_bonus_03_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "nonpremium",
+                    "amount": 25000 
+                },
+                "lock_prereq":
+                {
+                    "value": 128,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_hirogen" 
+                    },
+                    "fail_msg": "Allied reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "nonpremium",
+                        "amount": 25000 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 158,
+                        "symbol": "casing_compon",
+                        "item_type": 3,
+                        "name": "Casing",
+                        "full_name": "Casing",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/components/casing_compon" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "hash_key": "299cdc892cc565bac9cc55a68d1dffe7" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 128,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_hirogen" 
+                },
+                "fail_msg": "Allied reputation required" 
+            } 
+        },
+        {
+            "format": "faction_secondary_1x1",
+            "primary_click_action":
+            {
+                "action": "purchase" 
+            },
+            "primary_content": [
+            {
+                "symbol": "offer_hirogen_bonus_04_tier3",
+                "type": "offer",
+                "locked": false,
+                "count": 1,
+                "cost":
+                {
+                    "currency": "premium_earnable",
+                    "amount": 50 
+                },
+                "lock_prereq":
+                {
+                    "value": 979,
+                    "constraint": "ge",
+                    "attribute":
+                    {
+                        "type": "faction",
+                        "symbol": "faction_hirogen" 
+                    },
+                    "fail_msg": "Honored reputation required" 
+                },
+                "info": "",
+                "offer":
+                {
+                    "purchase_limit": 1,
+                    "cost":
+                    {
+                        "currency": "premium_earnable",
+                        "amount": 50 
+                    },
+                    "currency_bundle": "_000_a_direct_purchase_offer_000_",
+                    "obtain": [
+                    {
+                        "ent": "purchase_direct_game_item",
+                        "spec": "hirogen_shop_bonus_tier3_loot",
+                        "useful_bonus": 5 
+                    }],
+                    "purchase_avail": 1,
+                    "game_item":
+                    {
+                        "type": 2,
+                        "id": 2595,
+                        "symbol": "hirogen_technician_suit_quality0_equip",
+                        "item_type": 2,
+                        "name": "Tech. Suit",
+                        "full_name": "Hirogen Technician Suit",
+                        "flavor": "",
+                        "icon":
+                        {
+                            "file": "/items/equipment/hirogen_technician_suit_equipment" 
+                        },
+                        "quantity": 1,
+                        "rarity": 0,
+                        "bonuses":
+                        {
+                            "3": 1,
+                            "4": 3 
+                        },
+                        "hash_key": "437edfb589b684beec6c66b46dc2a6d3" 
+                    } 
+                } 
+            }],
+            "primary_select_mode": "first",
+            "secondary_select_mode": "first",
+            "primary_lock_prereq":
+            {
+                "value": 979,
+                "constraint": "ge",
+                "attribute":
+                {
+                    "type": "faction",
+                    "symbol": "faction_hirogen" 
+                },
+                "fail_msg": "Honored reputation required" 
+            } 
+        } 
+    ],
+    "refresh_guards": [
+    {
+        "symbol": "hirogen_refresh_1",
+        "type": "offer",
+        "locked": false,
+        "count": 1,
+        "offer":
+        {
+            "cost":
+            {
+                "currency": "premium_purchasable",
+                "amount": 75 
+            },
+            "currency_bundle": "_000_a_direct_purchase_offer_000_",
+            "seconds_remain": 82803 
+        } 
+    }],
+    "refreshable": true 
+}
+]
