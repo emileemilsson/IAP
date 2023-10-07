@@ -80,7 +80,7 @@ export class FileImageCache implements ImageCache {
 
 	saveImage(url: string, data: IBitmap) : Promise<string> {
 		return new Promise((resolve, reject) => {
-			if (data.data.length > 0) {
+			if (data.data?.length > 0) {
 				this.bitmapToPng(data, (pngData) => {
 					fs.writeFile(this.formatUrl(url), pngData, (err) => {
 						resolve('file://' + this.formatUrl(url));

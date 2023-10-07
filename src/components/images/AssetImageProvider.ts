@@ -16,7 +16,8 @@ export class AssetImageProvider implements ImageProvider {
 
     get baseURLAsset(): string {
         if (this._baseURLAsset.length == 0) {
-            this._baseURLAsset = STTApi.serverConfig!.config.asset_server + 'bundles/' + CONFIG.CLIENT_PLATFORM + '/default/' + CONFIG.CLIENT_VERSION + '/' + STTApi.serverConfig!.config.asset_bundle_version + '/';
+            //this._baseURLAsset = STTApi.serverConfig!.config.asset_server + 'bundles/' + CONFIG.CLIENT_PLATFORM + '/default/' + CONFIG.CLIENT_VERSION + '/' + STTApi.serverConfig!.config.asset_bundle_version + '/';
+            this._baseURLAsset = 'https://assets.datacore.app/';
         }
         return this._baseURLAsset;
     }
@@ -50,12 +51,15 @@ export class AssetImageProvider implements ImageProvider {
             return { id, url: cachedUrl };
         }
 
+	var res = iconFile.replace(/^\//, ''); 
+	res = res.replace(/\//g, '_');
+	
         //console.log('Requesting uncached image ' + iconFile);
 
         let data: any;
-        const urlPrefix = this.getAssetUrl(iconFile);
+        const urlPrefix = this.getAssetUrl(res);
         try {
-            data = await STTApi.networkHelper.getRaw(`${urlPrefix}.sd`, undefined);
+            data = await STTApi.networkHelper.getRaw(`${urlPrefix}.png`, undefined);
         }
         catch (_err) {
             try {
@@ -85,6 +89,6 @@ export class AssetImageProvider implements ImageProvider {
     }
 
     private getAssetUrl(iconFile: string): string {
-        return this.baseURLAsset + 'images' + (iconFile.startsWith('/') ? '' : '_') + iconFile.replace(new RegExp('/', 'g'), '_').replace('.png', '');
+        return this.baseURLAsset + iconFile.replace(new RegExp('/', 'g'), '_').replace('.png', '');
     }
 }
