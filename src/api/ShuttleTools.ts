@@ -186,7 +186,7 @@ export const computeCrew = async (
 	// Initial configuration
 	let availableBonuses : ItemData[] = [];
 	if (options?.useBonuses) {
-		availableBonuses = STTApi.items.filter(item => item.type === 'Shuttle consumable'); // was 4 so is shuttle consumable right ?
+		availableBonuses = STTApi.items.filter(item => item.type === 4); 
 		if (!options.useBonuses45) {
 			availableBonuses = availableBonuses.filter(item => item.rarity < 4);
 		}

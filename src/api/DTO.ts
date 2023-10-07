@@ -65,7 +65,7 @@ export interface CrewDTO {
 	active_id?: number;
 	active_index: number;
 	active_status: number;
-	archetype_id: string;
+	archetype_id: number;
 	base_skills: { [sk: string]: SkillDTO; };
 	cap_achiever: {
 		date: number;
@@ -78,7 +78,7 @@ export interface CrewDTO {
 	equipment_rank: number;
 	equipment_slots: {
 		level: number;
-		archetype: string;
+		archetype: number;
 	}[];
 	expires_in?: number;
 	favorite: boolean;
@@ -132,7 +132,7 @@ export interface SkillData {
 }
 
 export interface CrewEquipmentSlotData {
-	archetype: string;
+	archetype: number;
 	level: number;
 	// TODO type info
 	symbol: any;
@@ -205,7 +205,7 @@ export interface CrewData {
 	/** each index is a skill name, e.g. 'command_skill' */
 	// shuttle_skill_pairs: { [sk_pri: string]: { [sk_sec: string] : number }; };
 
-	// datacore?: DatacoreCrewDTO;
+	datacore?: DatacoreCrewDTO;
 }
 
 export interface BorrowedCrewDTO {
@@ -213,12 +213,12 @@ export interface BorrowedCrewDTO {
 	active_id?: number;
 	active_index?: number;
 	active_status?: number;
-	archetype_id: string;
+	archetype_id: number;
 	equipment: number[][];
 	equipment_rank: number;
 	equipment_slots: {
 		level: number;
-		archetype: string;
+		archetype: number;
 	}[];
 	full_body: ImageDataDTO;
 	icon: ImageDataDTO;
@@ -847,11 +847,10 @@ export interface FleetStarbaseRoomUpgradeDTO {
 		icon: ImageDataDTO;
 		id: number;
 		item_sources: any[];
-		item_type: number;
 		name: string;
 		rarity: number;
 		symbol: string;
-		type: string;
+		type: number;
 	}[];
 	name: string;
 	short_description: string;
@@ -863,16 +862,10 @@ export interface FleetStarbaseRoomUpgradeBuffDTO {
 	icon: ImageDataDTO;
 	id: number;
 	item_sources: any[];
-	item_type: number;
-	operator: string;
 	name: string;
 	rarity: number;
-	short_name: string;
-	source: string;
-	stat: string;
 	symbol: string;
-	type: string;
-	value: number;
+	type: number;
 }
 
 export interface FleetDTO {
@@ -977,7 +970,7 @@ export interface ShipDTO {
 	accuracy: number;
 	actions: any[];
 	antimatter: number;
-	archetype_id: string;
+	archetype_id: number;
 	attack: number;
 	attacks_per_second: number;
 	battle_stations: any[];
@@ -1039,7 +1032,7 @@ export interface ShipSchematicDTO {
 }
 
 export interface ItemArchetypeDemandDTO {
-	archetype_id: string;
+	archetype_id: number;
 	count: number;
 }
 
@@ -1082,18 +1075,17 @@ export interface ItemArchetypeSourceDTO {
 }
 
 export interface ItemDTO {
-	archetype_id: string;
+	archetype_id: number;
 	expires_in: any; // null
 	flavor: string;
 	icon: ImageDataDTO;
 	id: number;
 	name: string;
-	short_name: string;
 	quantity: number;
 	rarity: number;
 	symbol: string;
 	/** See CONFIG.REWARDS_ITEM_TYPE */
-	type: string;
+	type: number;
 
 	// These fields are found on shuttle/craft bonus items
 
@@ -1154,8 +1146,8 @@ export interface PlatformConfigDTO {
 	replicator_config: {
 		currency_costs: { amount: number; currency: number; }[];
 		fuel_blacklist: number[];
-		fuel_costs: { item_type: string; rarity: number; fuel: number; }[];
-		fuel_values: { item_type: string; rarity: number; fuel: number; }[];
+		fuel_costs: { item_type: number; rarity: number; fuel: number; }[];
+		fuel_values: { item_type: number; rarity: number; fuel: number; }[];
 		target_blacklist: number[];
 	};
 	ship_trait_names: { [trait: string]: string };
@@ -1176,7 +1168,7 @@ export interface ServerConfigDTO {
 			recipes: {
 				id: number;
 				recipe: {
-					archetype_id: string;
+					archetype_id: number;
 					count: number;
 				}[];
 			}[];
@@ -1500,7 +1492,7 @@ export interface ShuttleRewardDTO {
 }
 
 export interface EventGatherPoolAdventureDTO {
-	demands: { archetype_id: string; count: number; }[];
+	demands: { archetype_id: number; count: number; }[];
 	description: string;
 	golden_octopus: boolean;
 	id: number;
@@ -1531,39 +1523,40 @@ export interface EventGatherPoolDTO {
 	}[];
 }
 
- export interface DatacoreCrewDTO {
- 	action: any;
- 	archetype_id: number;
- 	base_skills: { [skill: string]: SkillDTO; };
- 	bigbook_tier: string; // number as string
- 	collections: string[]; // collection title, not id
- 	craftCost: number;
- 	events: string; // number as string
- 	factionOnlyTotal: number;
- 	imageUrlPortrait: string;
- 	in_portal: boolean;
- 	markdownContent: string;
- 	max_rarity: number;
- 	name: string;
- 	ranks: {
- 		[key:string]: number;
- 		chronCostRank: number;
- 		voyRank: number;
- 		gauntletRank: number;
- 		// Contains base ranks as 'B_sk' (ex 'B_CMD')
- 		// Contains gauntlet pairing ranks as 'G_sk1_sk2' (ex 'G_CMD_DIP')
- 		// Contains voyage pairing ranks as 'V_sk1_sk2' (ex 'G_CMD_DIP')
- 		// Contains 'A' ranks as 'B_sk' (ex 'B_CMD') (not sure what these are for)
- 	};
- 	ship_battle: any;
- 	short_name: string;
- 	// max skill values by rarity
- 	skill_data: {
- 		rarity: number;
- 		base_skills: { [skill: string]: SkillDTO }
- 	}[];
- 	symbol: string;
- 	totalChronCost: number;
- 	traits_hidden: string[];
- 	traits_named: string[];
- }
+export interface DatacoreCrewDTO {
+	action: any;
+	archetype_id: number;
+	base_skills: { [skill: string]: SkillDTO; };
+	bigbook_tier: number;
+	collections: string[]; // collection title, not id
+	craftCost: number;
+	events: number;
+	factionOnlyTotal: number;
+	imageUrlPortrait: string;
+	in_portal: boolean;
+	markdownContent: string;
+	max_rarity: number;
+	name: string;
+	ranks: {
+		[key:string]: number;
+		chronCostRank: number;
+		voyRank: number;
+		gauntletRank: number;
+		// Contains base ranks as 'B_sk' (ex 'B_CMD')
+		// Contains gauntlet pairing ranks as 'G_sk1_sk2' (ex 'G_CMD_DIP')
+		// Contains voyage pairing ranks as 'V_sk1_sk2' (ex 'G_CMD_DIP')
+		// Contains 'A' ranks as 'B_sk' (ex 'B_CMD') (not sure what these are for)
+	};
+	ship_battle: any;
+	short_name: string;
+	// max skill values by rarity
+	skill_data: {
+		rarity: number;
+		base_skills: { [skill: string]: SkillDTO }
+	}[];
+	symbol: string;
+	totalChronCost: number;
+	traits: string[];
+	traits_hidden: string[];
+	traits_named: string[];
+}

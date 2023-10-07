@@ -342,7 +342,7 @@ export function buildItemData(dtos: ItemDTO[]) : ItemData[] {
 						return;
 					}
 					// Only capture sources for equipment and components
-					if (item.type !== 'Equipment' && item.type !== 'Component') {
+					if (item.type !== 2 && item.type !== 3) {		  
 						return;
 					}
 					let src = item.sources.find(src => src.mission?.id === m.id && src.quest?.id === q.id);
