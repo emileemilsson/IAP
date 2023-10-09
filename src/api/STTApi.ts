@@ -799,7 +799,11 @@ export class STTApiClass {
 					delete this.imageUrlCachePending[path];
 					delayed(found.url);
 				}
-			});
+			})
+			.catch(error => {
+			    console.log('An error occurred on path :', path);
+			    console.log('An error occurred:', error);
+  			});
 
 		return undefined;
 	}

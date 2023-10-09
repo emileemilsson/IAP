@@ -35,15 +35,10 @@ function parseFromBundle(data: any): any {
 }
 
 ctx.addEventListener('message', (message: any) => {
-    let result = parseFromBundle(message.data);
-
-    if (result && result.data && result.data.length > 0) {
-        ctx.postMessage(result, [result.data.buffer]);
-    }
-    else {
-        ctx.postMessage(result);
-    }
-
+	console.log('Tried to parsedata from bundle, ',message.data, message.data.label);
+	
+	ctx.postMessage([]);
+	
     // close this worker
     self.close();
 });
