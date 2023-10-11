@@ -9,7 +9,11 @@ const AUTORECALL_BUFFER_MINUTES = 5;
 const AUTODILEMMA_BUFFER_MINUTES = 10;
 
 const DILEMMA_CHOICES: { [key: string]: number } = {
-	'A Higher Duty, Part 1': 0,
+	'Lost Among the Stars': 0, // behold possibilty
+	'A Tense Temporal Conundrum': 0, // behold possibility
+	'Mystery Haul': 0, // behold posibility
+	'Dangerous Whisper': 0, // behold possibility
+	'Reality Unwound': 0, // behold possibility	'A Higher Duty, Part 1': 0,
 	'A Higher Duty, Part 2': 1,
 	'A Higher Duty, Part 3': 1, // dr leonard
 	'A Life Alone, Part 1': 0,
