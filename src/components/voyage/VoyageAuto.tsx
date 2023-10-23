@@ -4,9 +4,9 @@ import { VoyageDTO } from '../../api/DTO';
 import STTApi, { loadVoyage, formatTimeSeconds } from '../../api';
 import { VOYAGE_AM_DECAY_PER_MINUTE } from './VoyageTools';
 
-const AUTORECALL_AM_MINIMUM = 100;
-const AUTORECALL_BUFFER_MINUTES = 5;
-const AUTODILEMMA_BUFFER_MINUTES = 10;
+const AUTORECALL_AM_MINIMUM = 40;
+const AUTORECALL_BUFFER_MINUTES = 3;
+const AUTODILEMMA_BUFFER_MINUTES = 5;
 
 const DILEMMA_CHOICES: { [key: string]: number } = {
 	'A Higher Duty, Part 1': 0,
