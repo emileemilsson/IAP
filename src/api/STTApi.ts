@@ -46,6 +46,7 @@ export class STTApiClass {
 	private mockPath: string = '~/StarTrekTimelinesSpreadsheet/mock/';//getAppPath() + '/mock/'; // NOTE: needs trailing path separator
 	public voyAutoDilemma: boolean = false;
 	public voyAutoRecall: boolean = false;
+	public voyAutoReplenish: boolean = false;
 	private _net: NetworkFetch;
 	private _playerData?: PlayerResponseDTO;
 	private _starbaseData: {

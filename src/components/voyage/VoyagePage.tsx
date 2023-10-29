@@ -17,8 +17,9 @@ export const VoyagePage = (props: VoyagePageProps) => {
    const [showCalcAnyway, setShowCalcAnyway] = React.useState<boolean>(STTApi.mockData);
    const [autoRecall, setAutoRecall] = React.useState<boolean>(STTApi.voyAutoRecall);
    const [autoDilemma, setAutoDilemma] = React.useState<boolean>(STTApi.voyAutoDilemma);
+   const [autoReplenish, setAutoReplenish] = React.useState<boolean>(STTApi.voyAutoReplenish);
 
-   React.useEffect(() => updateCommandItems(), [showCalcAnyway, autoRecall]);
+   React.useEffect(() => updateCommandItems(), [showCalcAnyway, autoRecall, autoReplenish]);
 
    function updateCommandItems() {
       if (props.onCommandItemsUpdate) {
@@ -61,7 +62,17 @@ export const VoyagePage = (props: VoyagePageProps) => {
                                     STTApi.voyAutoDilemma = !autoDilemma
                                     setAutoDilemma(!autoDilemma);
                                  }
-                           }]
+                           },
+                           {
+                                 key: 'auto_replenish',
+                                 text: 'Auto Replenish',
+                                 canCheck: true,
+                                 isChecked: autoReplenish,
+                                 onClick: () => {
+                                    STTApi.voyAutoReplenish = !autoReplenish
+                                    setAutoReplenish(!autoReplenish);
+                                 }
+                              }]
                         }
                      }]
                   }

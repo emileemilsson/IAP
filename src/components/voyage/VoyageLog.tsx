@@ -4,7 +4,7 @@ import { Button, Icon, Popup } from 'semantic-ui-react';
 import ReactTable, { SortingRule, Column } from 'react-table';
 
 import STTApi, { CONFIG, RarityStars, formatTimeSeconds, CollapsibleSection, download, CrewSkills, getItemDetailsLink } from '../../api';
-import { loadVoyage, recallVoyage, resolveDilemma, VOYAGE_AM_DECAY_PER_MINUTE, voyDuration, estimateVoyageDuration, toSkillValues } from './VoyageTools';
+import { loadVoyage, recallVoyage, reviveVoyage, resolveDilemma, VOYAGE_AM_DECAY_PER_MINUTE, voyDuration, estimateVoyageDuration, toSkillValues } from './VoyageTools';
 import { CalcChoice } from './voyageCalc';
 import { VoyageLogEntry } from './VoyageLogEntry';
 import { VoyageNarrativeDTO, VoyageDTO, CrewData, RewardDTO, VoyageExportData } from '../../api/DTO';
@@ -50,6 +50,12 @@ React.useEffect(() => {
 
    async function recall() {
       await recallVoyage(STTApi.playerData.character.voyage[0].id);
+      // on auto-recall, this results in a narrative dump to save/download it
+      reloadVoyageState();
+   }
+
+   async function revive() {
+      await reviveVoyage(STTApi.playerData.character.voyage[0].id);
       // on auto-recall, this results in a narrative dump to save/download it
       reloadVoyageState();
    }
@@ -107,11 +113,14 @@ React.useEffect(() => {
 				estimatedMinutesLeft={estimatedMinutesLeft}
 				voyRunTime={voyRunTime}
 				computingNativeEstimate={computingNativeEstimate}
-				recall={recall} />
+				recall={recall} 
+				revive={revive}
+				/>
 			<VoyageDilemma voyage={voyage} reload={reloadVoyageState} />
 			<VoyageAuto
 				recall={recall}
 				refresh={reloadVoyageState}
+				revive={revive}
 				choose={choose}
 			/>			
 			<VoyageCurrentCrewSkills
@@ -561,6 +570,7 @@ const VoyageState = (props: {
 	computingNativeEstimate: boolean;
 	voyRunTime: number;
 	recall: () => void;
+	revive: () => void;
 }) => {
 	const [estTime, setEstTime] = React.useState<number>(0)
 	if (!props.voyage) {

@@ -33,12 +33,14 @@ const DILEMMA_CHOICES: { [key: string]: number } = {
 export const VoyageAuto = (props:{
 	refresh: () => void;
 	recall: () => void;
+	revive: () => void;
 	choose: (index:number) => void;
 }) => {
 
 	const [onRecall, setOnRecall] = React.useState(false);
 	const [msgDilemma, setMsgDilemma] = React.useState('');
 	const [msgRecall, setMsgRecall] = React.useState('');
+	const [msgReplenish, setMsgReplenish] = React.useState('');
 
 	React.useEffect(() => {
 		if (STTApi.voyAutoRecall) {
@@ -143,7 +145,16 @@ export const VoyageAuto = (props:{
 					await loadVoyage(voyage.id, false);
 					if (voyage.state === 'recalled' || voyage.state === 'failed') {
 						setMsgDilemma('Dilemma timer not necessary; voyage is ' + voyage.state);
-						setOnRecall(true);
+						if(STTApi.voyAutoReplenish)
+						
+						{
+							//Replenish
+							props.revive();
+						}
+						else
+						{
+							setOnRecall(true);
+						}
 						return;
 					}
 
@@ -184,7 +195,7 @@ export const VoyageAuto = (props:{
 	// Potential Functionality:
 	// * Email when AM reaches threshhold
 	if (onRecall) {
-		return <span>Auto Recall disabled: on-recall R:{msgRecall} D:{msgDilemma}</span>
+		return <span>Auto Recall disabled: on-recall R:{msgRecall} D:{msgDilemma} RE:{msgReplenish}</span>
 	}
 	return <div>
 		<div>
@@ -192,6 +203,9 @@ export const VoyageAuto = (props:{
 		</div>
 		<div>
 			{STTApi.voyAutoDilemma ? 'Auto Dilemma: Enabled' : ''}{msgDilemma && ' - ' + msgDilemma}
+		</div>
+		<div>
+			{STTApi.voyAutoReplenish ? 'Auto Replenish: Enabled' : ''}{msgReplenish && ' - ' + msgReplenish}
 		</div>
 	</div>;
 }
