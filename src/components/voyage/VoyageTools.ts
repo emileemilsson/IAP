@@ -69,7 +69,7 @@ export async function completeVoyage(voyageId: number): Promise<void> {
 }
 
 export async function reviveVoyage(voyageId: number): Promise<void> {
-	let data = await STTApi.executePostRequest('voyage/revive', { voyage_status_id: voyageId });
+	let data = await STTApi.executePostRequest('voyage/revive', { voyage_status_id: voyageId, consumable_archetype:	"8040" });
 	if (!data) {
 		throw new Error('Invalid data for voyage revive!');
 	}
