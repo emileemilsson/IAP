@@ -38,6 +38,7 @@ import { PlayerDTO, ItemArchetypeDTO, PlatformConfigDTO, CrewAvatarDTO, ServerCo
 import fs from 'fs';
 import { getAppPath } from '../utils/pal';
 // #!endif
+import * as path from 'path';
 
 export class STTApiClass {
 	private _accessToken: string | undefined;
@@ -775,35 +776,57 @@ export class STTApiClass {
 		return Object.keys(this.imageUrlCache).sort().join(' ');
 	}
 
-	private imgLoad(path: string | undefined, delayed: (url: string) => void) : string | undefined {
-		if (!path) {
+	private imgLoad(pathLO: string | undefined, delayed: (url: string) => void) : string | undefined {
+		if (!pathLO) {
 			return undefined;
 		}
-		//console.log('used path: ' + path);
-		let url = this.imageUrlCache[path];
+		//console.log('used path: ' + pathLO);
+		let url = this.imageUrlCache[pathLO];
 		if (url) {
-			delete this.imageUrlCachePending[path];
+			delete this.imageUrlCachePending[pathLO];
 			return url;
 		}
 
-		if (this.imageUrlCachePending[path]) {
-			//console.log('skipping request for ' + path);
+		if (this.imageUrlCachePending[pathLO]) {
+			//console.log('skipping request for ' + pathLO);
 			return undefined;
 		}
 
-		this.imageUrlCachePending[path] = true;
+		this.imageUrlCachePending[pathLO] = true;
 
-		this.imageProvider.getImageUrl(path, '')
+		this.imageProvider.getImageUrl(pathLO, '')
 			.then(found => {
 				if (found.url) {
-					this.imageUrlCache[path] = found.url;
-					delete this.imageUrlCachePending[path];
+					this.imageUrlCache[pathLO] = found.url;
+					delete this.imageUrlCachePending[pathLO];
 					delayed(found.url);
 				}
 			})
 			.catch(error => {
-			    console.log('An error occurred on path :', path);
-			    console.log('An error occurred:', error);
+			    const actualFilename:string = pathLO.replace(/^\//, "").replace("/", "_") + ".png";
+//			    const dataDestination:string = 'C:\\Users\\Notandi\\AppData\\Roaming\\Star Trek Timelines Crew Management\\imagecache\\' + actualFilename;
+
+const appData = process.env.APPDATA || 
+                (process.platform === 'darwin' 
+                 ? path.join(process.env.HOME!, 'Library', 'Application Support')
+                 : path.join(process.env.HOME!, '.config'));
+
+const dataDestination = path.join(
+  appData,
+  'Star Trek Timelines Crew Management',
+  'imagecache',
+  actualFilename
+);
+
+			    const datacoreaSetUrl:string = `https://assets.datacore.app/` + actualFilename;
+			    let pngData = this.networkHelper.getRaw(datacoreaSetUrl, undefined).then((pngData) => {
+			    const nodeBuffer = Buffer.from(pngData); // Convert ArrayBuffer to Node.js Buffer
+				    fs.writeFile(dataDestination, nodeBuffer, (err) => {
+					if (err) console.error('Error:', err);
+					else console.log('Saved', actualFilename);
+				    });
+				}); 
+			    //console.log('An error occurred:', error);
   			});
 
 		return undefined;
