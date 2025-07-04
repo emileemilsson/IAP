@@ -73,7 +73,7 @@ export function getMissionCostDetails(questId: number, mastery_level: number): M
 export async function loadFullTree(onProgress: (description: string, subDesc?: string) => void, recursing: boolean): Promise<void> {
 	let mapEquipment: Set<number> = new Set();
 	let missingEquipment: number[] = [];
-	
+
 	// Search for all equipment assignable to the crew at all levels
 	// This was a terrible idea; since the data is crowdsourced, it could come from outdated recipe trees and introduce cycles in the graph; data from STTApi.allcrew is not to be trusted
 
@@ -181,12 +181,13 @@ async function loadItemsDescription(ids: number[] | string[]): Promise<ItemArche
 		// Load the description for the missing equipment
 		let data = await STTApi.executeGetRequest('item/description', { ids });
 
-		if (data.item_archetype_cache && data.archetype_cache.archetypes) {
-			archetypes = data.archetype_cache.archetypes;
+		if (data.item_archetype_cache && data.item_archetype_cache.archetypes) {
+			archetypes = data.item_archetype_cache.archetypes;
 		}
 	} catch (error) {
 		// Some equipment is causing the server to choke, time to binary search the culprit
 		if (ids.length === 1) {
+			console.log('the actual error is : ' + error);
 			console.error(`The description for item ${ids[0]} fails to load.`);
 		} else {
 			let leftSide = ids.splice(0, Math.ceil(ids.length / 2));
@@ -288,6 +289,7 @@ export function buildItemData(dtos: ItemDTO[]) : ItemData[] {
 				}
 				n = iter.next();
 			}
+
 			const archetype = STTApi.itemArchetypeCache.archetypes.find(a => a.id === item.archetype_id);
 			//TODO: what does it mean if there is no archetype?
 			if (archetype) {
